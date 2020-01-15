@@ -1,0 +1,83 @@
+This run started at: 
+1579056983
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+Initializing test directory /tmp/testpLDBBP
+waiting for async operation opid-34641014-ca08-4b1f-927c-4b1d71ac8d6c
+[{u'amount': Decimal('9.99990000'),
+  u'change': False,
+  u'memo': u'f600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+  u'outindex': 0,
+  u'txid': u'6cd01da48cd1ab0f455c5705fd1632dcb12daa83ccd7021e7da92fe9b11855c7'}]
+waiting for async operation opid-3f6f1182-74cc-4087-ba56-fd4cfc6f17e2
+[]
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: intermittent_failures.py (79s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+This run started at: 
+1579057119
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+Initializing test directory /tmp/testlnUjCB
+Traceback (most recent call last):
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 79, in <module>
+    WalletListNotes().main()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 117, in main
+    self.setup_chain()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 36, in setup_chain
+    initialize_chain(self.options.tmpdir)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 128, in initialize_chain
+    "-rpcwait", "getblockcount"], stdout=devnull)
+  File "/usr/lib/python2.7/subprocess.py", line 185, in check_call
+    retcode = call(*popenargs, **kwargs)
+  File "/usr/lib/python2.7/subprocess.py", line 172, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 1099, in wait
+    pid, sts = _eintr_retry_call(os.waitpid, self.pid, 0)
+  File "/usr/lib/python2.7/subprocess.py", line 125, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt
+!!! FAIL: intermittent_failures.py (1s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: intermittent_failures.py

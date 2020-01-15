@@ -1,0 +1,58 @@
+This run started at: 
+1579047230
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 50, in run_test
+    message += " and the unspent_tx was: %s" & unspent_tx
+Initializing test directory /tmp/testPQlHL6
+initialize_chain: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+initialize_chain: bitcoin-cli -rpcwait getblockcount completed
+initialize_chain: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+initialize_chain: bitcoin-cli -rpcwait getblockcount completed
+initialize_chain: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+initialize_chain: bitcoin-cli -rpcwait getblockcount completed
+initialize_chain: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+initialize_chain: bitcoin-cli -rpcwait getblockcount completed
+start_node: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+start_node: calling bitcoin-cli -rpcwait getblockcount returned
+start_node: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+start_node: calling bitcoin-cli -rpcwait getblockcount returned
+start_node: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+start_node: calling bitcoin-cli -rpcwait getblockcount returned
+start_node: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+start_node: calling bitcoin-cli -rpcwait getblockcount returned
+waiting for async operation opid-96cc2870-9b16-4428-b591-191979375031
+...returned status: success
+We are inside the 1 th iteration of the for loop!
+waiting for async operation opid-ea390b80-6e8d-498b-9fea-504ab70a4759
+...returned status: success
+69af8f4780fb640295142798819b7e0671181a2fb7697f202161b6ada0399935
+Unexpected exception caught during testing: unsupported operand type(s) for &: 'str' and 'list'
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: intermittent_failures.py (85s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: intermittent_failures.py

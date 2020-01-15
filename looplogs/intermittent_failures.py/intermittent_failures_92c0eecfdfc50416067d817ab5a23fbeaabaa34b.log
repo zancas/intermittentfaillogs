@@ -1,0 +1,100 @@
+This run started at: 
+1579043994
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 43, in run_test
+    txid_2 = wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 446, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 437, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 387, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testGL8QcI
+waiting for async operation opid-08a0b166-4a32-441a-a78b-ed986d1b76a8
+waiting for async operation opid-583395b3-bb6b-4357-9c5e-6fc55670a3c6
+The count at failure was: 1
+waiting for async operation opid-26c4f4a6-8ca6-40a7-a66f-ecc2a176dde5
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: intermittent_failures.py (75s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: intermittent_failures.py
+This run started at: 
+1579044567
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+Initializing test directory /tmp/testW9VNHK
+Traceback (most recent call last):
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 53, in <module>
+    WalletListNotes().main()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 117, in main
+    self.setup_chain()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 36, in setup_chain
+    initialize_chain(self.options.tmpdir)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 150, in initialize_chain
+    rpcs[peer].generate(1)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/authproxy.py", line 145, in __call__
+    response = self._request('POST', self.__url.path, postdata)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/authproxy.py", line 120, in _request
+    return self._get_response()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/authproxy.py", line 160, in _get_response
+    http_response = self.__conn.getresponse()
+  File "/usr/lib/python2.7/httplib.py", line 1148, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 448, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 404, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+!!! FAIL: intermittent_failures.py (35s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: intermittent_failures.py

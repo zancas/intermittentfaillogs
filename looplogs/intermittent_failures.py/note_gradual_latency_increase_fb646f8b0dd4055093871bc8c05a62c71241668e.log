@@ -1,0 +1,327 @@
+This run started at: 
+1579100724
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+Initializing test directory /tmp/test00GLSr
+waiting for async operation opid-ccf9aace-5ab0-4d1b-ae57-f567736bf4be
+Iteration: 0
+waiting for async operation opid-a03a9735-4c69-4ed9-ad79-3dc18c1f4b25
+Iteration: 1
+waiting for async operation opid-0fe418d7-f2dc-4555-9fab-b3288cc5237c
+Iteration: 2
+waiting for async operation opid-ce043d3e-aafd-4fde-85e3-9c53fc70d311
+Iteration: 3
+waiting for async operation opid-30d9e056-fa76-4693-9aac-534af2af21c7
+Iteration: 4
+waiting for async operation opid-ebfc5c3a-39ad-46d2-8860-af0a1a8f4b09
+Iteration: 5
+waiting for async operation opid-342192fb-1cfd-4913-8c45-5b5c32ccd35d
+Iteration: 6
+waiting for async operation opid-16f8b3cc-4edb-450e-a506-d9104c28d376
+Iteration: 7
+waiting for async operation opid-9c510a3f-1efb-4676-a94c-2045518608a1
+Iteration: 8
+waiting for async operation opid-9cfa26ff-6d73-46b0-aba2-9eb6bcb42140
+Iteration: 9
+waiting for async operation opid-043cd6b3-6e11-4bc4-97dd-313446a7de26
+Iteration: 10
+waiting for async operation opid-0fff3783-812f-47d1-a23c-2901780cbb8a
+Iteration: 11
+waiting for async operation opid-1676a9f9-ef6c-4c6b-ae18-957b75150c2b
+Iteration: 12
+waiting for async operation opid-f32fb279-cff8-4354-93dc-189b4c2d568c
+Iteration: 13
+waiting for async operation opid-74cb63a5-fc43-4360-b90c-0641ceac6f3a
+Iteration: 14
+waiting for async operation opid-0587f8c7-7e65-4074-9bf3-1625b5c3a31e
+Iteration: 15
+waiting for async operation opid-046a3c67-4e06-42f8-b7bc-08bec36e8e4a
+Iteration: 16
+waiting for async operation opid-6192f317-b15c-4b74-8e36-0c411dc98005
+Iteration: 17
+waiting for async operation opid-ab1b7746-4155-4061-94cf-64a774e162ac
+Iteration: 18
+waiting for async operation opid-716fda80-714a-401d-96e7-8d82bcefae6a
+Iteration: 19
+waiting for async operation opid-ee4eaa4d-5385-44d2-b7de-ab03858d45e8
+Iteration: 20
+waiting for async operation opid-199d7c29-aeaf-4627-9012-635125a0f833
+Iteration: 21
+waiting for async operation opid-5cbe7367-f6db-48ee-9735-c2d61d7c5a03
+Iteration: 22
+waiting for async operation opid-79139ed9-b039-42cf-9ba1-3801306aebca
+Iteration: 23
+waiting for async operation opid-c2636266-3983-479d-8e6a-b353b0a2d151
+Iteration: 24
+waiting for async operation opid-8656f8b0-cc6c-4a47-a1d5-cc2a0befe3a9
+Iteration: 25
+waiting for async operation opid-92b4dbb6-3562-482d-8a31-0f8f991311fb
+Iteration: 26
+waiting for async operation opid-96446115-46eb-440b-9ff5-4657c3d46222
+Iteration: 27
+waiting for async operation opid-b404bd34-4ee7-4e54-bd72-6c54ec72e263
+Iteration: 28
+waiting for async operation opid-a4519701-662f-48ee-9c5c-7dd2b2311fd0
+Iteration: 29
+waiting for async operation opid-009ab1b5-d5f2-4b5f-b4b1-9722a475fe7f
+Iteration: 30
+waiting for async operation opid-0b77176c-713a-48eb-9cda-9520fc4c93d4
+Iteration: 31
+waiting for async operation opid-d146ff00-2d73-4b75-b11f-5e02e34474c4
+Iteration: 32
+waiting for async operation opid-c3ab0297-efcb-4380-aba0-7e4e23ef18fd
+Iteration: 33
+waiting for async operation opid-ba02f9b9-8d51-43c5-a562-437d0c4e9ae3
+Iteration: 34
+waiting for async operation opid-4df5c628-1b6b-48c9-93a5-26690260c199
+Iteration: 35
+waiting for async operation opid-48d7eb1d-2673-47a7-9bc6-0570c2b6399d
+Iteration: 36
+waiting for async operation opid-f375a8ad-b3ea-4be6-b54b-ae8d28b90df0
+Iteration: 37
+waiting for async operation opid-b502fd10-9351-47c7-aafa-c3e14beb15ed
+Iteration: 38
+waiting for async operation opid-47b2129b-2c5b-46fd-be1b-4b015794fbac
+Iteration: 39
+waiting for async operation opid-792c7e7a-f0e2-41da-9375-27dfd7b29e4d
+Iteration: 40
+waiting for async operation opid-ccbdd0a7-6825-4994-9488-5a495f9c0745
+Iteration: 41
+waiting for async operation opid-f503799f-efbf-4a52-947c-c44840427e79
+Iteration: 42
+waiting for async operation opid-086e003d-57fe-46ce-b106-46b3125a3b59
+Iteration: 43
+waiting for async operation opid-010751fe-73b6-452d-a780-16968a4ac9e4
+Iteration: 44
+waiting for async operation opid-171b7839-5309-4199-af00-1d948365bc17
+Iteration: 45
+waiting for async operation opid-30ab52f9-3032-4923-9125-8937a53ec593
+Iteration: 46
+waiting for async operation opid-b4869f2a-5328-43e6-aa50-cd97168b5e60
+Iteration: 47
+waiting for async operation opid-c8d1846d-2d2f-4058-a864-9b97be2578a5
+Iteration: 48
+waiting for async operation opid-ff5629af-474f-4f49-bcad-86d3cfb92ab1
+Iteration: 49
+waiting for async operation opid-e4f41f75-7d1f-4eef-98b9-2b7e84b1fb83
+Iteration: 50
+waiting for async operation opid-3a9c7288-6018-479e-a929-58802320468f
+Iteration: 51
+waiting for async operation opid-6ca54e3d-f92b-426b-a412-705c8083e4ac
+Iteration: 52
+waiting for async operation opid-566adbc9-e8ca-4889-88bc-0a6373bc42ab
+Iteration: 53
+waiting for async operation opid-b52d1d99-5fda-4dbf-9881-0f2ac8654dc5
+Iteration: 54
+waiting for async operation opid-62e06f87-e522-4078-91a4-866f7d5580f3
+Iteration: 55
+waiting for async operation opid-9e36cdbc-9c02-459a-84cc-ec096fba11e1
+Iteration: 56
+waiting for async operation opid-4daa9e79-3828-4489-9759-bb4164a66fa1
+Iteration: 57
+waiting for async operation opid-58773de7-1656-4690-a334-9b5f8fdbce2d
+Iteration: 58
+waiting for async operation opid-58a56e98-8747-45a0-9cda-5b5801362d93
+Iteration: 59
+waiting for async operation opid-b4b45263-4eee-4927-b4c8-0f5d66b09f53
+Iteration: 60
+waiting for async operation opid-aeb089f1-a806-4cc8-ab6b-5b8a1021d954
+Iteration: 61
+waiting for async operation opid-4e0ef34f-f9e2-4602-b7af-9c1963e93c68
+Iteration: 62
+waiting for async operation opid-241a8396-4626-4879-a5ab-75b52bc404b2
+Iteration: 63
+waiting for async operation opid-4df234fa-23b6-418d-961d-be94fc1ddd0f
+Iteration: 64
+waiting for async operation opid-02c2df18-6883-41eb-a4d9-735a959e4626
+Iteration: 65
+waiting for async operation opid-92381bd5-7960-45d3-af8b-2a8592965c18
+Iteration: 66
+waiting for async operation opid-ac87c52f-9679-4d00-88b0-3ad2b6311223
+Iteration: 67
+waiting for async operation opid-4f72657c-5a21-4440-b04d-6f074e83fc1c
+Iteration: 68
+waiting for async operation opid-9b50a707-147f-43b1-a1d0-921cf0fd20ec
+Iteration: 69
+waiting for async operation opid-94335a96-4f8e-45b4-9879-e7d0e0ec6e2a
+Iteration: 70
+waiting for async operation opid-731b3009-3093-41d6-a711-257cc4eb2abb
+Iteration: 71
+waiting for async operation opid-4ab7f0b8-9ba6-4531-9fc0-90b53acbdf7f
+Iteration: 72
+waiting for async operation opid-36bfbae8-5b51-4c52-99b7-2b46dd633d85
+Iteration: 73
+waiting for async operation opid-2c4a31fa-06a0-422c-8da6-ce0b4d1c83d8
+Iteration: 74
+waiting for async operation opid-8c2024a1-7dc5-4b0c-82ab-1cab145ad80d
+Iteration: 75
+waiting for async operation opid-8d237cee-18f8-4dd3-ac37-6ca7beeb0fbd
+Iteration: 76
+waiting for async operation opid-0a97bd56-d66b-441f-a8f2-bf45be9cd2c2
+Iteration: 77
+waiting for async operation opid-7720ae7c-c3e0-403f-b11e-11d1da2d26ee
+Iteration: 78
+waiting for async operation opid-b1cc9d50-1376-49a1-9625-c7ef229f8ef4
+Iteration: 79
+waiting for async operation opid-5f91d881-00db-449a-9991-5f836d5eb8a3
+Iteration: 80
+waiting for async operation opid-d5f684f0-73f4-4da3-9e0c-5332dffe3dd3
+Iteration: 81
+waiting for async operation opid-173223bd-b65e-4dfa-995f-87bf0578565b
+Iteration: 82
+waiting for async operation opid-16084c14-09ff-4a29-af2b-ac713631d651
+Iteration: 83
+waiting for async operation opid-29cc2d24-340e-4a43-9b03-a715c232f1c3
+Iteration: 84
+waiting for async operation opid-b6ae2110-cfed-484f-b91c-ced1abc806a3
+Iteration: 85
+waiting for async operation opid-9f5c0c29-4022-4404-97f9-d4601162f2ae
+Iteration: 86
+waiting for async operation opid-62a719b2-ea3f-4c72-8cec-87284f2da125
+Iteration: 87
+waiting for async operation opid-32708c1a-9c15-4244-9289-21f05a11a6d1
+Iteration: 88
+waiting for async operation opid-0373f7ac-ed87-4585-8dcb-c1b597faf62c
+Iteration: 89
+waiting for async operation opid-626c888d-ca54-4656-9436-e8ea091d5dd0
+Iteration: 90
+waiting for async operation opid-bef31679-182e-4865-bafc-378b08951a67
+Iteration: 91
+waiting for async operation opid-82e0b7a9-e3fe-47b2-8c65-a1d9dce31ea6
+Iteration: 92
+waiting for async operation opid-e7d6ade5-b780-40c7-8c35-2fda449d3f19
+Iteration: 93
+waiting for async operation opid-84f46ff5-8382-4ac8-91d5-8b7cc7187619
+Iteration: 94
+waiting for async operation opid-85b6fdb8-b34f-43a1-beb0-5a31fceaafcd
+Iteration: 95
+waiting for async operation opid-7a4157f3-4b92-465b-8506-edd9fef2e3a7
+Iteration: 96
+waiting for async operation opid-3f206166-bfde-453d-843e-1b3e3756ea40
+Iteration: 97
+waiting for async operation opid-da8686c6-db95-4c0c-a0db-3a1ba830b0f6
+Iteration: 98
+waiting for async operation opid-1b114872-632d-44ea-ba8d-a35177f64d1f
+Iteration: 99
+waiting for async operation opid-b502caaf-fe3a-452b-8f43-edca32d50d8e
+Iteration: 100
+waiting for async operation opid-209ca07a-37d9-464a-9026-6c3c03928ba7
+Iteration: 101
+waiting for async operation opid-2bb45ae3-e617-408b-acde-3e5517b26e28
+Iteration: 102
+waiting for async operation opid-14b9e8b3-7491-4e10-a63f-0b3b25a611ba
+Iteration: 103
+waiting for async operation opid-36c7235c-50cc-41b6-9a06-d33510c72e2e
+Iteration: 104
+waiting for async operation opid-6c5e090b-d811-447d-9298-da52add6862f
+Iteration: 105
+waiting for async operation opid-da3499ee-ede2-44ee-bbdd-334e74eee00d
+Iteration: 106
+waiting for async operation opid-65df6627-0627-4ddd-896b-7153d10c35c4
+Iteration: 107
+waiting for async operation opid-59a67210-96ef-4d84-bf65-0cbcebd0689c
+Iteration: 108
+waiting for async operation opid-46199a7a-c3c7-49a2-8f20-99cd931ce9d4
+Iteration: 109
+waiting for async operation opid-33f9204a-df76-4e92-b6e5-0ee3e95f04c9
+Iteration: 110
+waiting for async operation opid-16f57616-278c-40dc-b54b-47937c10e002
+Iteration: 111
+waiting for async operation opid-749580ad-00a0-463a-9615-d135d5744a76
+Iteration: 112
+waiting for async operation opid-b36b14db-a52f-4c6a-9caf-616184ebb6f0
+Iteration: 113
+waiting for async operation opid-7888678e-c546-4b13-9174-916fe8457874
+Iteration: 114
+waiting for async operation opid-e970d64c-49b8-49d3-b9e2-020b1f23b73a
+Iteration: 115
+waiting for async operation opid-cf821c4d-315e-45d5-b7c3-a21c768b0944
+Iteration: 116
+waiting for async operation opid-d0b4ffd2-52b3-4f81-93bc-5c9a701efbee
+Iteration: 117
+waiting for async operation opid-a153e99f-020b-4e1b-9979-2be634d5f18c
+Iteration: 118
+waiting for async operation opid-68897edf-b14b-48b5-9aa2-34670e0f1df7
+Iteration: 119
+waiting for async operation opid-23850f46-9362-4b56-aa19-3bd8a2a45673
+Iteration: 120
+waiting for async operation opid-2b48dc34-54b5-4bc6-b404-33a63abf5598
+Iteration: 121
+waiting for async operation opid-8f2b4a7d-fd33-49c3-a14a-b363489443de
+Iteration: 122
+waiting for async operation opid-312dc228-3b66-464d-adc6-80758a0616f8
+Iteration: 123
+waiting for async operation opid-3ba70ba2-56f0-4870-a2f7-cc1331cc23dd
+Iteration: 124
+waiting for async operation opid-9de608d4-b02d-4a1a-91b3-6e63f5e0d957
+Iteration: 125
+waiting for async operation opid-5399ee36-5ac0-4876-b9b0-8228f2a88afb
+Iteration: 126
+waiting for async operation opid-e3d0da57-6112-4f64-9406-61309b7beb7f
+Iteration: 127
+waiting for async operation opid-240fd438-2b98-49ec-9a53-429645813008
+Iteration: 128
+waiting for async operation opid-4d9d8503-1eaf-4a5f-9484-330d9f4f4545
+Iteration: 129
+waiting for async operation opid-cdb5b79a-5893-4a31-b678-73a63a650bd8
+Iteration: 130
+waiting for async operation opid-17c3ac93-5d91-4db8-a5c3-8e091e8993d7
+Iteration: 131
+waiting for async operation opid-befed9fe-00f3-4951-80c8-4effeadf7e73
+Iteration: 132
+waiting for async operation opid-17459caa-0601-454c-9f7b-1a8912251d28
+Iteration: 133
+waiting for async operation opid-7bdc3b38-fa59-49fe-8a81-0747556e7097
+Iteration: 134
+waiting for async operation opid-5d70624d-1d55-46df-8f44-167c56b7b37a
+Iteration: 135
+waiting for async operation opid-432923c5-454c-42a6-ad20-68d0137f243b
+Iteration: 136
+waiting for async operation opid-34e0f9ba-f2f2-4a3a-ab57-cd6a58d637de
+Iteration: 137
+waiting for async operation opid-e26035ab-ca9c-411b-ad10-6d3127b16994
+Iteration: 138
+waiting for async operation opid-22be8914-2ce8-421d-b43f-2ca12198c7a5
+Iteration: 139
+waiting for async operation opid-4022836f-6edc-40df-ae97-8991571d37dd
+Iteration: 140
+waiting for async operation opid-689803de-bce9-4964-b472-365e8e7bf372
+Iteration: 141
+waiting for async operation opid-b8b5155b-3d24-4e10-bddc-61860a9b3021
+Traceback (most recent call last):
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 52, in <module>
+    WalletListNotes().main()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 39, in run_test
+    self._send_amt(faucet, toaddr, millizec)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 25, in _send_amt
+    return wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 446, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 423, in wait_and_assert_operationid_status_result
+    time.sleep(1)
+KeyboardInterrupt
+!!! FAIL: intermittent_failures.py (1276s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: intermittent_failures.py

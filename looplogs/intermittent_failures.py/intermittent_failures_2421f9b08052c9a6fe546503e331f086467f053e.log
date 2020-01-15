@@ -1,0 +1,38 @@
+This run started at: 
+1579042470
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 45, in run_test
+    breakpoint()
+Initializing test directory /tmp/testWT1Yz3
+waiting for async operation opid-1c0874f1-2d3f-4e97-9920-6aeff2974f2f
+waiting for async operation opid-d7dc17b2-9480-473c-8b6f-267ba846ff79
+Unexpected exception caught during testing: global name 'breakpoint' is not defined
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: intermittent_failures.py (75s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: intermittent_failures.py

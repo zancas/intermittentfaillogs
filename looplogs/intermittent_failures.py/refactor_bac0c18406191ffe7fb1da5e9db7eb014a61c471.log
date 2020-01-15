@@ -1,0 +1,42 @@
+This run started at: 
+1579064337
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+Initializing test directory /tmp/testUt24Ax
+waiting for async operation opid-2b7fbfd6-f5b8-4688-a894-a0f7f4700489
+waiting for async operation opid-8c20a678-59ac-44cd-8c57-8f3dcd41892b
+waiting for async operation opid-92014c33-ddd0-4317-a244-f8a175e8b096
+waiting for async operation opid-15f10a44-1d6f-41ab-bfd6-4b54db6fad4e
+waiting for async operation opid-fff668e8-8dad-48a3-864a-4d66d4c70d44
+waiting for async operation opid-b8970ac5-4acf-4fbb-b6b5-d65f35ba2c7b
+waiting for async operation opid-de344219-1b11-46e2-8fc0-838afe0b1200
+waiting for async operation opid-55c3984a-6ee9-42e4-88e9-e12b61249073
+waiting for async operation opid-148cc3d6-1871-4a3a-a490-35516b6a12ff
+waiting for async operation opid-e3b7add1-31c4-47be-9513-dab5a115673d
+waiting for async operation opid-fbfd71e4-5029-47d6-a2af-6c7b7542f789
+[Decimal('0.5306389331817626953125'), Decimal('0.0189628601074218750000'), Decimal('0.6944320201873779296875'), Decimal('0.04317188262939453125'), Decimal('0.3004109859466552734375'), Decimal('0.2638850212097167968750'), Decimal('0.0599629878997802734375'), Decimal('0.1983630657196044921875'), Decimal('0.0798978805541992187500'), Decimal('0.4562051296234130859375')]
+0.2645930767059326171875
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: intermittent_failures.py (152s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0

@@ -1,0 +1,112 @@
+This run started at: 
+1579063922
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 38, in run_test
+    self._send_amt(faucet, toaddr, millizec)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 25, in _send_amt
+    return wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 446, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 437, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 387, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testSgQeOu
+waiting for async operation opid-eb8dc127-6a66-48df-b849-50bc24ae20aa
+waiting for async operation opid-49d58531-145b-43e9-99d7-c926ce1987a9
+0.022643089294433593750
+waiting for async operation opid-059852b7-baf1-4a6f-a9ac-626adbe4cff2
+0.0316050052642822265625
+waiting for async operation opid-ebce4b19-77e8-40f5-8df9-9a7a34dc5744
+0.129303932189941406250
+waiting for async operation opid-9e45fd6f-5f94-480a-90f9-5a8e01cef485
+0.025385856628417968750
+waiting for async operation opid-8ec88b5d-8e7e-4210-ae4e-01589d914919
+0.0453498363494873046875
+waiting for async operation opid-47a41e52-2b05-4f22-8f4c-44843bc40b67
+0.0506570339202880859375
+waiting for async operation opid-95a5a897-4e7e-42b6-bbcd-9609a64696d4
+0.0467259883880615234375
+waiting for async operation opid-d2052553-e718-4f4a-a856-971cc90c101c
+0.0473341941833496093750
+waiting for async operation opid-9e2eee88-043b-4303-bafd-a97caaf040f5
+0.0592558383941650390625
+waiting for async operation opid-8b4599a0-fa28-450b-9829-49b85f465074
+0.1970589160919189453125
+waiting for async operation opid-7068cf9b-a698-4585-881f-18114d918c5a
+0.3314960002899169921875
+waiting for async operation opid-123a25bb-9cf1-4f11-bde0-57bd9bcaa08a
+0.0794930458068847656250
+waiting for async operation opid-8081b0b6-f010-4988-9dae-5ef83448a8a8
+0.6527907848358154296875
+waiting for async operation opid-9c82d0bd-b222-4307-b66e-a2bc7839b584
+0.5809400081634521484375
+waiting for async operation opid-226d007d-01fe-4c8b-9528-7c06b70c0144
+0.7080690860748291015625
+waiting for async operation opid-582de236-4ef2-4d1e-91ac-626652d0e267
+0.1175010204315185546875
+waiting for async operation opid-bd86c5b1-2059-4ba9-92d1-477c1a421ccd
+0.1185321807861328125000
+waiting for async operation opid-78733cc6-b6df-4645-bc6c-9dd328150dc9
+0.129498004913330078125
+waiting for async operation opid-b2a8c3fa-64c1-4eac-8933-e12a84bf4265
+0.113152027130126953125
+waiting for async operation opid-97fb91df-2ade-46cd-9e6b-cdf6b370aad4
+0.13652896881103515625
+waiting for async operation opid-90bebab8-8068-4446-ad4e-f6a71019c981
+0.1372649669647216796875
+waiting for async operation opid-6708b70b-c5a2-4609-8848-b75eeaebf940
+0.1352620124816894531250
+waiting for async operation opid-054768a0-59cc-46e2-8058-09244f373b9c
+0.14393520355224609375
+waiting for async operation opid-313479bc-704e-4fdf-82ee-c8a0ce0790b2
+0.1550118923187255859375
+waiting for async operation opid-76bd97c0-bfe6-4484-85d7-3adb9de3152d
+0.48126506805419921875
+waiting for async operation opid-bdbfd0fa-bbbf-4456-92e4-7761788da55f
+0.186726093292236328125
+waiting for async operation opid-df187b2c-f7a2-4dde-b75a-a1ab386b7d33
+0.3503940105438232421875
+waiting for async operation opid-b69804aa-a123-4c6c-85d5-1b2b2b926346
+0.1761968135833740234375
+waiting for async operation opid-65a7a7bc-6421-42e8-b370-d2c7c617b222
+0.192862033843994140625
+waiting for async operation opid-8714028b-0bc5-400f-a6d6-c240ca6d6f1c
+0.1845419406890869140625
+waiting for async operation opid-d568dd34-c0b9-4ece-8b46-68d4ebedc75f
+0.2088861465454101562500
+waiting for async operation opid-b5cbe021-a485-47a2-8055-d9614ef891b0
+0.2105240821838378906250
+waiting for async operation opid-609f302a-083c-4ed2-bd5a-fa9c0e7f7073
+Assertion failed: (left == right)
+  left: <None>
+ right: <SendTransaction: CommitTransaction failed>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: intermittent_failures.py (289s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: intermittent_failures.py

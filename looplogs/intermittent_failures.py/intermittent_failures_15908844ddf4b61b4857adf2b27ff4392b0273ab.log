@@ -1,0 +1,154 @@
+This run started at: 
+1579045238
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 49, in run_test
+    assert_equal(len(unspent_tx), 1 + count, message)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 387, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testgV0Cd8
+waiting for async operation opid-4adb3e53-9611-4324-ba09-0463b04835fb
+waiting for async operation opid-c43e23d0-16b0-4c5c-8a13-7793d3a6622d
+e7723ef75d7222937efc4a48ad4ba2ce533c23d26fc2542598d455ac02d8a01e
+Assertion failed: (left == right); The count at failure was: 1
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: intermittent_failures.py (90s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: intermittent_failures.py
+This run started at: 
+1579045350
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 49, in run_test
+    assert_equal(len(unspent_tx), 1 + count, message)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 387, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testaWQqlK
+waiting for async operation opid-63fd0629-d845-4279-8ee1-c3cd3c1ee6e2
+waiting for async operation opid-1dfba9ac-2d60-4306-94a6-e0a35cef2200
+bee3edd13b2ba0e3bce469e0148cfe0979e7a3e5f2e3182be3f102933152f523
+Assertion failed: (left == right); The count at failure was: 1
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: intermittent_failures.py (95s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: intermittent_failures.py
+This run started at: 
+1579045698
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/intermittent_failures.py", line 43, in run_test
+    txid_2 = wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 446, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 437, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/master/qa/rpc-tests/test_framework/util.py", line 387, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testFctnuz
+initialize_chain: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+initialize_chain: bitcoin-cli -rpcwait getblockcount completed
+initialize_chain: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+initialize_chain: bitcoin-cli -rpcwait getblockcount completed
+initialize_chain: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+initialize_chain: bitcoin-cli -rpcwait getblockcount completed
+initialize_chain: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+initialize_chain: bitcoin-cli -rpcwait getblockcount completed
+start_node: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+start_node: calling bitcoin-cli -rpcwait getblockcount returned
+start_node: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+start_node: calling bitcoin-cli -rpcwait getblockcount returned
+start_node: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+start_node: calling bitcoin-cli -rpcwait getblockcount returned
+start_node: bitcoind started, calling bitcoin-cli -rpcwait getblockcount
+start_node: calling bitcoin-cli -rpcwait getblockcount returned
+waiting for async operation opid-99b829ce-0a75-4253-9579-dc50342e4128
+...returned status: success
+waiting for async operation opid-41a06eaa-2412-47b9-ada7-b3cd521a9796
+...returned status: success
+b434eea9a84f9ce3cb28b551b4c21dd8a45b2cb061481921728ff520b699fbb5
+waiting for async operation opid-cc4f288c-4136-4e07-be5f-e4a2e01d076a
+...returned status: failed
+...returned error: Insufficient funds, no unspent notes found for zaddr from address.
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: intermittent_failures.py (87s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: intermittent_failures.py

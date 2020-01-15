@@ -1,0 +1,232 @@
+This run started at: 
+1579065227
+The zcashd version is: Zcash Daemon version v2.1.1-rc1-02706325c
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript intermittent_failures.py ===
+Initializing test directory /tmp/testX3Aq_N
+waiting for async operation opid-ebdcee86-bdce-424e-8151-5d5af10ddcd5
+Iteration: 0
+waiting for async operation opid-ea885277-8b1d-40f5-a0be-7538b35058b9
+Iteration: 1
+waiting for async operation opid-947b7d2f-8e0e-414f-a8c4-31feb4ea4d3e
+Iteration: 2
+waiting for async operation opid-c221ffba-f3bf-40df-a83b-3d1dfe73a754
+Iteration: 3
+waiting for async operation opid-bfc89b86-023e-4c11-a1e3-eb77003978df
+Iteration: 4
+waiting for async operation opid-f9721cce-2080-444e-a55b-cee5c19d98c4
+Iteration: 5
+waiting for async operation opid-4dd347fb-eb42-459b-bdca-aa10c0d92ade
+Iteration: 6
+waiting for async operation opid-4781be31-e80f-4e54-a4d1-5d7343c2dabe
+Iteration: 7
+waiting for async operation opid-c87ac443-2c3e-4671-a2ee-561d2e04b25e
+Iteration: 8
+waiting for async operation opid-8327826d-81a1-4991-ac70-329093fcae0b
+Iteration: 9
+waiting for async operation opid-48b244b5-94a1-4ac3-b1ce-295396f13dc0
+Iteration: 10
+waiting for async operation opid-4eddea26-a48e-4e76-8fd3-2dd99cde2fa6
+Iteration: 11
+waiting for async operation opid-f9f2b9a2-1f0f-498a-af08-400f0a4cae81
+Iteration: 12
+waiting for async operation opid-8ae1599f-f124-4fe2-ac29-256ca20aaabc
+Iteration: 13
+waiting for async operation opid-e68ad0d7-f6e6-4950-9df8-9b0f5e2ae82e
+Iteration: 14
+waiting for async operation opid-b3b71f8e-cec2-4c1c-bd31-f925ef0856d3
+Iteration: 15
+waiting for async operation opid-91247db4-d035-4101-8661-7d5594bfdb50
+Iteration: 16
+waiting for async operation opid-9eabe5ef-ff0c-4558-9d7b-41028b34270b
+Iteration: 17
+waiting for async operation opid-8249a9c1-91f3-4c1f-adba-a7d45ea43c7a
+Iteration: 18
+waiting for async operation opid-d16e3664-3c84-4f55-a560-223179574332
+Iteration: 19
+waiting for async operation opid-7f30025f-7cc5-4476-a68c-3b576b3f4c84
+Iteration: 20
+waiting for async operation opid-46533cd2-93bf-4e0f-bcf0-7a8063349bee
+Iteration: 21
+waiting for async operation opid-a9d8b046-e9db-4bcf-857b-2161f836cd8d
+Iteration: 22
+waiting for async operation opid-d32c55e0-a2b9-4472-8561-3bca43ef8117
+Iteration: 23
+waiting for async operation opid-81a9a0b0-bb02-43ad-a9ff-400354b752ef
+Iteration: 24
+waiting for async operation opid-b6c1281b-317f-4c16-bb20-00817637425f
+Iteration: 25
+waiting for async operation opid-02e206cb-e781-43e3-9056-cbfeb0c90053
+Iteration: 26
+waiting for async operation opid-5ef3c6ad-5582-4d71-8b55-f00d4b3f105f
+Iteration: 27
+waiting for async operation opid-e3ff67d9-0392-4c42-b355-99fee6cc6f98
+Iteration: 28
+waiting for async operation opid-c836c339-6c9d-44de-9dcb-df249dae283d
+Iteration: 29
+waiting for async operation opid-373bb875-3200-4541-a136-53a66b77f598
+Iteration: 30
+waiting for async operation opid-90a75c0f-707d-479e-b168-bcf642662b76
+Iteration: 31
+waiting for async operation opid-f5404e0e-f927-4027-b769-787bcacef9a6
+Iteration: 32
+waiting for async operation opid-d55ead12-b1de-487c-9c81-f94140c11f6c
+Iteration: 33
+waiting for async operation opid-3b1ee7d8-3ea1-4e84-9939-e36a03e2990e
+Iteration: 34
+waiting for async operation opid-798f8390-9e72-48ce-9574-06173bda5cb1
+Iteration: 35
+waiting for async operation opid-3edc728e-75bb-4f23-af37-4405c9e016a3
+Iteration: 36
+waiting for async operation opid-2165d5bd-3091-4a8a-834c-7eeef7c2c550
+Iteration: 37
+waiting for async operation opid-2d6cf330-bf6e-4f19-a40b-af63c3e1a903
+Iteration: 38
+waiting for async operation opid-674a522e-0294-4250-a690-d1beab7d54d8
+Iteration: 39
+waiting for async operation opid-33ab64dc-9826-4e9d-8430-d66e8f96b12a
+Iteration: 40
+waiting for async operation opid-74a33ad0-b02e-4067-90b9-63f2d34a4283
+Iteration: 41
+waiting for async operation opid-59b394b6-4bf4-4fee-b4d6-1e3cced33c79
+Iteration: 42
+waiting for async operation opid-228108b5-a6ce-4a68-95dc-a1c189d03f08
+Iteration: 43
+waiting for async operation opid-6620898e-9f82-40bc-8203-c8b0fd4149ca
+Iteration: 44
+waiting for async operation opid-b43abd72-ceb2-4adb-90d1-1ec9dfff9750
+Iteration: 45
+waiting for async operation opid-21bfd305-eb5b-4d8c-b963-bccf87e95b47
+Iteration: 46
+waiting for async operation opid-80458ebc-8251-4bc0-8db5-40ec1b019fb7
+Iteration: 47
+waiting for async operation opid-70a98d09-0504-4715-b050-8d32119c3ab5
+Iteration: 48
+waiting for async operation opid-73bdb3fc-30ae-410f-9a93-532347111403
+Iteration: 49
+waiting for async operation opid-4a01a8dd-dc9c-4ea2-95ec-e1aee589d7c5
+Iteration: 50
+waiting for async operation opid-c2f7fdc7-6379-40c6-9c11-2cc6a8f08131
+Iteration: 51
+waiting for async operation opid-8ffb9f98-b5a3-483a-bce3-ff02a0825d7f
+Iteration: 52
+waiting for async operation opid-e44e120f-130e-4a78-b994-fd438dda3602
+Iteration: 53
+waiting for async operation opid-b2061c86-404e-4bf5-aa0c-3499bb738696
+Iteration: 54
+waiting for async operation opid-cbebb87d-4b48-4198-8a1f-7a3923de6761
+Iteration: 55
+waiting for async operation opid-b86d8e23-a61d-4fa2-91fe-5850cb2854b0
+Iteration: 56
+waiting for async operation opid-2fbef8a1-07bb-475f-89ab-7833b6ff4274
+Iteration: 57
+waiting for async operation opid-c45a310d-18f0-4d9d-a933-d154387fc877
+Iteration: 58
+waiting for async operation opid-aeb765f4-f83e-4e51-b8df-7c250fcaa0b6
+Iteration: 59
+waiting for async operation opid-42b32307-8822-468c-9eee-0fdcc41369a8
+Iteration: 60
+waiting for async operation opid-c7da0658-4703-4134-a538-8e277324ac62
+Iteration: 61
+waiting for async operation opid-0fd4004e-9425-4a24-b1b0-c5bc9bde034f
+Iteration: 62
+waiting for async operation opid-61f64b6a-f9f6-418a-b504-98b940f53002
+Iteration: 63
+waiting for async operation opid-100d2add-ac65-4c38-a124-fd130a59b31b
+Iteration: 64
+waiting for async operation opid-13307cad-766f-4dff-a3e8-09d4546d52ea
+Iteration: 65
+waiting for async operation opid-fa14ce59-2bb0-4400-a0d6-c66f75cdf244
+Iteration: 66
+waiting for async operation opid-0dd6155c-b515-4a4b-830e-44b9f1df94c4
+Iteration: 67
+waiting for async operation opid-902fcf25-dd45-429b-9493-72b846641861
+Iteration: 68
+waiting for async operation opid-03f56eca-4dca-4d69-b467-045dad254436
+Iteration: 69
+waiting for async operation opid-1c16bbc3-e028-47a3-b848-68e4f0bc3625
+Iteration: 70
+waiting for async operation opid-8bda5196-b6f9-4c03-bb19-a12b484bd03c
+Iteration: 71
+waiting for async operation opid-8627be11-5668-4b49-be5c-85a29636d7cd
+Iteration: 72
+waiting for async operation opid-a23ea671-c558-4a38-a52b-ca7211e9ad1e
+Iteration: 73
+waiting for async operation opid-ddb903a0-48eb-42a1-a780-4a659a165740
+Iteration: 74
+waiting for async operation opid-7202b17d-2456-40ea-8621-ecfe7290825f
+Iteration: 75
+waiting for async operation opid-88ee2973-d6bf-4047-a46c-6f205b447dd9
+Iteration: 76
+waiting for async operation opid-3819a538-b08a-4716-aa39-304f942abf17
+Iteration: 77
+waiting for async operation opid-33b77146-3ffe-482c-af66-002eb5462dcf
+Iteration: 78
+waiting for async operation opid-130cb7f2-133e-432e-b752-ffec8b5629fc
+Iteration: 79
+waiting for async operation opid-324e2bdc-464f-4f69-a810-1beb31bba648
+Iteration: 80
+waiting for async operation opid-4d74cc94-8c36-4629-9805-27186f13c844
+Iteration: 81
+waiting for async operation opid-0c8ca26a-02fe-4174-8e2b-d31cf222e4a9
+Iteration: 82
+waiting for async operation opid-1981e929-4d43-4885-a9aa-79ad2c98790d
+Iteration: 83
+waiting for async operation opid-e29b40c1-2b53-4d1c-a159-86506a034a74
+Iteration: 84
+waiting for async operation opid-171b75e9-ce05-4caa-8505-331cfd894c2b
+Iteration: 85
+waiting for async operation opid-5265a787-d22f-49f4-adec-697297d3acd3
+Iteration: 86
+waiting for async operation opid-74a92a4e-1744-4d5c-9241-c83745966b26
+Iteration: 87
+waiting for async operation opid-178fc371-2d95-4ba5-beb5-05db48f6166f
+Iteration: 88
+waiting for async operation opid-9beb595a-2fb4-411c-b529-0177c9b194a7
+Iteration: 89
+waiting for async operation opid-1e69cae5-ca5f-4011-87b0-ea711082ae7a
+Iteration: 90
+waiting for async operation opid-2d606c36-32d5-4a8f-bc25-4671dc6d198c
+Iteration: 91
+waiting for async operation opid-fd86264b-7539-4bfc-ba64-d6daafb70539
+Iteration: 92
+waiting for async operation opid-0d395666-fb88-4311-81b2-c5a7b2aefe60
+Iteration: 93
+waiting for async operation opid-47535d46-41db-446c-9737-9638f5d27059
+Iteration: 94
+waiting for async operation opid-1b781512-e62c-43e7-b7b4-b56f63c568d5
+Iteration: 95
+waiting for async operation opid-01ee5d8d-4d30-4ad9-82a6-05e1b2622f58
+Iteration: 96
+waiting for async operation opid-b1d621ee-2569-4fa2-bd44-d60abc76450f
+Iteration: 97
+waiting for async operation opid-2ce03661-78fe-45da-92c4-4575a9dfaadf
+Iteration: 98
+waiting for async operation opid-2eb2a080-d7c3-469e-85d1-e157b3144b7f
+Iteration: 99
+waiting for async operation opid-06700881-a1ae-44f8-8316-7166801d9c50
+[Decimal('0.0164129734039306640625'), Decimal('0.030264854431152343750'), Decimal('0.0382199287414550781250'), Decimal('0.039841175079345703125'), Decimal('0.0855100154876708984375'), Decimal('0.0575630664825439453125'), Decimal('0.0603258609771728515625'), Decimal('0.2040560245513916015625'), Decimal('0.257177829742431640625'), Decimal('0.1444919109344482421875'), Decimal('0.0777161121368408203125'), Decimal('0.2608151435852050781250'), Decimal('0.0948917865753173828125'), Decimal('0.102685928344726562500'), Decimal('0.1093831062316894531250'), Decimal('0.1131441593170166015625'), Decimal('0.2348411083221435546875'), Decimal('0.1205298900604248046875'), Decimal('0.24485492706298828125'), Decimal('0.1186130046844482421875'), Decimal('0.144340038299560546875'), Decimal('0.2969830036163330078125'), Decimal('0.1509599685668945312500'), Decimal('0.1607580184936523437500'), Decimal('0.170733928680419921875'), Decimal('0.1786310672760009765625'), Decimal('0.175940990447998046875'), Decimal('0.187129020690917968750'), Decimal('0.1846148967742919921875'), Decimal('0.3939359188079833984375'), Decimal('0.4248750209808349609375'), Decimal('0.4298558235168457031250'), Decimal('0.2171370983123779296875'), Decimal('0.2222669124603271484375'), Decimal('0.2125921249389648437500'), Decimal('0.23839092254638671875'), Decimal('0.5117499828338623046875'), Decimal('0.24685287475585937500'), Decimal('0.248304843902587890625'), Decimal('0.2573289871215820312500'), Decimal('0.2553989887237548828125'), Decimal('0.2732830047607421875000'), Decimal('0.2770709991455078125000'), Decimal('0.2885921001434326171875'), Decimal('0.2927000522613525390625'), Decimal('0.3038179874420166015625'), Decimal('0.3030722141265869140625'), Decimal('0.3134958744049072265625'), Decimal('0.3251750469207763671875'), Decimal('0.3265860080718994140625'), Decimal('0.3305921554565429687500'), Decimal('0.3391048908233642578125'), Decimal('0.345583915710449218750'), Decimal('0.7300441265106201171875'), Decimal('0.3553600311279296875000'), Decimal('0.3579800128936767578125'), Decimal('0.3667180538177490234375'), Decimal('0.7530801296234130859375'), Decimal('0.7772371768951416015625'), Decimal('0.387157917022705078125'), Decimal('0.8076369762420654296875'), Decimal('0.4078991413116455078125'), Decimal('0.4191789627075195312500'), Decimal('0.4218809604644775390625'), Decimal('0.408782958984375000000'), Decimal('0.4278490543365478515625'), Decimal('0.446239948272705078125'), Decimal('0.4373350143432617187500'), Decimal('0.4331660270690917968750'), Decimal('0.440351963043212890625'), Decimal('0.4615190029144287109375'), Decimal('0.4643309116363525390625'), Decimal('0.4706108570098876953125'), Decimal('0.9675228595733642578125'), Decimal('0.9888010025024414062500'), Decimal('0.4980008602142333984375'), Decimal('0.4920470714569091796875'), Decimal('0.4890899658203125000000'), Decimal('0.512691020965576171875'), Decimal('0.5137290954589843750000'), Decimal('0.5211300849914550781250'), Decimal('0.535552978515625000000'), Decimal('0.5584061145782470703125'), Decimal('0.5568861961364746093750'), Decimal('0.5503549575805664062500'), Decimal('0.5705101490020751953125'), Decimal('0.5656249523162841796875'), Decimal('1.183235168457031250000'), Decimal('0.570518970489501953125'), Decimal('0.573832988739013671875'), Decimal('0.5735061168670654296875'), Decimal('0.5853850841522216796875'), Decimal('0.6067950725555419921875'), Decimal('1.276751995086669921875'), Decimal('0.6232860088348388671875'), Decimal('0.6313250064849853515625'), Decimal('0.644114971160888671875'), Decimal('0.6260280609130859375000'), Decimal('1.3422458171844482421875'), Decimal('0.667097091674804687500')]
+0.394380223751068115234375
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: intermittent_failures.py (907s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
