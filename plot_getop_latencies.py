@@ -2,10 +2,13 @@
 
 from decimal import Decimal as D
 import simplejson as json
+import sys
 import matplotlib
 import matplotlib.pyplot as plt
+from pathlib import Path
 
-with open("./looplogs/zgetoperation_latent_success.py/zgetoperation_latent_success_4dbe0ef64e07caec2ba9d71776baf1ff6164f96f.log") as fh: 
+run_path = Path(sys.argv[1])
+with open(run_path) as fh: 
     for l in fh.readlines():
         if l.startswith("[Decimal('"):
             lstring = l.replace("Decimal(", "").replace(")", "")
@@ -21,7 +24,7 @@ with open("./looplogs/zgetoperation_latent_success.py/zgetoperation_latent_succe
     plt.ylabel('seconds')
     plt.xlabel('iteration')
     plt.plot(xs, ys, '.')
-    plt.savefig("20_aync_all_latencies.png")
+    plt.savefig("20_async_all_latencies.png")
 
 
 
