@@ -7,17 +7,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-run_path = Path(sys.argv[1])
-with open(run_path) as fh: 
-    for l in fh.readlines():
-        if l.startswith("[Decimal('"):
-            lstring = l.replace("Decimal(", "").replace(")", "")
-            break
-
-    lstring = lstring.replace("'", '"')
-    latencies = list(map(D, json.loads(lstring)))
-    print(len(latencies))
-    print(sum(latencies)/len(latencies))
+def plot(latencies):
     xs = range(len(latencies))
     ys = latencies
     plt.title("z_getoperationresult 'success' to z_listunspent latency")
@@ -26,5 +16,19 @@ with open(run_path) as fh:
     plt.plot(xs, ys, '.')
     plt.savefig("20_async_all_latencies.png")
 
+def _extract_latency_data(latency_data):
+    lstring = lstring.replace("'", '"')
+    latencies = list(map(D, json.loads(lstring)))
+    print(len(latencies))
+    print(sum(latencies)/len(latencies))
+    plot(latencies)
+
+def _extract_names(run_path):
+    run_log = run_path.parts[-1]
+
+def main():
+    run_path = Path(sys.argv[1])
 
 
+if __name__ == '__main__':
+    main()
