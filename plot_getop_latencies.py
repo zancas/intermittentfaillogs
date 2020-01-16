@@ -40,12 +40,13 @@ def plot(latencies):
 def extract_latencies(logpath):
     lines = open(logpath).readlines()
     tagindex = lines.index("lagtimes are:\n")
-    lagtimes_str = lines[tagindex+1]
-    print(lagtimes_str)
+    lagtimes_str = json.loads(lines[tagindex+1].replace("'", '"'))
+    return [D(x) for x in lagtimes_str]
 
 def main():
     path_extractor = PathExtractor(sys.argv[1])
-    extract_latencies(path_extractor.logpath)
+    latencies = extract_latencies(path_extractor.logpath)
+    print(latencies)
     #latencies = json.loads(path_extractor.logpath)
     #paths = PathSetter(path_extractor)
     #pp(paths.data_path)
