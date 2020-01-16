@@ -27,6 +27,7 @@ class PathSetter:
         self.data_dirpath = pe.log_data_ancestor / "latencydata" / pe.test_name
         self.data_path = self.data_dirpath / Path( pe.core_name + ".json")
 
+
 def plot(latencies):
     xs = range(len(latencies))
     ys = latencies
@@ -36,12 +37,18 @@ def plot(latencies):
     plt.plot(xs, ys, '.')
     plt.savefig("20_async_all_latencies.png")
 
-
+def extract_latencies(logpath):
+    lines = open(logpath).readlines()
+    tagindex = lines.index("lagtimes are:\n")
+    lagtimes_str = lines[tagindex+1]
+    print(lagtimes_str)
 
 def main():
     path_extractor = PathExtractor(sys.argv[1])
-    paths = PathSetter(path_extractor)
-    pp(paths.data_path)
+    extract_latencies(path_extractor.logpath)
+    #latencies = json.loads(path_extractor.logpath)
+    #paths = PathSetter(path_extractor)
+    #pp(paths.data_path)
 
 
 if __name__ == '__main__':
