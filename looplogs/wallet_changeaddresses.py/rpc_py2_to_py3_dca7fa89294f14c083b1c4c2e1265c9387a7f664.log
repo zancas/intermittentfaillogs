@@ -1,0 +1,3828 @@
+This run started at: 
+1579837276
+The zcashd version is: Zcash Daemon version v2.1.1-b8ca7131c-dirty
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testkv4thlnx
+waiting for async operation opid-ce918438-7f23-407c-975e-96b1b9044563
+waiting for async operation opid-4a5f6661-6ed7-4243-8e42-9bc4ae2aa5cf
+waiting for async operation opid-7f30cf1e-e6b2-4d6a-b68b-21097532467b
+waiting for async operation opid-295e3118-5675-413b-acd4-75084519d866
+waiting for async operation opid-1a243f23-34a0-49ee-9622-2d904b7da9b2
+waiting for async operation opid-4c0a8182-3a0d-48f6-a23b-e78f63bd13de
+waiting for async operation opid-553d4535-76b0-4c1e-ab5b-98122828736b
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-c85dac12-10b1-4154-886e-35207d6fe4cd
+waiting for async operation opid-4ce8745b-4bcf-45b8-8e99-2ade7a59311e
+Source address:     tmQLKc3gmnRZ3i9vwB4iaAa3D3TtkRB2RkZ
+TX1 change address: tmW4uJ86JX2STjzaxTvT2MHx3RhPc9mSHqB
+TX2 change address: tmRd33BiADzYsDiC9hwb62Ed4WVcjfueHDi
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-011a5f6d-8d58-4b25-86db-3061122e8054
+waiting for async operation opid-678c1a97-5abc-4c5c-a617-d5fa1de27a9b
+Source address:     tmQLKc3gmnRZ3i9vwB4iaAa3D3TtkRB2RkZ
+TX1 change address: tmGWxCHyKqE5yjGFJiT1CWoY6R9xCzjYiDY
+TX2 change address: tmGbMd14NGUPH9rm45ihaxWurAb1A4Wg2uR
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-65388140-3710-43f7-a170-009584e96942
+waiting for async operation opid-5d1d443d-32f0-4005-8815-80cc69c949b7
+Source address:     tmQLKc3gmnRZ3i9vwB4iaAa3D3TtkRB2RkZ
+TX1 change address: tmPRUb5X3qfkkZvV6sJU2QEisCqoVtWxbH1
+TX2 change address: tmHUYy47pTbzaHuf1EuzHV3ECUDjzRrXGdN
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (125s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testnb7v2bfa
+waiting for async operation opid-1472eddd-0d0f-43cf-91e9-33fe90302673
+waiting for async operation opid-ec5180ec-dbd7-49e0-adf2-fdca30ee697e
+waiting for async operation opid-4d4671eb-a396-421e-a636-ea050e1414c8
+waiting for async operation opid-5342cdc3-47a6-4c8d-9a1d-7580feefb611
+waiting for async operation opid-293ab73d-69fc-412f-8a1e-1ea1478486eb
+waiting for async operation opid-fb040eea-0458-4a33-968a-0e53d6a741bf
+waiting for async operation opid-3caad8ce-3891-4bb3-b4a2-7453bf6d31f2
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-0e9471fc-9792-4d5f-8f5b-0f786c0ebe64
+waiting for async operation opid-d45b85b4-2bf4-4474-a39e-8471463cbf2b
+Source address:     tmKzLjhtwKBDDbYvHRCeZcJtfgW54Rf4kSe
+TX1 change address: tmEQueL9NPtRkdbaJPxRpMw7MwBwnS3vkL7
+TX2 change address: tmYfR6Vggm1jbQQ8fRUCSr4bdDXsyCSuoYz
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-94d1fee1-fcec-41c4-b0d5-e4da8f60cba3
+waiting for async operation opid-ec6997b6-125d-479e-92f6-a57666d6e449
+Source address:     tmKzLjhtwKBDDbYvHRCeZcJtfgW54Rf4kSe
+TX1 change address: tmRaR2tQGYmVhvdXYxEm11mgYoB4SXXhhVz
+TX2 change address: tmUUeEjhyorP52QTGZjkPMeZ3wyWxAvx86g
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-1cf4117c-18c4-42d7-8078-675fddbdefea
+waiting for async operation opid-fc9aa439-d0a1-4a01-b4e8-9f99b3c811d2
+Source address:     tmKzLjhtwKBDDbYvHRCeZcJtfgW54Rf4kSe
+TX1 change address: tmStsfqp2g5MtuG8emkWXicmaMUpsmH1Lcf
+TX2 change address: tmHLo9HA63wPNhVcg1sxRBkYfJ2hWbC66LU
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (131s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testvbkloqak
+waiting for async operation opid-dcd47447-124f-4fb4-be81-c4233d17d179
+waiting for async operation opid-e8b36c6e-8ea5-4ddb-bdcc-e59e7f4b5e23
+waiting for async operation opid-e69ae736-8160-4fa1-bcc7-41857a0310bd
+waiting for async operation opid-e1cfed0e-f290-4e5a-8f30-dfa44e79884d
+waiting for async operation opid-bb60e967-df36-42ef-8c2b-a3dbdc394f65
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (35s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testu8cx58gc
+waiting for async operation opid-343fde8b-f77f-4c80-8603-ca486fd01c85
+waiting for async operation opid-4e3d42f3-f2d7-445d-b4a3-81d73ac0a6e8
+waiting for async operation opid-2f1015a0-b357-431c-8654-67abdffa2ebf
+waiting for async operation opid-baeb2346-07e0-4b17-994e-99eb0cd45073
+waiting for async operation opid-6a39820c-99d6-40a9-8a93-f5a8c64a133e
+waiting for async operation opid-21fd90bb-6e26-417d-ae70-b8ab2b1c74f5
+waiting for async operation opid-3a8217eb-be70-4ebb-aa42-fc7b36159495
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-dcde633a-d4b5-4b70-80a0-d27abd441182
+waiting for async operation opid-a6abded4-e181-416c-81fe-a1c0d0f33601
+Source address:     tmCGCzo32GNCCRe6f3CSGdXdYLJgYePi7me
+TX1 change address: tmETwKZaaZbZAU7S9fcEFyHi6cLL6Vr4xYB
+TX2 change address: tm9zcJ2Cd2kd45y9mtnknvcA5JU3oMZWJYv
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-e7b26e6b-5176-405d-b9f4-fcf9554b322d
+waiting for async operation opid-92e89900-15dd-4e12-ad1c-b28cd403b91c
+Source address:     tmCGCzo32GNCCRe6f3CSGdXdYLJgYePi7me
+TX1 change address: tmGnLpAwJFgvG7jEYAWcR3UHenoAs54pqBb
+TX2 change address: tmCvZerwUWDDgDeM9pnbTyR9DodtKmEpZU7
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-8b5771ef-2f4c-4990-95f7-6a6ae04ae8a6
+waiting for async operation opid-ebb83448-e151-47c8-9f82-bfbea935ab6a
+Source address:     tmCGCzo32GNCCRe6f3CSGdXdYLJgYePi7me
+TX1 change address: tmYD2ajF4dFEZLjBR3yCoX5VUxpNnaXVxAa
+TX2 change address: tmCQ3DjBR4dHgnQDw7dwKpUYgjALRUMqh6v
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (133s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testink_5qff
+waiting for async operation opid-1a0f939d-ff4b-48e5-9955-5c462486e871
+waiting for async operation opid-0ace0bf3-5178-4b85-987c-8be678622701
+waiting for async operation opid-93250935-8543-441c-ab01-39c2c7c00da8
+waiting for async operation opid-1d34dcf1-6d59-4317-90d7-e287b823082c
+waiting for async operation opid-e13f8264-3971-4d48-aab2-0eddc2e2f42e
+waiting for async operation opid-8c09c8b2-b160-464e-ba4d-9a7265f5d2d8
+waiting for async operation opid-3576cbc3-7707-4a0a-bff5-0bb6d93a087c
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-ed3da3f6-c8b3-4cfa-b4d7-4aaf61e2ae19
+waiting for async operation opid-dc27105e-9c53-4c4c-a90b-914d69e505b8
+Source address:     tmCscKqpESTiY1R6G5ZzYzSEQ78jXyMq5r3
+TX1 change address: tmUD3yo952xfepxmNBVouWBGhKKnxNn6gea
+TX2 change address: tmHUuiCtTJ8rEGtUF4N7yAtBiRDMX4t5Vx3
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-09368d7b-df32-42a0-8c3f-199dc1fcd301
+waiting for async operation opid-bc969938-74e7-41f4-867c-e29744b48f99
+Source address:     tmCscKqpESTiY1R6G5ZzYzSEQ78jXyMq5r3
+TX1 change address: tmNNVY7upDfU1YYjh49VRSk7G9ptkFavcu8
+TX2 change address: tmXTjG5WfuucKvs86XkFZLkusWDhh27XEaF
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-e4d29752-ad1e-4657-95fb-99d0729cf551
+waiting for async operation opid-5bcd583c-a206-42f2-a258-153c70285561
+Source address:     tmCscKqpESTiY1R6G5ZzYzSEQ78jXyMq5r3
+TX1 change address: tmRADyE6fxU4MaQnkzTNZXGWrs8hZEP445G
+TX2 change address: tmMtaDQi4QFQmYCRBHxsbD5wR8nyshsACSD
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (131s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test2xrmqd57
+waiting for async operation opid-ecd5f48a-67f6-4a7e-8714-96b316bf3ad2
+waiting for async operation opid-4e207e8e-c4bf-45f2-9c8b-d0d73e76acc0
+waiting for async operation opid-26897a24-6523-4bda-8f50-8ad6c0869d1a
+waiting for async operation opid-8f484254-bece-411e-b2e0-6bfd8944cca4
+waiting for async operation opid-4f2ccf30-ec8d-4a32-925f-b0e304dd8cc1
+waiting for async operation opid-910a5c44-bdad-4d37-a75c-9af85b79a701
+waiting for async operation opid-3928c1ff-a443-4f0a-8907-9c2031391a4f
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-845c6242-f34f-45f0-ba76-94766d30d1ae
+waiting for async operation opid-add8b97e-c2f0-4e07-9a7d-9e8f079cdf7c
+Source address:     tmY6Zi1xi7BKcT36PxD3Hz2jHESNXCnFDie
+TX1 change address: tmARo5s6ta1VGPMf7wzPxgkgtAMgoe28z21
+TX2 change address: tmX6L8Y8mvoVv2nP11AxEsUvhfLo9M2j2aG
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-5986c45e-4f6b-49cb-9326-c0266b75a51a
+waiting for async operation opid-0cfc411b-78f8-4c40-8fc2-cfb2f291551e
+Source address:     tmY6Zi1xi7BKcT36PxD3Hz2jHESNXCnFDie
+TX1 change address: tmXbtBHitYTA6MqV9qywhVLcaTA95oK5FLT
+TX2 change address: tmVmt68XYjgzMkqdPNUYTSezWs4Fw1pzftU
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-949d1797-b11c-4f05-8a30-b4ede388aac6
+waiting for async operation opid-74743c66-94f2-4ff1-a05f-261a31127852
+Source address:     tmY6Zi1xi7BKcT36PxD3Hz2jHESNXCnFDie
+TX1 change address: tmL8Jotk8cJyojdBSSTpG3137LbQJChaSpM
+TX2 change address: tmRuWToz6gAVeGhbUmYEuouBkcWv3JLGDXJ
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (132s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testd55v01r9
+waiting for async operation opid-be1640be-b7e2-44df-990d-442c3fe842ff
+waiting for async operation opid-e441184f-9cc7-496b-bd85-57c61c388dd6
+waiting for async operation opid-5be34e2b-6936-43bc-9595-93859c89f4b4
+waiting for async operation opid-5ecdbfdb-ff8f-4423-9f7a-c618bc5929b0
+waiting for async operation opid-2dd85cc0-6c56-4344-9b58-7c76ad834091
+waiting for async operation opid-457c9369-2d92-4203-904c-89bd5290cb1e
+waiting for async operation opid-af3e4c09-a008-41f7-8e1a-cc98ec54a234
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-62b7bf7a-3ad3-4b64-ae9f-fac78352654a
+waiting for async operation opid-51491add-2395-42fe-81e0-27877bb9da8b
+Source address:     tmRaPfEe5YzJstbToKLamKk7E8AGG5gokcR
+TX1 change address: tmX9J9cacEWQ9syoAkdd7mWc1UemSPRX8Jy
+TX2 change address: tmCR6kGbcMXzTpgi2pCoc8Z7ET9u57N3GyA
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-1a2b2f35-57d1-4f6c-8e1c-5ad23b679db2
+waiting for async operation opid-0bb14f46-4581-45cc-8f47-014acb1aa622
+Source address:     tmRaPfEe5YzJstbToKLamKk7E8AGG5gokcR
+TX1 change address: tmECYJD76bYEdJ2GFxESzQChStyFnT6p2uT
+TX2 change address: tmBgLx5qFK6MMCu9NCXkLxb79F7PLNKdyd3
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-e2946f9a-f089-4674-809c-52e5e4148223
+waiting for async operation opid-0b5bb287-930a-4c84-b0eb-d9d68992114f
+Source address:     tmRaPfEe5YzJstbToKLamKk7E8AGG5gokcR
+TX1 change address: tmNaf3YtgCho13BMR77mM31yocAJUxu68Dm
+TX2 change address: tmGUeXEiW3okAxQtCJ6Ta2BAK4efedeRpCp
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (132s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test8xy5veeq
+waiting for async operation opid-5d956e39-d3e5-4931-8e0a-c3b6fcd8f2ae
+waiting for async operation opid-0870c6ea-4894-405a-b253-5a82ce1ff79a
+waiting for async operation opid-ea219663-830d-46a6-ab30-0a26af14f938
+waiting for async operation opid-1846ec10-cb72-4483-81dc-24ae62363b29
+waiting for async operation opid-e9616483-d7cb-42dc-904b-69fd0a4b5072
+waiting for async operation opid-e5d2ab80-2b37-467c-9b01-1077a3e65a80
+waiting for async operation opid-d436171f-b65d-466b-8f52-1f6359e9c6c5
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-5bda959d-4be0-4f34-846e-2389355dcf23
+waiting for async operation opid-2f3e8876-89d3-4fd0-aef0-26a632823ec7
+Source address:     tmYkiyVu5SkUTZgKKLNCBrfrhKCtViE51Cj
+TX1 change address: tmFCdCfgtfxSRoESHkZtQ7SPRUF6kNYvHAE
+TX2 change address: tmGcfxBY2SQYntuK3eXerrS2QCd6nfL6ZTN
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-6b8e39fa-edd8-42dd-8662-f5e4fac88f9e
+waiting for async operation opid-174acf4a-e437-42a5-bcef-da9566727771
+Source address:     tmYkiyVu5SkUTZgKKLNCBrfrhKCtViE51Cj
+TX1 change address: tmN7EFE4wiqdRZcaPoiuDDZGjHpMuG7EAXk
+TX2 change address: tmEestU6JncQNrurJKkF7qTRpX9XdWSM9yy
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-a6311cc6-9bef-4c80-84f8-b3cb55a38755
+waiting for async operation opid-48874c88-eae3-4c2d-bd74-844641c0e113
+Source address:     tmYkiyVu5SkUTZgKKLNCBrfrhKCtViE51Cj
+TX1 change address: tmE4LRd7FrnU8fXJLav4iAVRjEFPMuyrLyU
+TX2 change address: tmGWcC8Vn8tt7eQe38DNafdYjj6g5JAbG8W
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (135s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testap7zwrp1
+waiting for async operation opid-8cb0ddee-bb0c-422b-bcb7-324e40f87a1b
+waiting for async operation opid-5e54b0d5-0e5f-424c-8dfa-dfc035bffc3c
+waiting for async operation opid-1a5d3af1-83b5-4156-8afd-3d38b5ad13fe
+waiting for async operation opid-88c1b1b1-ebff-4642-bcc1-33f63be29b60
+waiting for async operation opid-83d2e319-7117-42e1-bb02-976fc2ba878b
+waiting for async operation opid-caac8730-b9a3-406a-a9a1-f6c3ededf89f
+waiting for async operation opid-b3080b74-379a-4dc5-a66a-4471679a84cd
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-cda5c0bd-fe06-44b2-98e6-e224294863f2
+waiting for async operation opid-e7e3cd8f-c3e2-4e17-a583-0b290f0e480c
+Source address:     tmC8FtVvpjyfBUHBaEoPiRS8Ha1hZrNkJtR
+TX1 change address: tmL5w2x5BAgZmCLW52mxQHSfYgomwyvnTjX
+TX2 change address: tmD3RJsDjzEprhTq1Bbp3385rqNZKVC4nXK
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-a5ffd581-30ec-4721-967f-624f99b6c9cf
+waiting for async operation opid-8f8862fa-00ff-427d-b34f-15ba91a77bb0
+Source address:     tmC8FtVvpjyfBUHBaEoPiRS8Ha1hZrNkJtR
+TX1 change address: tmT6Ti96jvct5FBV6nLTKCVj2pyx7pQVggW
+TX2 change address: tmBzP8t9fm7DucnafoNUxwJxESHMkf7KRgB
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-591f14ed-3700-4e9e-9c86-8e18715f019b
+waiting for async operation opid-21ec2f36-7284-4c4d-908d-4d7c8d4ba973
+Source address:     tmC8FtVvpjyfBUHBaEoPiRS8Ha1hZrNkJtR
+TX1 change address: tmB8o8icEC6qvLfKPCj38uvGrF3Q7Pzzr77
+TX2 change address: tmArFbpEQ4ffAic2CTb8DKdXCX4dsc58HEA
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (145s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testoj2jdgne
+waiting for async operation opid-bab4f5f0-938c-437c-81d1-ae241d1cedf1
+waiting for async operation opid-f4872962-1fa1-4719-b8b1-9e5fafca78e5
+waiting for async operation opid-1b4ce7b6-f9bf-45e6-a1be-85cca3742ce3
+waiting for async operation opid-c141e640-1fbf-45a5-8fe6-e2197ffd7989
+waiting for async operation opid-d947fbe5-671a-47bc-afe7-cbba97fe8e10
+waiting for async operation opid-0ad1aed9-9b82-4047-8617-c52da7d390d9
+waiting for async operation opid-aca1000f-6ccd-43b7-a974-d0a6df4fe452
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-ffbb2ed8-4a95-42da-adca-7f410fde0b74
+waiting for async operation opid-8fc863a6-e003-4b87-988a-0adc904f2e4e
+Source address:     tmDdEBc6WoV1nk9MjW2mfWpESFrAxGatLYo
+TX1 change address: tmAVFJkwN5CVaqdTULr1K2xshjy38i8deY8
+TX2 change address: tmWrfnjMbELqMggbiXajars66GF8VkEuDxV
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-b9832bff-66a2-490b-9dc4-4abf82db32db
+waiting for async operation opid-856b7d19-f820-46eb-9f34-7bb378442e77
+Source address:     tmDdEBc6WoV1nk9MjW2mfWpESFrAxGatLYo
+TX1 change address: tmHzGfJkZFbaWH8wGHNCrAdBFSddW2vcRmy
+TX2 change address: tmYGER1es2uXnCXhoFS84sWMe6kDNSQSomi
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-88ee0311-0d84-4161-9aad-052d900db095
+waiting for async operation opid-87102efa-e85a-4b07-9ca2-ba93cd436e65
+Source address:     tmDdEBc6WoV1nk9MjW2mfWpESFrAxGatLYo
+TX1 change address: tmEBsSsdniphye4n5xxY1gAeLrFbaL2Srwq
+TX2 change address: tmATrirasaMdvwMmoBjzgPnMDEodmonDtue
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (146s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test6ekcttcj
+waiting for async operation opid-5b520300-afd2-4a6d-871e-833d231cbac8
+waiting for async operation opid-b6439d20-8a6a-4c28-81cf-9a5474c05c63
+waiting for async operation opid-7f04115d-7e06-4757-a2cb-39239c07b97f
+waiting for async operation opid-8e6c3d94-5e92-4e2e-acd4-48db73025512
+waiting for async operation opid-012f85a3-c2ea-4ede-a24c-15958e21df4e
+waiting for async operation opid-f243ea92-5598-4e0e-b6ae-609ea973f537
+waiting for async operation opid-b34ffbf9-d845-4041-8dee-c350ec18d6f4
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-ae3ce65d-99cd-4f78-8a61-3feda7f85533
+waiting for async operation opid-3d7e5705-17ff-445d-9407-287d586378bf
+Source address:     tmRXL7QuZEtnzTdcKZdpbq1dPZzCkPhCgMi
+TX1 change address: tmRdLEZa4WgMJPUuJnBt3vGvPFuCqNnEESa
+TX2 change address: tmJUKTxXMdQKa7mZsa3xWo8AosjLrQuYoXS
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-77bbc9a5-31ad-4271-b8f1-c481c1f88dca
+waiting for async operation opid-b7953c52-05e4-41e7-9f4b-0ba38d281a27
+Source address:     tmRXL7QuZEtnzTdcKZdpbq1dPZzCkPhCgMi
+TX1 change address: tmMoghDLbvKb5CyZHGXnZFE47UW3ac2hKAH
+TX2 change address: tmWn3SLZTvSx1Zjo8mirGSFAciQ7oPDaEiy
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-d3190b4d-5963-4405-af4b-c999638b77c8
+waiting for async operation opid-b040f034-7db3-4942-82e6-5db32b53e64e
+Source address:     tmRXL7QuZEtnzTdcKZdpbq1dPZzCkPhCgMi
+TX1 change address: tmL74N4AgAgRvTHJCbUjRzSGCYATt7WBSUR
+TX2 change address: tmYrA3uFc9XaZvxRses4SJPuX6FjGKu5dQP
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (143s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testy_7x6uzb
+waiting for async operation opid-0051b3c0-01a2-4b9a-9e47-f881b92113bf
+waiting for async operation opid-585d28c6-5ddb-4534-8162-6013f53588a4
+waiting for async operation opid-e5f35d13-422c-42a2-95a9-f188c79a2599
+waiting for async operation opid-2a8918a6-19b9-44a2-b2ae-d013a29c18c0
+waiting for async operation opid-01787b93-959b-4976-b96d-980a70907000
+waiting for async operation opid-c4a369f4-3f11-40e7-9737-26dbab2f0cbd
+waiting for async operation opid-c9da87d5-a4b8-4c0d-a652-5da018365844
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-903d2625-5b40-467d-bbbe-b42a74d8451e
+waiting for async operation opid-1ddf8695-679a-4b8a-a86b-fd192af19e96
+Source address:     tmU94aBbCF1PFKs5bVj8ZdnkEAxVEDo71Mv
+TX1 change address: tmQ5ftAweNNgwtreQFuUAATxz7yEpCqBxFB
+TX2 change address: tmWDpduaafmmmjk2aRrPqaRzd1ykrw1ZwqB
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-d38da2b8-1253-471d-9e00-8d09bfd616fa
+waiting for async operation opid-b28566ae-0b6a-4108-ae0b-5c0747529d0a
+Source address:     tmU94aBbCF1PFKs5bVj8ZdnkEAxVEDo71Mv
+TX1 change address: tmVBFhsMh5XuEKanpLfcr7QEv676nEPLdd9
+TX2 change address: tmQoaNnQPaXKbirJqFEZepuiJYZic4KkXyG
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-6a767a82-50bd-41dc-b959-128a90002951
+waiting for async operation opid-a0f01b2a-1e21-41fa-a728-384dbd1727ea
+Source address:     tmU94aBbCF1PFKs5bVj8ZdnkEAxVEDo71Mv
+TX1 change address: tmGj3jBiasbLG3Qg8atwfquoDfYRfi163Sf
+TX2 change address: tmTxx3xP5YKyeXUpYcHiwH8eK756bFbH4v2
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (156s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test3d05nbzz
+waiting for async operation opid-be736594-09c4-4b07-bc21-5e0d1de620d8
+waiting for async operation opid-6b524e91-a8d5-4acd-a1d6-26dfe7d8c1d9
+waiting for async operation opid-5fcbbb73-7ec0-4967-96e9-0cdacadc0a4f
+waiting for async operation opid-38cf9eb8-4d8e-41a8-8b40-bcb05f3c9ce7
+waiting for async operation opid-b866e422-38fe-488e-8610-743c96e7fcc7
+waiting for async operation opid-c042f20b-3973-4f60-8e67-0a7ed6cf81ec
+waiting for async operation opid-b34504ef-bd07-42b4-b761-156e371ab714
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-964c1059-d1b4-4e36-b16f-1821c8c08732
+waiting for async operation opid-581c5771-131b-4f10-9d5f-9023bb7aa09c
+Source address:     tmBQJtf2azQfTAsvUFuxSFQom4enNZRFjkQ
+TX1 change address: tmS2XdqgLgopY5UKdydPyEg7HAnY3sdJTUt
+TX2 change address: tmCVEwXyBFLupxTQHckBtZBZUj9aFVo8F95
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-d69754f6-b159-43c4-97ec-d7e457dc468a
+waiting for async operation opid-33c38738-0a20-4e6e-a2b8-d7abefa91730
+Source address:     tmBQJtf2azQfTAsvUFuxSFQom4enNZRFjkQ
+TX1 change address: tmJpnEinB1w7oPKMKCAkKw1pukvViCn38Ft
+TX2 change address: tmBy1EeKoTG58uQyZRirjNmhjK3SHeTLtEj
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-cf43ed51-1454-4039-b416-e785a0588857
+waiting for async operation opid-fc4fd8d9-e648-43a8-bcc7-9112f43a5159
+Source address:     tmBQJtf2azQfTAsvUFuxSFQom4enNZRFjkQ
+TX1 change address: tmB8kn8JMNkbbWd5HnhXB5j6EgFCx1bDvuU
+TX2 change address: tmEaGwQZPUYpefJFVRFSuqyy4cjELhxF6RL
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (134s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test6s9_i7i3
+waiting for async operation opid-aded1a13-7404-42c0-bdb8-826ee94ca579
+waiting for async operation opid-cdd24a77-742e-432a-ab01-342ad9059c36
+waiting for async operation opid-bbda025b-b4a5-4ca0-be76-bb88e4821ba4
+waiting for async operation opid-d4b25e23-4291-4fde-b79f-69c709b7c190
+waiting for async operation opid-7767f88c-a76b-41e6-b3da-fc3268168d0c
+waiting for async operation opid-a7ef9107-6451-4f19-8ead-dbec50273e54
+waiting for async operation opid-7d96eb75-dcd6-4f67-a222-2fbb572632e2
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-6b0330dc-9546-4bcf-8d67-4c1445935483
+waiting for async operation opid-a4ceb6b6-d165-4fde-82ca-256f6033c128
+Source address:     tmLFDTbSvAxxbdJdPXaF8cJz7e8ziBuvwxx
+TX1 change address: tmEFXD4wYcx86UPYZjFFYrpCd4MHov9KaCe
+TX2 change address: tmPXNBj6zebZKaXrCvrDVrTVktXs6tiAJhd
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-8bb89b9f-679a-4255-9fd7-24bb47c55875
+waiting for async operation opid-5583e3b3-c8f7-4087-af74-c525ec682426
+Source address:     tmLFDTbSvAxxbdJdPXaF8cJz7e8ziBuvwxx
+TX1 change address: tmNpd9hADkYJ1C2oecKUKHJPSFQXRJgtgZ1
+TX2 change address: tmNfEiF13fXVbfL3xEVicPY1qn7gRRFVe9W
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-578c577f-d808-4498-b199-34ab66678c05
+waiting for async operation opid-6ce00d77-12e9-4d8c-b8d2-d37d1e75fbaf
+Source address:     tmLFDTbSvAxxbdJdPXaF8cJz7e8ziBuvwxx
+TX1 change address: tmEj4i8TofQWtQQoiDf9P9ttoFFbMzr2adq
+TX2 change address: tmGbnigTPjecHW3FstUAZ6aBBYYLy1XCZwG
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (143s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test_g1hszpy
+waiting for async operation opid-69832908-a807-4865-8513-d1d339816a16
+waiting for async operation opid-426fcfb9-ec58-4aef-af3d-92d5a3d66483
+waiting for async operation opid-54da35fc-3cf4-4247-920e-52b071597153
+waiting for async operation opid-5ded65ce-017b-4352-8572-fdd097c64210
+waiting for async operation opid-39deb236-2fc1-4494-9b84-38b77facda14
+waiting for async operation opid-4b7ed3f0-6c54-445e-9b51-e12e9901f51f
+waiting for async operation opid-f1e92a8d-10c0-4aa0-975b-eed9f7aa4978
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-89a12428-3361-4c48-84ec-a0eebcbe0a83
+waiting for async operation opid-cda92047-e717-4855-9fda-c428c0e458e2
+Source address:     tmHymaAWNieJhG9kn4ochmHGcyTCr8eqfN4
+TX1 change address: tmKErj1dmx18ibCHVmks1F6M9GnfiMDQRw6
+TX2 change address: tmE4nkRocjhumCoi7xic5vdwtW5uMWtYUeb
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-96c7f067-092d-4c53-9495-9fe093c5bda8
+waiting for async operation opid-582a8943-e591-4141-9b6e-0cb384ee4b85
+Source address:     tmHymaAWNieJhG9kn4ochmHGcyTCr8eqfN4
+TX1 change address: tmWmDhB67A3EaHbSyxrJvS3Lp8MEienWRF6
+TX2 change address: tmRNxNmjrEMLDWiCCmP9bZv79qCH9qzWwQS
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-88bb2323-5bb4-4245-a81c-8b9554922a57
+waiting for async operation opid-c150d401-9eb0-444d-b3ea-a5bdc6bec8d7
+Source address:     tmHymaAWNieJhG9kn4ochmHGcyTCr8eqfN4
+TX1 change address: tmYqjMtLhMginuRh9qLQTdrG4aFxUaAmtC1
+TX2 change address: tmE5fGPoTZKX5g9cANVLVsvx24bsdyFavFW
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (159s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testjc_brg_m
+waiting for async operation opid-334fb665-c29b-463f-94f5-fcd0a88c5c4e
+waiting for async operation opid-31b989a6-97b2-437f-abfa-d545b07b0745
+waiting for async operation opid-96585b8c-69ba-46e4-a259-f7be4c8b80bd
+waiting for async operation opid-98a40a11-7f19-4016-8f09-84ac32f032db
+waiting for async operation opid-4939dccd-7c23-4c45-8d11-b0767d77375c
+waiting for async operation opid-39d9b215-7bb5-427d-ae42-5d27c3c4d8ae
+waiting for async operation opid-c76f923e-9010-4d29-aafb-d6dd287b7d2a
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-bc1b25ab-940d-423c-916f-cd1d468528e8
+waiting for async operation opid-f8b96123-b99e-42ad-9806-3758c39d667a
+Source address:     tmP5B9XkFiHkGCKSeBPmP86Pih1PB8Xu7nt
+TX1 change address: tmBm84fEuUPVPDy2hyLwhA5EVJKiJhk8qZh
+TX2 change address: tmCae6MJDfn41iMstjdL51JyTFmo89V7aQu
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-1b145661-8fd9-441a-ae87-14e8e5a0a6ae
+waiting for async operation opid-78366e01-4ba5-484f-8999-19b3c60c4e5a
+Source address:     tmP5B9XkFiHkGCKSeBPmP86Pih1PB8Xu7nt
+TX1 change address: tmX3p2r5wZ1dtJS39qv1WcBZdamhCMe3bFk
+TX2 change address: tmPsQ6RALApcZCWPbmGmQiokdTZA5X8amXw
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-c34f6d5d-5463-4ec7-8b97-fbabd93e2a78
+waiting for async operation opid-db27a6f6-864b-4931-a38b-a8539b08d77c
+Source address:     tmP5B9XkFiHkGCKSeBPmP86Pih1PB8Xu7nt
+TX1 change address: tmEH3sxJFewYXkAUBNBWZEn7Rxky2kJXW1n
+TX2 change address: tmBSxaEm1UGtXzXk8Y6zMX2MPV7azGQBPg7
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (142s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testi6hpyo1i
+waiting for async operation opid-7e5f3b0e-810a-4a9d-9dba-44038499185e
+waiting for async operation opid-9301ff7d-bbdc-40b4-b793-ae38c620d15d
+waiting for async operation opid-53d7aaa7-0729-48d3-8ac7-6aebd5678b8a
+waiting for async operation opid-735c2e05-c830-4ec0-8da0-736d4a5b6572
+waiting for async operation opid-a3832257-8471-4adf-9536-df2ec9534810
+waiting for async operation opid-8bdd46b3-07cb-4b29-8446-6386c2f546d5
+waiting for async operation opid-a252857d-4164-4e11-ab39-f2013444fb87
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-9f828177-acaa-46f4-b2d1-5ee9257e746e
+waiting for async operation opid-30d98e9e-d530-40c7-995b-48be392bd243
+Source address:     tmNzgga6jMffuwDpa3accM37LWixE7CDrwc
+TX1 change address: tmG1k2NWay7zw3gwZUAwtfNt5xdc9sSFWcu
+TX2 change address: tmUXKgTiozGgCBdoufnqKcz8zAQSxauTWDG
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-d87b96ae-46cf-47dd-8fef-5cf9f6f07aff
+waiting for async operation opid-72d66d07-9cf3-4632-9daa-05f2d7ae0f7c
+Source address:     tmNzgga6jMffuwDpa3accM37LWixE7CDrwc
+TX1 change address: tmVGnP8GMbid1yspbAFVCSZspajHuhVwEA9
+TX2 change address: tmFkXHHFWKYW7pw7BhJVtvYPXbcK62G7ogc
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-58c98248-0af1-4c81-bdf4-e800c1587625
+waiting for async operation opid-eab53900-2dfd-41c0-9c04-53895e6e332a
+Source address:     tmNzgga6jMffuwDpa3accM37LWixE7CDrwc
+TX1 change address: tmYFh6qe77Qq1hA2ityd2yrAKpwqtjf14dg
+TX2 change address: tmPfAqt1pkUkLcfqSx5MBmbcQFej9YawPFL
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (149s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testx71qibo_
+waiting for async operation opid-4391af19-26fe-4c09-bfe1-ba4d12410363
+waiting for async operation opid-6a4828f8-5e2a-444b-ac3f-e0787beefe2c
+waiting for async operation opid-4870aab2-52b9-44f7-aadc-7b219ae14919
+waiting for async operation opid-09bc9ec6-a300-480c-a156-a900872759ef
+waiting for async operation opid-f1c0522e-a4ee-4a2e-8713-50f0944664cc
+waiting for async operation opid-344749ba-29f8-497d-bbdc-334f26040ce5
+waiting for async operation opid-566a73e1-4006-4929-8db8-30671a8c1a7b
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-d67caabd-bee1-447e-8a1f-0ab02e57ac70
+waiting for async operation opid-c8e95d40-524f-448d-9572-8c2c890c8770
+Source address:     tmVn31fQNqLkjZnmoJu2fp5Ug9qqTqUyq8W
+TX1 change address: tmJAA2BR7Q3je9ykhaC8Q225ycnBXTeZhWy
+TX2 change address: tmCHv8LRid4pm4krQi9WYYHiqQGv6LdMAwZ
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-de8accd1-b2f8-4cd1-9054-26864d2a798e
+waiting for async operation opid-62d58e0f-272f-493e-a7e2-060a4d94cc54
+Source address:     tmVn31fQNqLkjZnmoJu2fp5Ug9qqTqUyq8W
+TX1 change address: tmKQ5p5H3dj3ESJRAhYh113iuWzPZTfafcr
+TX2 change address: tmHY7owZ1Dt7qnN3jfpo1odf8sqRwgDgdMq
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-7a6e0049-4e90-4538-ab7e-8d99f3c0a045
+waiting for async operation opid-7cdaa7dc-6dc8-44b4-93ae-6a50c80fa723
+Source address:     tmVn31fQNqLkjZnmoJu2fp5Ug9qqTqUyq8W
+TX1 change address: tmGxpoD3FSUYwHnGdkzMhMhEa9fYGCE2dps
+TX2 change address: tmPzC65psPhQhhEojCdAXBcL5DBiU4MN4Lw
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (246s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testtz_faomd
+waiting for async operation opid-93ca9187-fcf9-4f11-aaf6-27793c6df81f
+waiting for async operation opid-3aa47fee-5fa6-4f6e-8ba8-f72a12c800f2
+waiting for async operation opid-b2f436a2-cd0e-4c88-a20e-bbafb514a062
+waiting for async operation opid-342752ea-d452-4338-b5dd-05e968242090
+waiting for async operation opid-6ddb9c94-0649-4c91-84a8-44ddbb03f208
+waiting for async operation opid-a3b55399-ef44-4a14-94bf-37e0eae6d7d2
+waiting for async operation opid-b0d9f64d-22e5-457b-9d25-db54927afe22
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-9f6ce7f1-7dcf-4853-a059-71dc05059e33
+waiting for async operation opid-a02708cd-176e-4e67-820d-f0d96bf976f1
+Source address:     tmWiKuHzwFFL2GGgn9xbn7v3ChXWHnCkFts
+TX1 change address: tmESfC11tUsg3L5GyVAmtjFre8RuTTC7c7J
+TX2 change address: tmHCc7nSwodADgRnRoLFfYNvXMnhyX4USCL
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-f844505d-eb8b-4e2e-abff-488a48ba1275
+waiting for async operation opid-3074ae93-1dec-4d18-a9fe-badb9e2e4ec1
+Source address:     tmWiKuHzwFFL2GGgn9xbn7v3ChXWHnCkFts
+TX1 change address: tmA9B3NATLXZKLd63p2sKVWzn44unPJ48BN
+TX2 change address: tmUB5gzzq5FGCDt7E4ggPQEWcVtbVJQ91gZ
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-15cf8c68-0c69-4440-b0a8-362439ee07f0
+waiting for async operation opid-bbbb8a5d-5e4d-4213-be01-cb33c4822188
+Source address:     tmWiKuHzwFFL2GGgn9xbn7v3ChXWHnCkFts
+TX1 change address: tmPfbPLUhZbVDnrtgBveikFcmBMoJvTWtpE
+TX2 change address: tmY5X4k4CdQQfRDkVy9knd4d83pLNevu7Ba
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (247s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test6p8u6w3j
+waiting for async operation opid-3de8ab62-abc6-4f32-b999-18b0b00c86cd
+waiting for async operation opid-2997b26b-9629-496b-b88b-477834c9c849
+waiting for async operation opid-ca2216ae-d0af-40b8-b2a3-ad12bc44805e
+waiting for async operation opid-2b7381f4-530f-4d52-bc70-8dab52ac6ab9
+waiting for async operation opid-6087f4b0-2378-405b-8b97-e5019cc200b3
+waiting for async operation opid-0c8857b3-d6cf-4d6d-9bfa-77e82cdd0cce
+waiting for async operation opid-5fd6b7a1-3615-4634-a784-c2fa72ce44a0
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-4c759907-0873-42ca-b6c4-bbb8f02173c2
+waiting for async operation opid-eca6312c-238c-4263-8a95-e44120a62530
+Source address:     tmWB9CDbEX6bHhAdAimch71CGUZvtRNVo6u
+TX1 change address: tmGSKEiDoUEAZMUUxSMsJDtQV43SWwdBN33
+TX2 change address: tmXcGF6Ahnd9Wjk32HmqESpvoBqUXAZaruX
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-76273ac1-3fb5-4824-bb55-ea0132757105
+waiting for async operation opid-0d99a605-94cd-4f6c-9d24-3dd60958f69a
+Source address:     tmWB9CDbEX6bHhAdAimch71CGUZvtRNVo6u
+TX1 change address: tmTacurLn24VSE8nuEN2aUasxYeWjbDKgsk
+TX2 change address: tmWB7WmXMM59SrdLbB8XRkrGTze1b9ZMzrQ
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-61fcce3c-1ba6-4ace-b15f-029d9246a283
+waiting for async operation opid-53b04d4e-5be8-44aa-bd96-983783d84d2c
+Source address:     tmWB9CDbEX6bHhAdAimch71CGUZvtRNVo6u
+TX1 change address: tmEeTRBosY8JC6ktrfJhREzYtjJfDA1Gov3
+TX2 change address: tmSPK6hqW3MxL74vJrqjEg5gS6mTNBUboPJ
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (259s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test6en5jdu6
+waiting for async operation opid-9e5b90bf-7640-4461-911e-5fe0463d0b03
+waiting for async operation opid-7fb36419-94af-46ac-ae3a-f1a308f0e003
+waiting for async operation opid-73fc2783-9e2e-450b-8a20-9f21dc30cd8a
+waiting for async operation opid-c1993d73-866b-427b-96b5-d8c9965d16c6
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (38s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testp9mjzmpl
+waiting for async operation opid-6bffaead-898a-4e56-a9ef-de1f835ccf92
+waiting for async operation opid-9d60b5f0-d86a-49d0-8fe9-dd775e58e598
+waiting for async operation opid-807bd2ca-7c92-4ae6-bdd0-b80e3128f481
+waiting for async operation opid-47dc8b9b-03f4-414f-b273-8cd1e7b8a266
+waiting for async operation opid-f483fa77-f160-4e30-bc4d-0330cc8a013c
+waiting for async operation opid-74f1368e-e700-4426-a53d-5af8bdc424cc
+waiting for async operation opid-9902126a-c903-4255-a8c7-cc7ab23c9c04
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-b88847d4-29a5-4e44-a4d3-a182250c292f
+waiting for async operation opid-d5d32dd5-6442-46ca-b6d4-9600801a2184
+Source address:     tmNcibkEFepmd2XVyRhME9P7CfQPYKCPZca
+TX1 change address: tmWsmYZsNqKBfbQwvT3AcqezBetBhJEHPvY
+TX2 change address: tmAsZBgKRC2117p2KDYL8nm178S18KrQyY8
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-054296c9-c9f5-4593-ba70-5f15f2a327c7
+waiting for async operation opid-ac9af987-5edf-4b59-8ac1-771dd310e37d
+Source address:     tmNcibkEFepmd2XVyRhME9P7CfQPYKCPZca
+TX1 change address: tmQ4Tb9tDSbCKKUbr2mqvh3zjJrUQ9XE8Mx
+TX2 change address: tmU3DLxSAjsaWSjbK98i28YqdLqPieLtjrP
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-cd9cdd90-1714-4180-8e1c-5eff0d3719e7
+waiting for async operation opid-e3d502ae-cd56-4271-b11c-b73c62402027
+Source address:     tmNcibkEFepmd2XVyRhME9P7CfQPYKCPZca
+TX1 change address: tmFcqhuKKcuF9ZtQmokPJTYw3RquWcJWQKZ
+TX2 change address: tmMv6YRH1tb8y49fHhcbMRVD8r2r6XQUP6W
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (135s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testmnszdl_1
+waiting for async operation opid-9f39723c-9ba9-4188-9468-986179424cad
+waiting for async operation opid-78794d25-1b93-4008-a8b8-357d367453ef
+waiting for async operation opid-5369b9de-30b2-40c1-a710-6157ae2dd941
+waiting for async operation opid-689f4dcf-2471-40e7-b689-bb6b06ce1e38
+waiting for async operation opid-5bd7881a-94df-4736-a26e-108b1064d527
+waiting for async operation opid-06946e21-9fac-402e-92af-991716884c1e
+waiting for async operation opid-b3714d80-4305-4c29-afc5-4ce22deb612c
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-0451a3b4-9119-4fa9-a7f4-2299733fa7f4
+waiting for async operation opid-82481c90-4f0f-4801-90e7-fc20e39139ee
+Source address:     tmWBtukGV112uSir2SREkfneWAWsZVG4Kpr
+TX1 change address: tmM5gfb3KTiYuCyWfsTjXqPbT8v9uLQ5Ga5
+TX2 change address: tmNvYfvnb2dDJhTi4gwsa7PmmLKEgnpUwt9
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-a4d9e2e4-fcd8-41f3-8395-a1f5736b7bcd
+waiting for async operation opid-0ad6a3a6-412a-4afc-a438-685db5aef7a7
+Source address:     tmWBtukGV112uSir2SREkfneWAWsZVG4Kpr
+TX1 change address: tmEetYo54YpwhRsUmrXQepWBi8QApZ6hbF7
+TX2 change address: tmMvrixCmMkJafdqA6X58Vhc8f4MufCBc82
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-f318e3f5-8375-400a-9534-2dc84c44a937
+waiting for async operation opid-958874b7-82ae-46ba-818d-7e55bc366273
+Source address:     tmWBtukGV112uSir2SREkfneWAWsZVG4Kpr
+TX1 change address: tmAG8NFECED7R1pw9ZUmhhUEhvF9iAjSn8t
+TX2 change address: tmAPMUFpy5bcok5jKRAL71pYzf88krMKiwh
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (144s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testber46t3g
+waiting for async operation opid-b1c1f204-0409-4ac5-a817-ea6771cb29a0
+waiting for async operation opid-71e3dab0-2273-4681-bbf8-e060f492f2d9
+waiting for async operation opid-2155a724-ebb0-4dfd-9200-4cd092c5b226
+waiting for async operation opid-fca53e86-766e-4727-af1d-3a4692eebb03
+waiting for async operation opid-ef4fc2b3-6d30-494d-b5ef-315b19ae6bc4
+waiting for async operation opid-02127b12-f6a6-43b9-9c34-5135b1ae1595
+waiting for async operation opid-4c0b0762-06c5-455a-8e2a-7e0af9f802ba
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-b04b5e11-ca6a-42fa-902b-023341967025
+waiting for async operation opid-90d8de42-8872-43f6-869d-38db1dca1edc
+Source address:     tmCmKdFQdM6AhioLor56cgv5kPRNmQqykTW
+TX1 change address: tmBJZ2GqMUnP8PABUobMZhouBGEYnYHf86q
+TX2 change address: tmCkmHgcDL1KhHa9oMA4oz4JrYzdPejqGm6
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-5f044c3c-7f00-4d2e-b0ec-df0f8888b8c8
+waiting for async operation opid-6c08fe27-dd56-4baf-8d64-a410e4cc13f3
+Source address:     tmCmKdFQdM6AhioLor56cgv5kPRNmQqykTW
+TX1 change address: tmSX3qJrFKV5PoGFz8iscjoy4mLMUkYFjoU
+TX2 change address: tmPiX3nZFseZL4sE5Wai3wPLUsrjgQgTAAK
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-25666dfe-dfcd-4264-88f8-74c151aeb114
+waiting for async operation opid-0af1b2e3-b083-416b-891f-f0d9338f378f
+Source address:     tmCmKdFQdM6AhioLor56cgv5kPRNmQqykTW
+TX1 change address: tmVSrQSCmvPYdbNdwM1oHQ1DZt3muf1QJKe
+TX2 change address: tmYtPzmv3T1Y6QhbKSpqcHTNLyhVHuS77ax
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (132s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testj91qkhk5
+waiting for async operation opid-12d33c1e-231c-49a6-93ac-5638b3fac266
+waiting for async operation opid-2d940127-d097-424b-b73f-558ce723927f
+waiting for async operation opid-df9bd317-5d36-4ddd-bdbb-60961cd6cc0f
+waiting for async operation opid-6151d0a7-6d05-4e36-a3ec-4f9e4d36f096
+waiting for async operation opid-6bfe9f50-113d-43ef-ae04-a1e8c13a667f
+waiting for async operation opid-33f0a00e-3a16-4aec-a194-92103a1c8712
+waiting for async operation opid-b8a774c6-246a-4334-8dd3-eab60d9a34d2
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-d727a082-604d-4880-a68a-21f6090c64c5
+waiting for async operation opid-4ab3b7c0-a610-4d1c-ac93-181fa5d907dd
+Source address:     tmDXxt1m9WPrkzbtuabVqLeimLx83EDti3y
+TX1 change address: tmH7jUBpSc4hiNYs6b4pq7QULHXTzS1yfhi
+TX2 change address: tmKdqW8XkT4NSCGbEtQWpinN1yWYKT52aMg
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-27272d5c-addc-441e-8bee-e23849185737
+waiting for async operation opid-a4917389-2042-4222-9c51-27a06d4be8f6
+Source address:     tmDXxt1m9WPrkzbtuabVqLeimLx83EDti3y
+TX1 change address: tmSezgWvYBeqX74q4dpYoK8zLmuXWiR49W4
+TX2 change address: tmDSkNXyffhTY45gMJnGKp4RLR9chc1YSj6
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-9639df6f-50e0-4583-b16b-c7c6226a4176
+waiting for async operation opid-5dd50dc3-472e-4dc1-90f0-bb73d02eec4f
+Source address:     tmDXxt1m9WPrkzbtuabVqLeimLx83EDti3y
+TX1 change address: tmGdEQTSmB64Dpx9W2GNxifGFZvC62bttzY
+TX2 change address: tmWxeZJAFH1if6Rq4avZXk3LRVFtc87vQRM
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (132s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testk3bsdaw4
+waiting for async operation opid-5f1a8195-b235-4761-8f20-eef8f26e9684
+waiting for async operation opid-7c4dee91-7e5c-479c-9a5f-5588fc873f7e
+waiting for async operation opid-f1235daa-033e-40e3-ab13-e22b655a45bb
+waiting for async operation opid-911563dd-45e2-4621-aeac-63c8ee5a0ec4
+waiting for async operation opid-5734d4d4-3226-4aa8-b2a5-d269c8326901
+waiting for async operation opid-d62552fd-9320-4758-81c5-22743527b308
+waiting for async operation opid-d72ac994-e725-4f6c-bb43-36a002bd644d
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-26ef8b7c-4fe5-4492-83de-d90bddc7d789
+waiting for async operation opid-cd25310d-681e-40a1-a084-6f131f549110
+Source address:     tmQbw13mk64a85SSM1tjQEJx7HFVbeUyjNy
+TX1 change address: tmEDcdNuhYLe3E2Bv5MpKnrXj7fZaBWfVMe
+TX2 change address: tmTS72xWX9UKD763MPAbN53Qqdggc6fLNs2
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-e3c5bd84-391c-4dcd-9e0b-0564a3b328a9
+waiting for async operation opid-dc46c4c7-78c2-4813-bb9b-b85a207c172e
+Source address:     tmQbw13mk64a85SSM1tjQEJx7HFVbeUyjNy
+TX1 change address: tmV83WrLYSxG46zip7RfijBpBSXW7QipTd1
+TX2 change address: tmJBL53d8L2mnnzoAkmUhTVpNKtg1UHwS1B
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-5aab1a7d-203d-42ca-9cff-32b1aeace1a4
+waiting for async operation opid-5ea7bd7f-4779-401e-a1e4-47b09bb26809
+Source address:     tmQbw13mk64a85SSM1tjQEJx7HFVbeUyjNy
+TX1 change address: tmL12wwgLuRSykdwHmYBe4JT8rir3oYvCKR
+TX2 change address: tmWsj3T46TREcyVu5n7n22E7JBNZ39e5z1d
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (130s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testt526inwo
+waiting for async operation opid-71238f82-4103-4d24-98d9-24bc2295bddd
+waiting for async operation opid-42cc1431-e384-49c2-ab9f-e3e4424b1bd8
+waiting for async operation opid-d148fbbf-0c41-4712-8921-67a417b2b8e9
+waiting for async operation opid-6a0a4ed6-6680-42e2-9495-15b69ba4ac2a
+waiting for async operation opid-1acc1278-4941-4ff0-ab43-31c07a2c445a
+waiting for async operation opid-dc06216a-ae06-4a88-8204-bd67c0aae2b7
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (39s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testw3k119zz
+waiting for async operation opid-5227d4ac-345f-4f09-a762-f13e9d5154c5
+waiting for async operation opid-819f96d6-712f-4d7c-8898-cba317601396
+waiting for async operation opid-96250652-016e-4e62-bf37-c9b7dfb917e9
+waiting for async operation opid-9f59dff9-5834-4728-8f5c-f7b4431f10ac
+waiting for async operation opid-b128baac-06cb-42e4-bb15-8b62ecb0d25f
+waiting for async operation opid-47f90795-a63b-4d96-88c1-53021fd3433b
+waiting for async operation opid-39b9935e-3b44-40b6-afbc-4b4b257a2a26
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-ee082d9d-2606-4406-9473-c23b2d1ea5e4
+waiting for async operation opid-d6a6d1c6-c531-418c-abfc-9939553d424a
+Source address:     tmCCTtgHRQ2AR7mdsGpyw9S31Bzg8FjcL5M
+TX1 change address: tmUQVy1iT1ewD76hhTZL6WfoPwvHCNMQtxG
+TX2 change address: tmHT6H9mBcwPUTwKsWdVDMi41j2BGNr4RuV
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-897b6025-ac8f-4606-b3de-c486d555950d
+waiting for async operation opid-17cef03b-4707-4eeb-bb21-c3c32601be5a
+Source address:     tmCCTtgHRQ2AR7mdsGpyw9S31Bzg8FjcL5M
+TX1 change address: tmAonwD2rQRLASQb8xGbQTjF5jEG9TNzeUz
+TX2 change address: tmAsWE7ZAUgLMa5ngaHjBi1ohnaeVzKMJkU
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-e89eed21-bd6e-45a1-a4ae-761ca74517d3
+waiting for async operation opid-ffa1594b-0efe-42b7-96a9-05fb34ea4a54
+Source address:     tmCCTtgHRQ2AR7mdsGpyw9S31Bzg8FjcL5M
+TX1 change address: tmQRrnhQMeA3cpZPJSwyDWKEPmYfhTNZNzS
+TX2 change address: tmMsA3a7kfPsARF1djEq7S6yZUHJqKzeB94
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (133s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test0siton5f
+waiting for async operation opid-f55b750a-09e6-4cf0-a635-6984222f04b3
+waiting for async operation opid-2b7cc456-6d68-4472-8541-a3fac5ae9dc3
+waiting for async operation opid-1e7b3fb4-d62e-45f6-a7fb-e91bdf701e90
+waiting for async operation opid-0cbd6e3e-0582-4518-abf1-633492d954bd
+waiting for async operation opid-23822606-0c02-4562-9f5a-d4f2d7ca1951
+waiting for async operation opid-6c14e759-e028-4743-84fb-813d6c8d82d8
+waiting for async operation opid-0fba4b14-029b-4c8a-90d0-25f6eb215826
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-1ed61237-d0bf-4109-a3c4-5cd4c122a0cd
+waiting for async operation opid-e5099cd7-e7f2-4e6d-b7c9-9d9aa191a27b
+Source address:     tmX99JL1T5LBkHpujoAkofuUbzhjxfhBonh
+TX1 change address: tmJyVGVHjaMx61Q5XcBLjarESwWhjNn8DqW
+TX2 change address: tmLjRVc5KbAHtvMhk7fCmKqrvChVmhbDtYC
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-8c0c0437-13c0-4153-96d5-cd224d79168f
+waiting for async operation opid-7bcfa321-13e1-4e6b-b332-36159ebb4c7e
+Source address:     tmX99JL1T5LBkHpujoAkofuUbzhjxfhBonh
+TX1 change address: tmL6HkdZatGoGY5Gdd58hBKPZTJToVebCg9
+TX2 change address: tmQQUPB4TiLxPfz8aF7ir6a8YYJc7ExWMBL
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-eca44cbc-84e8-423d-9fc8-cf0fb6ddda1d
+waiting for async operation opid-6b0e69f3-43e7-4a86-97f1-7e943a58994c
+Source address:     tmX99JL1T5LBkHpujoAkofuUbzhjxfhBonh
+TX1 change address: tmPiMfodr2RtZVQi6aHdVqtx33x6DEBvF1n
+TX2 change address: tmEkyUjggLuhbktMRHzwrRHv8U2pJSLCnfn
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (132s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test8c5hk4jg
+waiting for async operation opid-d1a17df6-66e2-402e-9e6d-bc6f17ad3afb
+waiting for async operation opid-1df04add-7148-46fe-8fb0-c0c4a1debd6b
+waiting for async operation opid-536213f7-2de2-4932-9b54-b7b444f619c6
+waiting for async operation opid-569c1aca-4598-4679-a898-388e42941f3e
+waiting for async operation opid-09ebb14f-59dc-4ad4-9ea9-6d4efa92423a
+waiting for async operation opid-15aa44b1-56a2-4ab0-a543-613f550938dd
+waiting for async operation opid-fb8cec0f-058e-49be-935d-706601ff8d76
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-1acfbe00-a91b-43b1-8e75-1eadb1c8a480
+waiting for async operation opid-15f81af7-2276-40ed-b3ec-4fa9b8abe18c
+Source address:     tmMox9amsycD9y3eMfWhz5vV9jRQxTkgqSC
+TX1 change address: tmXZPNWy9wm2S6RxDksnGgwWNvnLes89rdx
+TX2 change address: tmP8VeSCCzNKp2NQWPRbt2Cs6dJFLfihVLc
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-26944fe2-7638-4444-9acf-f57571e1759d
+waiting for async operation opid-ceb67e37-704f-4936-8a44-0113673a7041
+Source address:     tmMox9amsycD9y3eMfWhz5vV9jRQxTkgqSC
+TX1 change address: tmAwcQzhpHnaT93oZuAikNhRqGsRu3PczWG
+TX2 change address: tmXrYygV5WgwkkP5rrG3tJuvQEZHGZeQhYG
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-f9a29d8e-e55d-4d66-84f6-1622e13e44f6
+waiting for async operation opid-120ed072-7df8-4194-a030-31db68ca1d91
+Source address:     tmMox9amsycD9y3eMfWhz5vV9jRQxTkgqSC
+TX1 change address: tmHcaKgyhrTtexo53u6zL3qVeVuZQWkFBR4
+TX2 change address: tmMgv6coQt8tF4hmv5zLHdXgm5J9BHbML6e
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (132s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testfdg6a7_9
+waiting for async operation opid-59965f98-08b9-4108-86e3-e065d069691a
+waiting for async operation opid-8882183f-689d-4178-9c20-dec1f4954b49
+waiting for async operation opid-edef64dd-2438-4ddf-af45-b15416c9a3ba
+waiting for async operation opid-1c3ee5bf-f424-4472-b960-a7e6fa8e757d
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (30s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testjjotrc0j
+waiting for async operation opid-846193ce-c0a5-42db-9992-910d687474f6
+waiting for async operation opid-a84e5ccf-8f5b-43dc-b03f-22e36c834d89
+waiting for async operation opid-492f5026-a45b-458e-84bb-7edd97ee73a7
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (24s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testxyzcj7pr
+waiting for async operation opid-4e431152-39ba-4275-878a-fb434c54008b
+waiting for async operation opid-94f23174-1cd8-49bd-a87e-2e9404b0d851
+waiting for async operation opid-c0b035ae-1136-4e73-aedc-d28afcc2aa6a
+waiting for async operation opid-5477a747-4200-45db-906d-1e9793e2567b
+waiting for async operation opid-210ccaaf-174c-4a1e-a55c-1fde59b9f594
+waiting for async operation opid-325ecdf8-f861-4b4a-a60f-97d266fe756e
+waiting for async operation opid-f0331962-0458-46cc-9b40-37d2c647c1b7
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-822636ce-fb08-48d8-983c-7199f58db459
+waiting for async operation opid-b9358b9a-102a-40e4-a389-979879ce6611
+Source address:     tmTrZTpzhobjU7h4mYkTeWLJp3dtqANxNF9
+TX1 change address: tmJexpTV4JBpwFzw7GZmKed2NvZUZjsptxU
+TX2 change address: tmEMAtaHruX1ExwtMoGUkFnVCHrURL3A9h7
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-2ce003d6-cd80-4a65-8e4e-39abc8380380
+waiting for async operation opid-20c1409b-2862-4be2-bae9-e574f9695669
+Source address:     tmTrZTpzhobjU7h4mYkTeWLJp3dtqANxNF9
+TX1 change address: tmE4oNdG6XpKVCrgYEX3M7E8N5ByMLwYVdy
+TX2 change address: tmJJkiwAGFzJLvEsmHTVmajEVvhTwUVsNGe
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-298ae0d7-e7e4-42a5-8220-2ba614c2dbd1
+waiting for async operation opid-fc7628a2-6935-4763-a78f-e3a6d54f0c8d
+Source address:     tmTrZTpzhobjU7h4mYkTeWLJp3dtqANxNF9
+TX1 change address: tmYyWX9xoaz4NuEcXM5PxPQEzjoaAZVBbPv
+TX2 change address: tmCxPcPVm1BzXzbZgEM15hCp4fziEDfgEXt
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (133s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testeah3eqpc
+waiting for async operation opid-4b46e7f5-e9b0-4dc2-8af0-a0dc2363f4dc
+waiting for async operation opid-b06d26db-af08-4e1a-afb3-5765fbd97d4e
+waiting for async operation opid-6eb8eefd-834e-440b-bb82-52bab72e30b4
+waiting for async operation opid-eb8229c2-9271-4045-aaf0-dc55cd98b5c6
+waiting for async operation opid-f0ef6aea-d178-456e-a9a1-0dc4ec0bfba5
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (34s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testxoqx96s9
+waiting for async operation opid-6a25a0c4-a1f7-47c2-b195-145171ded690
+waiting for async operation opid-f741944e-7bd0-4bd4-9d0a-c71727c1d910
+waiting for async operation opid-68e0ffd7-b5f1-417e-9c74-c87b2936fe74
+waiting for async operation opid-8469fbeb-a551-4239-947c-37f5381255f9
+waiting for async operation opid-719ff667-0b00-4dde-9baa-b74835a7e520
+waiting for async operation opid-98b646f5-b3cf-4bbb-951d-aed94de7b122
+waiting for async operation opid-34a98184-8a81-4ef8-bad5-5a26d731ba25
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-ee903837-9a3b-4f0b-96d4-3f2c3e8dd524
+waiting for async operation opid-cf679d48-c1d3-4f78-9a4c-ea34c590a805
+Source address:     tmJeRohLeRj9sjjz9zquUNEmegrRbYEikka
+TX1 change address: tmU7Rb9dKuhxqkJnShryxmv1z1vYWfF9ji7
+TX2 change address: tmT4HJUjhM5tQCv1VXCYiRJCtJ9toKzhh7n
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-f62f5f72-830e-4d91-b3ae-8c6f6f2679f5
+waiting for async operation opid-00a1f346-aca8-4211-8716-e1d2dd1c2a0d
+Source address:     tmJeRohLeRj9sjjz9zquUNEmegrRbYEikka
+TX1 change address: tmBAKHzv4FiUiopoaoiyEGNy8hE7BLk2axx
+TX2 change address: tmBkHmtx7d6Pdu1UiWJxyYL3Bwfm4NQQkc3
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-99d386f9-8129-485e-95c5-e566e1871d99
+waiting for async operation opid-f2c81a85-b961-4c0e-b868-aa295b37f0bf
+Source address:     tmJeRohLeRj9sjjz9zquUNEmegrRbYEikka
+TX1 change address: tmNaB3j1QBuGNqVBwCNFk4oJGU4Prenmtdf
+TX2 change address: tmJhR9nLTKfdHqfnRSgdpx9FGa7V8sGj6cb
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (131s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test4v7w1byx
+waiting for async operation opid-4664c314-4459-4041-a755-c06446489552
+waiting for async operation opid-9ca6a0f0-dff7-47cf-a234-43d05667355b
+waiting for async operation opid-277358b5-4cc0-4dcd-bdf1-8609c83a2560
+waiting for async operation opid-54f55f49-8ef5-4391-94fa-a6fde1d3bbe9
+waiting for async operation opid-b2a03144-ae4b-40c4-90bf-688fc017964b
+waiting for async operation opid-0cb81462-6013-40f3-894b-c2195ef391a7
+waiting for async operation opid-ff65f299-f15c-411b-b0c1-23ac512e210d
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-1832012d-5987-40f8-ab1b-2dd43b42a9a4
+waiting for async operation opid-1d1fac01-d1d0-46f6-b846-651c9cf83044
+Source address:     tmVtTwa8JwUs8f3febTwG8krKM6Up3V5tPc
+TX1 change address: tmAW57iyQgGoDAzdW3RiBg4SnqhiarWdcDv
+TX2 change address: tmL7uMRgWijbVscuALpLut945xPhyx5qDjX
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-539d122e-d036-49e4-abfc-c95125cb3f56
+waiting for async operation opid-2d7e8d21-a456-452e-aa7c-006d5f221053
+Source address:     tmVtTwa8JwUs8f3febTwG8krKM6Up3V5tPc
+TX1 change address: tmHYQTWuWbusjip1G6iWCPiBxHjm2Q4HdYa
+TX2 change address: tmWxK5STMAzzK4NFMZs8emB5ACNTUySDq65
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-2aa9d0a1-49d3-4045-9ffc-824789b3a621
+waiting for async operation opid-bfbb17b0-b69d-4749-96aa-db93f2b76e8c
+Source address:     tmVtTwa8JwUs8f3febTwG8krKM6Up3V5tPc
+TX1 change address: tmUGZBm22dJBtqzWFfin6gZFyMDncCSCjN2
+TX2 change address: tmD53ZxKT3vL3UkaR2YdsRZHgTKSA3SyUoo
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (132s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test0_8dn_0o
+waiting for async operation opid-d5c0df98-8236-4b28-9621-9e10a221b1d2
+waiting for async operation opid-cfa4b097-05c5-40e7-989c-b792ac0c3b54
+waiting for async operation opid-edf68848-ae85-42f4-afb3-d87f67dbb3be
+waiting for async operation opid-420bc957-e42c-47fc-b00d-71fe82b51d75
+waiting for async operation opid-af236759-668b-43fa-843b-18f258d093b0
+waiting for async operation opid-7da1dbeb-fcf6-4c40-943a-baeed47ac210
+waiting for async operation opid-9d9a7b81-2475-463b-9723-d980a70891ce
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-70f161fe-c680-4718-b3fd-6abd0cc623bd
+waiting for async operation opid-34c401b0-5a8a-436f-8bee-9cdc9971f6c4
+Source address:     tmNo1JUmmxPw4dvU6yek1U758H4eVUDRfrQ
+TX1 change address: tmUjthT6ZE5tUgRvxPKmqbePB31H6F7gKXd
+TX2 change address: tmUwLsRLkBUWVgZxdkQ5YZvk66Ymj7haetR
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-8ed13751-6781-4edf-a2e8-3d7f89d8448a
+waiting for async operation opid-fc56888e-5a9e-4c39-bbcb-d0e63662d920
+Source address:     tmNo1JUmmxPw4dvU6yek1U758H4eVUDRfrQ
+TX1 change address: tmM9ppu5jy3xTWrnfMfVenXPEF2Gn94Bnsj
+TX2 change address: tmDgwnHhWFgKbtrJnj1hiRoAbeCQj33xGEu
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-4347d57d-6f9e-4780-9acb-cb300ed74a9c
+waiting for async operation opid-90be2d4f-ea33-4163-82e3-0aee0654f337
+Source address:     tmNo1JUmmxPw4dvU6yek1U758H4eVUDRfrQ
+TX1 change address: tmX3bcLqZSyuBZpRVmNYQBcdvFRfTQqv6UJ
+TX2 change address: tmMhy8aCi5npA4epLVsnkNmFSLiZNAH1jdZ
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (130s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testtf_x9rph
+waiting for async operation opid-0f84a064-4a75-49f2-8e19-03d37f1dd75c
+waiting for async operation opid-6df0bc89-e769-4490-89bf-4907845aef5a
+waiting for async operation opid-5db4473e-22eb-4b52-85f4-63202850f08a
+waiting for async operation opid-a90935b9-165b-470d-9636-5038132bf2e2
+waiting for async operation opid-adbb9a02-04de-4178-b23f-95868d362b24
+waiting for async operation opid-80a3bc69-5ccb-4a14-90e8-bd1231e95ef1
+waiting for async operation opid-920e939c-072e-4f32-96f1-fd7c265b89ae
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-2af1f618-b71e-4aa2-8485-1b615688b508
+waiting for async operation opid-8e55b02e-3390-4404-affe-ac418c6fdbdd
+Source address:     tmExtv8FJRTt7NYi9D6kPKUg5tbnHjKfahr
+TX1 change address: tmPA7UrpFAssoMLnVhbNVCE2NGESiMmSoWm
+TX2 change address: tmCnXW131nJyjTSUTZv7fifw6Qs6gMP33hE
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-79e15c07-bfd7-4fe2-b572-07b5eaa6c6bf
+waiting for async operation opid-57f4ceaa-6021-4af1-8802-4f9273c43f13
+Source address:     tmExtv8FJRTt7NYi9D6kPKUg5tbnHjKfahr
+TX1 change address: tmHWMXr63PRQSgdb3o4D5SVRbgVWA4QRqeA
+TX2 change address: tmKoG8X8Ngbb3G8yQstTK1detjkXdAzpeXA
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-38d83bb8-848f-4962-8d31-ef91d3642774
+waiting for async operation opid-b135a145-da7e-42c4-be94-ce65176cb0a5
+Source address:     tmExtv8FJRTt7NYi9D6kPKUg5tbnHjKfahr
+TX1 change address: tmVZKYSAQxiB4jyevzVDUyFHFB5xagJe2n2
+TX2 change address: tmS8bz3WbmqC1AX4G9eYzwgtUZKPSi9mFMv
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (132s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testx4cddwbw
+waiting for async operation opid-5c7ac699-83bc-4f13-9757-58c64fbaaea7
+waiting for async operation opid-7fd92454-a3ac-4925-bf93-40e125adb70d
+waiting for async operation opid-1b67c431-3b59-45e1-999b-a142aec40f79
+waiting for async operation opid-8f208a87-ba4e-4b48-aa42-adbce9a19866
+waiting for async operation opid-b94088af-ff3e-4f85-a132-916fa3dfbb9a
+waiting for async operation opid-3f71ed94-60c9-434c-bce4-439849834643
+waiting for async operation opid-72e15d9d-9329-4708-b16c-876d04b0ad1b
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-b89c90db-a02e-44c7-a74b-5091d1d30a70
+waiting for async operation opid-7134207d-b20c-48ce-a21f-471bf1e2a1e4
+Source address:     tmLvSEznBsBL7XMbs8GFVtbKZvJXKfxy1Nh
+TX1 change address: tmNV8xe5pRRwPr2JwxaXRK1CcQdEB2eu62Z
+TX2 change address: tmM1SVSHyX4in5pYKVSprC8xMopAeYVKjkN
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-d426f94f-e3cb-46e1-8536-9a42bb95e767
+waiting for async operation opid-b99db27b-6a81-4792-9c3d-79530b3648ca
+Source address:     tmLvSEznBsBL7XMbs8GFVtbKZvJXKfxy1Nh
+TX1 change address: tmRMAS2BBxRHLFjaRePCrntxyTrDjSpUEnj
+TX2 change address: tmP8WuSnpaMWe1EQoKJksuSrJLYaLiMsNVa
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-9e7ae464-4211-4d0b-b256-4fca72865746
+waiting for async operation opid-af5f994e-a423-46c4-8efe-1fbc75e061ad
+Source address:     tmLvSEznBsBL7XMbs8GFVtbKZvJXKfxy1Nh
+TX1 change address: tmUShBQEa6QqQEo2UPDuKEeZ1zwi1aXU7nq
+TX2 change address: tmKbaymMunMKPBEx11DBjGE7wDV94h7tS6P
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (132s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test4hzo0g36
+waiting for async operation opid-48a4d5ca-9cbb-4eec-9956-e13be194b233
+waiting for async operation opid-c712d91c-2f6e-41c9-95af-1d25800474e4
+waiting for async operation opid-7c61c9d9-4c75-47e9-af64-985b6a2182e8
+waiting for async operation opid-eb20fd35-a8f3-4585-8638-66904e5bfd74
+waiting for async operation opid-e87b4e73-51f1-4b29-a1d1-2110f2b22356
+waiting for async operation opid-d88fb4a4-3bf6-47cc-a001-9c740335d41f
+waiting for async operation opid-ed862056-39db-430c-8175-871880d6de0e
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-8dedf591-9d2b-4a08-8fef-4c81736e1f02
+waiting for async operation opid-e67bd038-2e96-4118-a05e-70a668b72e6e
+Source address:     tmTug8uL3EoLRWr3s6DLkn4JXrpyiYdTVyV
+TX1 change address: tmPzwinyS7JfZ6oVJVxjCLfT4x21rtMMPJm
+TX2 change address: tmYJmQ8bB1xV1iP8wyYnrXGwr9fcMNHbmXW
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-639daeb4-9eca-4c14-b111-5e77c290d950
+waiting for async operation opid-73e60f5d-0bfd-4086-b576-6ea45af42ac2
+Source address:     tmTug8uL3EoLRWr3s6DLkn4JXrpyiYdTVyV
+TX1 change address: tmYhs8N72md62Lwnc2mime1JoNjkfgZQCRS
+TX2 change address: tmYSrDWfz1XU9FZsMPZkrGZCQsKrcJbV2vW
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-722be669-223f-49b2-804c-a8ff2a533b20
+waiting for async operation opid-f2b4b4d8-120b-494d-806e-ba0c814272ed
+Source address:     tmTug8uL3EoLRWr3s6DLkn4JXrpyiYdTVyV
+TX1 change address: tmToyoehZXqtfeMGJW1iUWicWHgdyq2en9o
+TX2 change address: tmDhGGaVn8m31VwRGeCkZ2o9CUZZiuxNYnk
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (128s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testvafwh1k8
+waiting for async operation opid-39e446e0-943e-4efc-963e-cab0e5254dc5
+waiting for async operation opid-3cc1a2e5-c8f6-4e23-a52f-b1aad212e3a1
+waiting for async operation opid-ce473ced-926b-48be-9c8f-3834290eb1e2
+waiting for async operation opid-4c8db010-9f56-438c-bcdf-e56ca8288110
+waiting for async operation opid-870f6594-4030-4f6c-9d82-2e0a07914298
+waiting for async operation opid-283ba818-e966-4ff0-a142-e1406c484620
+waiting for async operation opid-cefc0349-d302-4eff-b88d-6335a27264ca
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-c8b21dd9-1b09-44b5-a9ee-30655baabb1b
+waiting for async operation opid-57248f48-3a0e-444c-bdac-26f3c4504819
+Source address:     tmAEvK6qeJ3sN6VcJya1Gdb6hsvvwX8cwxe
+TX1 change address: tmNnZCCUpnwse2rbLw1KhkYU8fzTgyq63XK
+TX2 change address: tmJXayHSXn6smgABjqA87JmNPBSVDcfXXMw
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-3b00eaa4-49c7-44b1-874c-26721aa02336
+waiting for async operation opid-9dccbc04-a537-45ce-93cd-3c90cf468c39
+Source address:     tmAEvK6qeJ3sN6VcJya1Gdb6hsvvwX8cwxe
+TX1 change address: tmSt23CHDyjdsXK7cncVVqTXr5dG26kH3X8
+TX2 change address: tmW3SnFhMHscjNqcyvLruf74P1Mf3NvgUdb
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-4aaad341-822a-4455-9956-3e694634af04
+waiting for async operation opid-a97251b8-4d71-419d-a172-d3f14006d206
+Source address:     tmAEvK6qeJ3sN6VcJya1Gdb6hsvvwX8cwxe
+TX1 change address: tmXrqQqTTRSyMnxyAteL6X5SMLdSyU11cBg
+TX2 change address: tmSU8zM1qgDq9gpn1dXNh2NLkXRAZVkxVKH
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (130s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testdhy33u25
+waiting for async operation opid-72f2e4a8-b837-4893-8fde-00e35b5c7583
+waiting for async operation opid-1c8a51ff-9576-4ab6-9797-9b736cb4b6e5
+waiting for async operation opid-5a502e29-366a-4165-8b0c-a57aa71f7e77
+waiting for async operation opid-f37c9b41-875b-44a3-a4bb-6529a867b641
+waiting for async operation opid-57d4724e-ad12-48f8-aaa5-b0d85b276c71
+waiting for async operation opid-0771f6af-8ae0-42ae-923b-68e1e6afe19e
+waiting for async operation opid-bae464d8-6b98-4b3a-8862-0e9478dfb347
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-b93f40d7-dda7-421b-a93a-59a30b3e4295
+waiting for async operation opid-121e2001-6203-4369-b6ad-1f12ca76ede5
+Source address:     tmNdqYNBgo7DkWZrrzpszZ1WWZ4nninPntj
+TX1 change address: tmHmEH8dG6fATZcYyEhR2pzt7mH9ZSdGJ2F
+TX2 change address: tmM9ZdiBNdiWBwwGym8p7JNmgor7Vtu4sJp
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-68ff764e-7960-4cbc-b052-7cca30f75a72
+waiting for async operation opid-b4ceea5d-09b9-41aa-bfdf-c5dd29daca1a
+Source address:     tmNdqYNBgo7DkWZrrzpszZ1WWZ4nninPntj
+TX1 change address: tmTmUeMt6P4doKwkVeVtyQ1rMQ2rwb22A3x
+TX2 change address: tmPpUpeTE2cD5SvWrscC7dMUdGxAHRNUUoA
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-f2798094-7576-42a3-823a-4f47d4646f6b
+waiting for async operation opid-62538dd3-2e1b-4433-891e-0f2418c01254
+Source address:     tmNdqYNBgo7DkWZrrzpszZ1WWZ4nninPntj
+TX1 change address: tmLvghSLtpLhKT7wk7yTftjk2bJsJWbQhrS
+TX2 change address: tmTsgWbfnf39rJJCcPewvCWAx3bu1fhkhge
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (131s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testt2fplwg5
+waiting for async operation opid-5054a93f-2b78-4e2a-a986-d39c3186faa9
+waiting for async operation opid-1e7d9d47-1a23-4526-a69e-2e2cf2fbd83c
+waiting for async operation opid-a77d95c6-271c-45a3-8f7b-09bdd4ff3946
+waiting for async operation opid-334e630c-36aa-4398-badc-66ad2cf5c755
+waiting for async operation opid-0b0c698e-f4c3-4d21-98e2-d2348a1807f7
+waiting for async operation opid-611d8eca-fd6f-4f43-bfc0-34175b41a921
+waiting for async operation opid-8a0393db-df6d-4cec-b1fb-163ba5e18193
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-2a17ed2f-35ad-40c6-92df-8e1c2d0e8d15
+waiting for async operation opid-0a84823a-19a3-4ceb-a708-26000a30253c
+Source address:     tmD2ueTbrDm5bFcb1DYRoFP8YA8uqcweRG9
+TX1 change address: tmJ19AJwbo92Er6So5nu9jM6HHJFoEALFwn
+TX2 change address: tmRTCJ1dzeptEsdzLCjTngMdJWkhFJww7Ya
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-3dc60e99-a81b-408f-a743-91ddb32dea25
+waiting for async operation opid-1d6b0a71-716b-458c-a30d-72211c4476ef
+Source address:     tmD2ueTbrDm5bFcb1DYRoFP8YA8uqcweRG9
+TX1 change address: tmLkTTuTYCKcVEzCtYC8JmKybAvC8N1zCCG
+TX2 change address: tmViKNRco3akzDxg23tr7jWEwDebg4951Dr
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-b5b11806-ba39-4789-ac15-220c74eb1891
+waiting for async operation opid-49467b72-bd78-4657-b449-3d7126326fc8
+Source address:     tmD2ueTbrDm5bFcb1DYRoFP8YA8uqcweRG9
+TX1 change address: tmULys2Y9xnLhireUfvHEfBkExt2gKawqs9
+TX2 change address: tmSHVYciw8Yg3SiGmsj3TU9zyf99M1eP6cY
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (126s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/tests13sp5vt
+waiting for async operation opid-8596dfcc-27b0-4aee-9469-c94c1fca540f
+waiting for async operation opid-c40d8ebc-0914-41ea-baf8-eb5ffd85c228
+waiting for async operation opid-35625070-48ea-4672-a271-0ab9a7bcf774
+waiting for async operation opid-1862ee54-13e7-4c00-bb60-f3386c12b68c
+waiting for async operation opid-2f9273ee-71c8-4a9a-84d6-7f9b093bfa32
+waiting for async operation opid-ec7c24f3-08ea-4dde-9bd0-8fbe0bac217a
+waiting for async operation opid-821bb08f-09ec-4d44-8698-b9ed6b2d4e42
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-f99baf7e-5846-43c1-8866-3b8a552241ca
+waiting for async operation opid-05f8e03b-8666-4c4f-9e4b-7d1ab572d33e
+Source address:     tmWzR6zCXN7dD6HJR6TWLGjTdLPCL3DDG9C
+TX1 change address: tmXaKcz4AZzqJ31cvPyBTKgP9LJu2w2KjH2
+TX2 change address: tmUZzWpsFmtaqHYWWSuSPp33ZWCLxCL22wg
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-06e48382-8106-4df4-b8bd-2408efeca54f
+waiting for async operation opid-7e4bc0bf-6f53-4fab-ac9e-71c41835b778
+Source address:     tmWzR6zCXN7dD6HJR6TWLGjTdLPCL3DDG9C
+TX1 change address: tmKew5FdA2zoX3P4CGxyyj155ew1VeCbETg
+TX2 change address: tmGg6WRLGyr1BntZjTREADJNGQFujMznkKX
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-6a743943-e807-442c-b0a6-f675de2a597f
+waiting for async operation opid-d54fb574-9a4d-4d8d-aa26-028a4192d0fd
+Source address:     tmWzR6zCXN7dD6HJR6TWLGjTdLPCL3DDG9C
+TX1 change address: tmT8ckHbW9cZhMALEeWqJtcRoAZNA2SGXDF
+TX2 change address: tmLZHfSjHMLv1MNXiPFM36hi3Tu4GaJLEAd
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (132s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testqdoivnb5
+waiting for async operation opid-6c4fef6a-1332-43bb-9124-d0072d4630ec
+waiting for async operation opid-cbf7f0a5-8714-4162-a576-508dc98e3868
+waiting for async operation opid-c08953f8-a9e4-43d2-9699-0fe04104367e
+waiting for async operation opid-e159e824-cfb4-4433-aa80-4de7f6ddcf96
+waiting for async operation opid-05edbf3c-c770-420e-b339-51fe67c0a721
+waiting for async operation opid-cb69446d-d581-434e-8d56-6edfe694c9cb
+waiting for async operation opid-48527422-ca13-49ff-8c61-8c007fcacb4a
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-c6161673-854d-4091-851e-da5bd3ecdcba
+waiting for async operation opid-624dffa6-1760-48cd-bf40-9149239d1ac7
+Source address:     tmXQvC6k1G7gEwsA4ANwJusxfXAdAX5DtSC
+TX1 change address: tmGx2ME5HG8vCNKwh82CRL5dkxTpLSeHNZG
+TX2 change address: tmS4dosUwfF9Jz5AHbeRyFY57s5jMHqiM1A
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-32895c9c-64d7-465e-80d0-6546696ba568
+waiting for async operation opid-c506f6d8-0065-47fa-9701-6d71b8522197
+Source address:     tmXQvC6k1G7gEwsA4ANwJusxfXAdAX5DtSC
+TX1 change address: tmP4goFXxfxC6wGzAMErU4tT1CcC228cN4J
+TX2 change address: tmWVFBX2EoB5vrSXRdPUoHLXLD245VAK3xq
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-eaad2149-b3a2-4217-b0ef-01678c3d06f3
+waiting for async operation opid-6a6826e1-fe3f-4b27-b18a-e2eb5e693bd9
+Source address:     tmXQvC6k1G7gEwsA4ANwJusxfXAdAX5DtSC
+TX1 change address: tmBY1hrE6GWHeBbLSMBf8bmPKQT6GKQi3PA
+TX2 change address: tmFTiaZo17gCACnhCZLwaSL4NWLkBMHGe7V
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (129s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testb_9yzhwn
+waiting for async operation opid-9749842c-4881-4277-bca2-bfb8e6d29ed4
+waiting for async operation opid-c50bf62d-86de-4ad2-8a86-94f53815829e
+waiting for async operation opid-f3edffbd-03b9-412f-9072-1c0cc50690e9
+waiting for async operation opid-f4228b83-30f5-4522-8adb-7945f4752049
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (29s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testgjist3nj
+waiting for async operation opid-897bfb3e-9980-4787-90bb-517146514645
+waiting for async operation opid-a04e0569-d04f-4ccb-a7b2-ef26ba40bbdd
+waiting for async operation opid-3a6a8ca9-97ec-4cd8-a603-06b73c9c1104
+waiting for async operation opid-ea9a2a36-7b15-4daa-a3f0-441b7ddbd0cc
+waiting for async operation opid-bc6994db-8062-4064-8748-a5ae3748f16b
+waiting for async operation opid-ba9328f4-e264-4284-803b-5b4f9c091068
+waiting for async operation opid-c648a03d-f3e0-4e90-9e3e-e4c3f7295315
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-a689b51d-7e4e-433b-94f6-d4c5b39a665c
+waiting for async operation opid-8c20a991-468f-48ea-a505-72c0078c7515
+Source address:     tmLnwUFZRkEnmB3PkPMJVSMaWhQ4NADER9b
+TX1 change address: tmDBXcTHem8RivpfGiDhCpfXSoR86C9TJ7B
+TX2 change address: tmNzSaKJEd53ezgb1TW7KWhFGFvmysfiLJs
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-2729c330-660b-4027-bdfc-0c2f9214ebcb
+waiting for async operation opid-aec3d68f-3be0-454b-b4d4-3fe3be80a0af
+Source address:     tmLnwUFZRkEnmB3PkPMJVSMaWhQ4NADER9b
+TX1 change address: tmBNSQyQGd6ae35ADiJUQbbbv1HjnL5xdyn
+TX2 change address: tmCqgZEHUWmd5X95rNbAEcw6df16WBxCAgj
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-f7f73cfe-4735-4c15-85cf-d47c7b3b0087
+waiting for async operation opid-735975db-7790-4622-b91e-97065f96a5df
+Source address:     tmLnwUFZRkEnmB3PkPMJVSMaWhQ4NADER9b
+TX1 change address: tmQ7DKwhnnV5h3mLEnHuJUU5wmn25wqiUqv
+TX2 change address: tmRebMJQxWpeJmK2MYkY82pnCdxgxaGNfQC
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (128s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test7fy2xdkr
+waiting for async operation opid-6e10fc06-f6f4-4a5a-9571-0e47e2013cc0
+waiting for async operation opid-d8bf4747-9e7a-4e3e-820e-26b663f07f85
+waiting for async operation opid-6ef3137d-734c-4fde-a550-b71537783435
+waiting for async operation opid-dd9366b4-7781-40b3-93a2-33d9a3163586
+waiting for async operation opid-6f00a1f8-162d-4a6a-a10b-74d54ea79d3c
+waiting for async operation opid-142f0e6f-4ac7-4a5b-b8fd-c2b8a50ee87b
+waiting for async operation opid-41c6ac59-d0f7-4d6f-859e-c3b0b4b0a9ca
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-4b998cbf-1222-4949-9e49-08e62a63d2e6
+waiting for async operation opid-8183d311-b21d-4a79-85fc-e213dc695696
+Source address:     tmGn2CTZ4LXA77Wf3jVYYVsCkTJ4fnrZZTf
+TX1 change address: tmLVuYEKcWyC5uQgPP7Xgc1hqRQPk37WZoW
+TX2 change address: tmLgY6WZ3bb9SrDonCjn4tY8dfR8naYAQuF
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-82e1b409-23f1-45c9-bd72-22c2f0320617
+waiting for async operation opid-ea2f27ce-4ff0-49a0-9d5d-a63db100afd1
+Source address:     tmGn2CTZ4LXA77Wf3jVYYVsCkTJ4fnrZZTf
+TX1 change address: tmLdKRR6LdT1FwfG2T7GEC7ijrbsyMz6spv
+TX2 change address: tmF181mzCegWeSWe1ZFsoaYKTcVgrc29Eto
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-222624a7-f100-4d7b-a556-33b7ba201ad3
+waiting for async operation opid-22b80aaa-04d3-46a0-a7a5-34410722ef6b
+Source address:     tmGn2CTZ4LXA77Wf3jVYYVsCkTJ4fnrZZTf
+TX1 change address: tmFDcVbMfAhnso61KniyokFH4fRqYfYaVyB
+TX2 change address: tmWg7jkYGjUV4XEwgdD7RDZ9dgDET79S1r1
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (134s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testakjgv6z_
+waiting for async operation opid-01b79541-7a92-40a1-a9c7-2a7eeff9ec81
+waiting for async operation opid-b92119a9-bd6e-40a4-918a-3ff23e9c5d78
+waiting for async operation opid-390a4359-bf78-4e2d-b53e-9ab1f2ae8b21
+waiting for async operation opid-d219d93c-c18d-4824-a369-e080e1d7922b
+waiting for async operation opid-4cbc522d-2798-4a57-bfca-6e41dc0b2ebe
+waiting for async operation opid-fbd84d69-8989-451e-a49c-10334f2c1ce2
+waiting for async operation opid-08382e64-b6fc-4754-8e41-ea6ed7aec972
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-69f82f3b-7aa2-49a9-8560-438f410e3fb9
+waiting for async operation opid-3b44e365-71f6-4527-80b3-deed7f3e9c2b
+Source address:     tmEhCi7FoC24XBLUPVxJiuegBDYNmkdNA7x
+TX1 change address: tmDB9w7UCnZbq6fJ47Simooq1fTFCKwZtfR
+TX2 change address: tmWFARcAsAUej65TU6Kc531bKDw88QNpsBi
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-33cdf2dd-2d7b-49b4-ae4d-b84f4fb3d806
+waiting for async operation opid-4f859af4-4853-4122-b17a-a711c508abfc
+Source address:     tmEhCi7FoC24XBLUPVxJiuegBDYNmkdNA7x
+TX1 change address: tmFPGdk1CU8HcQmijBhvtHqkmNLcVDiVQAY
+TX2 change address: tmAfZnbvJ1nCXjhQd8by9A4L2zE483B6nEZ
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-cb111bfa-ca5f-451c-9885-8201569595f3
+waiting for async operation opid-cd8343a4-a11d-4895-a062-e390f176e87b
+Source address:     tmEhCi7FoC24XBLUPVxJiuegBDYNmkdNA7x
+TX1 change address: tmBFS9oTEf7Vza21mMYx5cXCgoB11Tdp2A5
+TX2 change address: tmSBgHFfp7BKxrNTFoncZr6uorP1gizqFWs
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (134s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testk4n6jw3g
+waiting for async operation opid-371c9238-2fa2-46ee-94b0-61bd9986e3d3
+waiting for async operation opid-16630d4f-9a97-4e49-a5ba-e179614613d6
+waiting for async operation opid-eb663b08-49ad-4293-ba52-661478af6682
+waiting for async operation opid-fd7f5afa-da56-4107-91a9-88173cd62996
+waiting for async operation opid-abacba53-8059-4066-989f-442d2e1d7850
+waiting for async operation opid-4787a91b-b5c6-49f3-b982-ae9e88dc0b7a
+waiting for async operation opid-8d058e2a-aae9-47ef-b644-fde529a739f3
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-eadc25c2-8b19-4229-8b3a-7271d08cfca9
+waiting for async operation opid-5b00f6b9-0b65-4705-892e-1bc881400ed8
+Source address:     tmWu1Pbhoutj7Epvxe87KmTEm6Vvc7zi77q
+TX1 change address: tmUs3gGjN1323oT11mkpsqdB5rL9w5fLUR8
+TX2 change address: tmCdjRoAVQBF3DoGhcZ63VReZ8Z4i46eEuv
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-fc2c958b-9f42-42ca-b2f2-b3212993af96
+waiting for async operation opid-f4016a31-9767-4d66-ab6e-d8a38f378bf4
+Source address:     tmWu1Pbhoutj7Epvxe87KmTEm6Vvc7zi77q
+TX1 change address: tmLMRQqpczCw53c2XMtCmNtvnVpPN72XgPJ
+TX2 change address: tmKay1vtqqkDZemUvZaSuKdaPETAw7ZtwBG
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-04f2a448-5039-4a59-9c62-c6120d3fe33a
+waiting for async operation opid-6f408278-6b30-486e-8ce8-5a8639c309a9
+Source address:     tmWu1Pbhoutj7Epvxe87KmTEm6Vvc7zi77q
+TX1 change address: tmNPNn51CcC6k6fN9PmRFHzLAo7ooWFWNvG
+TX2 change address: tmQ6YWNZiTvUSs3tmexHLPWwPtVinf49aVJ
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (131s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testqxiu1vka
+waiting for async operation opid-9b3b846b-3978-4c11-9c5d-3599e4d9093d
+waiting for async operation opid-35c6e151-6258-4433-be59-f2838db0829d
+waiting for async operation opid-400e834e-0568-41af-886e-b389f09fab73
+waiting for async operation opid-46a72f97-0455-4b19-8740-5909f3fc8235
+waiting for async operation opid-0d2d8f5a-c572-4005-b143-3cb21cb54aef
+waiting for async operation opid-9c663b3d-d7ce-4826-ad7e-4a0ac1190f6e
+waiting for async operation opid-9e445a0d-d4b8-42e9-b186-5eb26981b1a6
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-d7aa8756-b783-48ae-a3b1-ad01c260f885
+waiting for async operation opid-23f56f29-76cc-46aa-ab19-e292288b822c
+Source address:     tmKGDdEk1T2GBm5jxHtY1kHrhYZJZVmqDdc
+TX1 change address: tmVsFZZAmB4PJ4nAYGGnoP2faCSDVxDSXS4
+TX2 change address: tmMaXr4yv2VDxxihLF6CWf8CBiW2fKDPeZh
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-abca9b7c-d6eb-4b55-831d-f6f989ca8862
+waiting for async operation opid-0afe9e30-3861-4c50-a82e-21df0d146161
+Source address:     tmKGDdEk1T2GBm5jxHtY1kHrhYZJZVmqDdc
+TX1 change address: tmASNPa44b9suFDEpc66DKS2VagwjqbJ4Jm
+TX2 change address: tmPmJVSC4Rsh1ym3u23mkcCKKKw2A5ou52C
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-72f6a55a-389c-4612-a968-ef17ca48c947
+waiting for async operation opid-97a7d1ea-b5f9-44e6-a92c-a26431a505eb
+Source address:     tmKGDdEk1T2GBm5jxHtY1kHrhYZJZVmqDdc
+TX1 change address: tmXf3Xhk1izp5McfY7kaXoBUYFDmEcFTNPu
+TX2 change address: tmD898y5WVvD1h3xE4b72c34pzpqmk1tD7r
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (133s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testag_aaxea
+waiting for async operation opid-b8b80ebe-6c3f-4678-b897-f4b6ad3b4e41
+waiting for async operation opid-4bdc154b-fa84-4c34-8e42-537b4643cb7d
+waiting for async operation opid-17f87629-c2c9-4860-a472-e899d4b31098
+waiting for async operation opid-d880cfbd-0115-4cb1-891b-8ce7d42400d4
+waiting for async operation opid-ee6e2430-16ce-4e69-9185-b0e7469d109b
+waiting for async operation opid-8b80589c-8399-43d4-a024-ff9159181099
+waiting for async operation opid-37272154-0996-469c-82a5-a532ad17a5ad
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-96b081ff-3571-45b7-a82b-af6a5f5e524e
+waiting for async operation opid-ad5a0e0c-6df3-4efc-b91e-4ec19c61f980
+Source address:     tmQedzYZP39gtm2na9QpzT5Z7h7CD7KgswZ
+TX1 change address: tmVTTv7PubVN2B1Xij8Jdc94a5GXaAhLELL
+TX2 change address: tmG83Q761gZ2LUVsWBs23hN7WVpoHaYGCXT
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-25a89b27-17e5-4119-8293-cf20915b0ca5
+waiting for async operation opid-a5004d91-abcd-48ca-b9dd-be15c956b147
+Source address:     tmQedzYZP39gtm2na9QpzT5Z7h7CD7KgswZ
+TX1 change address: tmPi11g8hXDupb2qJ6NHeLxoCu3osUbAv73
+TX2 change address: tmCXUgmYnJMogSnyZz3WdanUzydfvWz6XnD
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-29a64c01-bcf1-40e9-b996-2b5b1b654b6a
+waiting for async operation opid-9f542222-c200-4349-b610-84c0d6c38e38
+Source address:     tmQedzYZP39gtm2na9QpzT5Z7h7CD7KgswZ
+TX1 change address: tmRhCooet6VX97wdHXRGtHhqmKnfPxBu55Z
+TX2 change address: tmLZ1uSrsB2jeRGaWXbakbmGitmwoHGAomK
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (131s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test_t8h3vrm
+waiting for async operation opid-fe420542-d991-4920-a16b-4737bee7d4ad
+waiting for async operation opid-3ddf8e4e-b2b4-4532-9d6d-c6d03bff4762
+waiting for async operation opid-35507cf6-e705-4e97-9c11-ec3d10ddd1bd
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (24s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test53ssn3fe
+waiting for async operation opid-c99c5d2b-582b-41d2-9d07-840fc3646b0c
+waiting for async operation opid-cff70a09-eff0-42d5-b0ea-62a464ca259e
+waiting for async operation opid-b4f5a943-1caa-4030-8684-b22d076e77b5
+waiting for async operation opid-ceab89fe-b83f-4268-98de-ecf517aae299
+waiting for async operation opid-90b16620-80f4-4885-8b3e-ff34fa22d2ec
+waiting for async operation opid-0fcfa332-0af7-46e4-8755-d748f6096fea
+waiting for async operation opid-cdd81437-3b3d-4ea7-9d6b-8fc1ebc154dc
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (916s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testssopfd6_
+waiting for async operation opid-71cbcf84-54f1-4668-80be-487899c7cf12
+waiting for async operation opid-74a30368-a9d2-4f39-a44d-853244d26b1d
+waiting for async operation opid-1ece253e-2786-4ed1-b944-c6cd08841ac7
+waiting for async operation opid-1149edd8-7548-4392-b14e-d2d97e669de1
+waiting for async operation opid-8b80d28a-eb0e-4323-968c-76fd33cf4987
+waiting for async operation opid-569f229f-4475-4dc1-92ab-04dc44eaffb8
+waiting for async operation opid-ca277d10-4edb-4ab5-926d-ad2a9375feea
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-319d2301-1b4e-43db-bc18-4dc646f277a8
+waiting for async operation opid-8fd5720b-dab5-44b7-aaef-ed507e52efc1
+Source address:     tm9rgACi5gZGQehGCx2cgyJzcw3fkF3v1YS
+TX1 change address: tmD8TGxiUawmoMDreQD9iA2G9W7q9vvdBg7
+TX2 change address: tmAK3XMNWPU15xc18HdXRkHe1uqLQt344zJ
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-eb71d0d4-80c4-4c7f-8269-a8122e9c07c5
+waiting for async operation opid-6add0b0f-16d2-41c7-bdb5-468e53c93e24
+Source address:     tm9rgACi5gZGQehGCx2cgyJzcw3fkF3v1YS
+TX1 change address: tmYCgffYebhK6LrjQWpVgigJgfsj64PqAPk
+TX2 change address: tmD9j6ryXxiZdFapbXYgLHaFpjwgLjUbjxi
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-a5b86943-4b93-472b-bd2f-bc10eba20b2a
+waiting for async operation opid-61f83180-7427-491e-9b6f-bc186b7be7a7
+Source address:     tm9rgACi5gZGQehGCx2cgyJzcw3fkF3v1YS
+TX1 change address: tmU8SGfRXzDQ61QhgVi1RGME6S4Wrpwz16N
+TX2 change address: tmRenN2zjzNestZvDqy6vWqYmho3LNLwWEZ
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (138s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test9sn5vsox
+waiting for async operation opid-5577c6fa-f75f-4e7c-8793-e5d774e050ef
+waiting for async operation opid-119f23f4-7270-4744-952e-ad58c7581259
+waiting for async operation opid-ea6669fe-84ad-4d21-b490-a2cae64a7b78
+waiting for async operation opid-64b77539-b630-4394-b66e-7642156fd7ff
+waiting for async operation opid-ad533f3c-c89a-49c2-94e5-fe3d56488c16
+waiting for async operation opid-63b68d93-d2d1-446d-881e-5eb782953567
+waiting for async operation opid-fd2ee0ee-3c19-469b-a9ce-d3355340ad79
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-0c1a1528-3c58-4f6e-80fe-d8f3757ef9cf
+waiting for async operation opid-9739d666-5b2e-4050-a9f6-d4c26f2bc93c
+Source address:     tmGQQ14PXE7tBt6SYYV2b8vjEcyquQNYEaW
+TX1 change address: tmS2ofFbM1QpQU3L27LDkqxyURrQVgxTokT
+TX2 change address: tmYSD9JBeNdxMZGLQxAcibx5Mqi93m2VfcY
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-a76a7e63-400c-4f58-ad1c-4470344f4b72
+waiting for async operation opid-be988299-5ec6-42ae-a0f7-7fd1108b80b7
+Source address:     tmGQQ14PXE7tBt6SYYV2b8vjEcyquQNYEaW
+TX1 change address: tmFzf7hANwKHhgBCVNLRHJeexpCBpzftZKQ
+TX2 change address: tmC7U1cvG6VWJhABntQJWmX2de6BWnea6n6
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-dfa98c3b-17e9-4f4f-b6dc-4ea3d108b53a
+waiting for async operation opid-d845b067-ac9e-4715-b9e9-3faf46e5e6fc
+Source address:     tmGQQ14PXE7tBt6SYYV2b8vjEcyquQNYEaW
+TX1 change address: tmVGbAAUyswkzEcmdLt9k4M7rKKoYimS43c
+TX2 change address: tmYj2DHnNh3t5HWVyKf2qEwqkougdLTqsa2
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (130s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testk8x_8ow2
+waiting for async operation opid-8e016128-247b-4c8b-89ef-dacb7fe722fc
+waiting for async operation opid-54ba7800-e7bd-411f-9caf-f4164e76846b
+waiting for async operation opid-05e5e73c-af00-47f4-b653-deb0731f1eeb
+waiting for async operation opid-1344cccc-291c-4643-b78b-845f72ccd07a
+waiting for async operation opid-de830c87-ebb2-48b9-b034-9e5101927196
+waiting for async operation opid-e855a937-0e7c-46a3-aa2a-0511d7b6cf46
+waiting for async operation opid-5c4c2a86-2f97-438b-bc85-647aa14f669b
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-48a0de49-e2b5-4859-9298-9633cd891c2e
+waiting for async operation opid-65e078a0-cd51-4a57-ae1b-f5ff139d2186
+Source address:     tmC3dcXLAgrf9QVCB598JLCKGSrsWFjdqV9
+TX1 change address: tmQAbpyncy7AjH5z15mMaS3h1E91a7LpLHy
+TX2 change address: tmBgaKPksqVyb94DVbsJUqYLVPwGZQYBV7i
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-a16e92bd-b029-4555-acd5-e8982020e8b7
+waiting for async operation opid-6580f8f8-3ca1-4737-a2da-9c9643055980
+Source address:     tmC3dcXLAgrf9QVCB598JLCKGSrsWFjdqV9
+TX1 change address: tmYVNrjDBPHAD87bS3w7VCwNoVGTuhXGM7m
+TX2 change address: tmVKfc6eNjD5GHqtMjShvM6E6raTuMqELiK
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-cad55aa1-0d26-41be-a49b-cc469c872699
+waiting for async operation opid-77d0cad5-0131-4645-b29a-47f60fdc6d93
+Source address:     tmC3dcXLAgrf9QVCB598JLCKGSrsWFjdqV9
+TX1 change address: tmAvLvo2UAvTLp2tCDDBiPZkWPM7jb6ndD3
+TX2 change address: tmCnL85Und7pZU3m8eN5ZxcApUxixUKsWrs
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (130s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testv2ysve1s
+waiting for async operation opid-c0a967da-9e5d-4442-ac39-4ad7abd27f13
+waiting for async operation opid-e2fd5102-390e-491e-87d0-ddea8453970b
+waiting for async operation opid-add782de-752d-4152-bfbd-5f47c4c6580b
+waiting for async operation opid-fb0e77d8-facf-449f-b9ff-ac0f143314cd
+waiting for async operation opid-ca66e77f-b5ee-4a75-9614-83f7d078b75e
+waiting for async operation opid-c47dc618-052e-4f3b-ad80-5465decc17cb
+waiting for async operation opid-d37f4ee7-d95e-4a2a-ad8d-a2c5d07f420c
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-737e7cf1-6deb-4c13-82d7-52964a78dad1
+waiting for async operation opid-594aa8b2-f6dc-438c-af02-5b70473c19cc
+Source address:     tmB9yjYqymojqcJqFbNeN9Z11zgBFFwt8yo
+TX1 change address: tmLjFpbvwtTWatEKFAqrqSJRo2VPEVHaT5Q
+TX2 change address: tmXcTYAha45UNRkXMYTku2gUiowZXa5Dh14
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-adac9cf3-3942-4fd7-b0b7-45ace139726c
+waiting for async operation opid-db39ca32-0fd4-49d0-b500-c479c16a551d
+Source address:     tmB9yjYqymojqcJqFbNeN9Z11zgBFFwt8yo
+TX1 change address: tmXwJ27iFQ9aoUv8jH7VePfT8NAMccXh8vY
+TX2 change address: tmLiarn55DPQ2wr4ArHtpTEmcEsQQXopihr
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-3a3d2509-c80c-4b37-8d5c-944a27c1342f
+waiting for async operation opid-0ce2b1c5-6e12-431d-8f8a-e53e8a3a2e86
+Source address:     tmB9yjYqymojqcJqFbNeN9Z11zgBFFwt8yo
+TX1 change address: tmKvkbzgFV96eCnAPz7d93Py23Fk4ouHqa8
+TX2 change address: tmE31ZDSXbqB4aiupiRN79uCr7gYezZNJXa
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (133s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test0vi1v38a
+waiting for async operation opid-924db284-5bac-4d24-a7f5-cebf995259e7
+waiting for async operation opid-53634593-aa98-4375-b0e9-22e5bcd21e74
+waiting for async operation opid-26a4834b-3848-4473-b535-68166782f5ca
+waiting for async operation opid-761ab1e8-36a2-46f7-98e8-e7471ea225b3
+waiting for async operation opid-edc368ae-50b6-4b5c-9312-ffffd1d03383
+waiting for async operation opid-db33a0b0-5447-47d2-905a-f60d0be4dd40
+waiting for async operation opid-45ffc69a-d530-4351-8dfd-bc7ac72a6594
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-cb9024ca-7c03-478e-afac-67ac74a8079a
+waiting for async operation opid-34441ed8-7459-4900-9272-ab81a092304b
+Source address:     tmQkZAtwaDPE1acC5jhEScxsiXb2mKVttZA
+TX1 change address: tmR3aDoyqSua5gLcDoVzb28T2nMBiyExfEs
+TX2 change address: tmTQhxiBy5FTunfzXonp4eEMKUjHdmKTiJe
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-0c9a3ea9-c86f-495d-9c19-99adf9519983
+waiting for async operation opid-661d5c59-8829-45ba-8dc3-bc478cd5ceb7
+Source address:     tmQkZAtwaDPE1acC5jhEScxsiXb2mKVttZA
+TX1 change address: tmRDPPKDUB6eLdX2YgA9Sd5XgvotB6us69b
+TX2 change address: tmXWkCa26cxTkuVfmwiRWgdpzvGVHft8Dy8
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-22786eff-4f09-46ae-8204-66ed8f0f0a92
+waiting for async operation opid-6ec2ea79-642e-4874-8e40-cfd84210626e
+Source address:     tmQkZAtwaDPE1acC5jhEScxsiXb2mKVttZA
+TX1 change address: tmPiE86NyqVhUBtFikBat3aWq9SUwC7YjCN
+TX2 change address: tmXjnmzTqvQisZaS57HZNdYe2v5uRLiqcWg
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (130s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test01uzezee
+waiting for async operation opid-1781e7a7-0600-42fc-8ca7-8350f42edda3
+waiting for async operation opid-8f0b8ace-d500-4f0a-9728-a7576657655c
+waiting for async operation opid-a39fec56-646f-429e-851b-2b7dc3344876
+waiting for async operation opid-06cc081e-147b-4637-ac7d-7b36e8d89203
+waiting for async operation opid-a9d42f6f-cac3-4681-beb3-0ce6ec17cead
+waiting for async operation opid-eadd5dbe-808b-4bcb-bedf-ef83ff7dd93d
+waiting for async operation opid-049dd191-de59-4445-a07e-5205d693f76e
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-29b8b393-eb2c-44ce-9561-4079213f5a25
+waiting for async operation opid-f7e5b2e6-a684-467f-a96f-874e1a703918
+Source address:     tmAEchhdZ8fui47eW2JBgeg9J4edWKhMQwV
+TX1 change address: tmDZVJntxcAwENFbQD8qftB4GuGzLEEGZQh
+TX2 change address: tmBNyefvPxAe7Ai8ELabcTiRgGnTsXP4Wrv
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-f09d8aaf-c4c5-4f26-b3d4-904a8e22f3db
+waiting for async operation opid-bdc2c40a-94f4-48d7-97c0-b2f155f74ada
+Source address:     tmAEchhdZ8fui47eW2JBgeg9J4edWKhMQwV
+TX1 change address: tmUqTYcfzvfy7RCufhZykdr59RixT7MD5ic
+TX2 change address: tmFMzu6LwZhwYtn1FKiHCe3j5jU9bXkJhyy
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-885d6428-dd81-4927-ba9b-c90d0f11bf5b
+waiting for async operation opid-9efdb635-eb63-43ae-b734-c8aca9155656
+Source address:     tmAEchhdZ8fui47eW2JBgeg9J4edWKhMQwV
+TX1 change address: tmJQN1BVPBBoxBLBMHUjD4akyRYfodCuiSx
+TX2 change address: tmGRiEMcKVSrewA7qEhuc1BhCTxf5XRWHMV
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (128s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testogu5s82h
+waiting for async operation opid-485dc3fc-2264-4e12-9374-38a3520b06c7
+waiting for async operation opid-87d04ee8-662e-4a4f-9403-0191b65e0fbd
+waiting for async operation opid-dface5ad-10e6-499e-bcc0-7231c56b5978
+waiting for async operation opid-26a57de6-1e58-4708-a923-5fb98df26aa2
+waiting for async operation opid-72609d1e-7efb-4d42-8d41-d0b0c1617898
+waiting for async operation opid-6cbea92f-2d4f-446f-a8a9-f540747c51df
+waiting for async operation opid-7cad42c3-6550-4b95-bf3e-276dbb4170c0
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-045c1488-e9a6-4e70-a57a-83d95aa0bdf2
+waiting for async operation opid-194ecdde-81d5-40c0-ba10-e45813626244
+Source address:     tmW68B7EyZEnCxGy5ChNjhuKqMdnoMhwNzF
+TX1 change address: tmGoQdF4GAyDUAPrB5M5aNSPPdPmg9VU2x5
+TX2 change address: tmLHLzRdHBxSZTJ66Nr1C4dgsMwGp1MqN9F
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-e7054986-b0fc-4623-960c-ed59033db444
+waiting for async operation opid-b930e5e0-59d1-4814-b826-7668b8bf07fc
+Source address:     tmW68B7EyZEnCxGy5ChNjhuKqMdnoMhwNzF
+TX1 change address: tmSfUxnNhcUH5MkJds4nCB4WL1RCiZJiNgD
+TX2 change address: tmSxkaRA3Mo75n8Kvw3AebRqpL52Xz3wJYD
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-dfca4ab5-21e6-44f8-a5b8-c5e58c4c0fdb
+waiting for async operation opid-6ec214e6-d1f8-47a0-b73c-c3cf29f8edd2
+Source address:     tmW68B7EyZEnCxGy5ChNjhuKqMdnoMhwNzF
+TX1 change address: tmR83MiuLUv241pxfYDhbM4vfhH42wWTBjS
+TX2 change address: tmUn3TBop61kAfB6AnUB3SoKUrAsyxGMjDc
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (131s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test2ey6kw9m
+waiting for async operation opid-a33def07-9eb3-4ac3-b999-c8128511ffc7
+waiting for async operation opid-7cf13469-6f0c-4636-ac96-20e3cc11e629
+waiting for async operation opid-112a055f-bd54-40ef-9b84-c7d0b13bcf43
+waiting for async operation opid-674d7114-07ae-4126-a3c5-f01a3d6e2dbd
+waiting for async operation opid-49c78775-fccd-4b15-8ebc-ff8dec8d5515
+waiting for async operation opid-1ae23813-21c2-4e9e-9193-b91ad6b2d65b
+waiting for async operation opid-81504a1e-705d-4295-b810-5c09dc5364cc
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-1c2bb429-60d0-490e-a70c-3d36b3f335e1
+waiting for async operation opid-cedb5de4-5518-434b-954c-e0ddfdf22803
+Source address:     tmVohxhsvfNEwytnA7fanH9QTb17YG9EFhR
+TX1 change address: tmTvqkk7oq74EnzHmirCJ9GXoG87Arcy17F
+TX2 change address: tmPtAC4CHUnHJTC4bjuk9cFkX7HnynNzSvA
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-c28e18d4-5a66-4cb3-b8a1-1256f144660c
+waiting for async operation opid-ca40e3ad-3943-4f10-b27a-b431cd18f7c3
+Source address:     tmVohxhsvfNEwytnA7fanH9QTb17YG9EFhR
+TX1 change address: tmALBfcayttFuJLPhdqnWnk7uNWmSGs4k1U
+TX2 change address: tmGLBHufesT8XQ24YXFhaq4SpHwBVh73otk
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-2f1c895f-4b6b-413d-ad55-64bf86948909
+waiting for async operation opid-948161f2-0d25-42a0-a060-822cf126a4c9
+Source address:     tmVohxhsvfNEwytnA7fanH9QTb17YG9EFhR
+TX1 change address: tmTW19PmKvzbed5f4knCaovSGu9pcMWabw2
+TX2 change address: tmCK7GFcREpop89B5GPSsAyVXqQVqorAZXS
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (133s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test04w8ylzz
+waiting for async operation opid-384af44c-3e81-4c8b-af94-121602c10166
+waiting for async operation opid-325e2379-ffb8-444b-829c-ffba2253b80f
+waiting for async operation opid-f88c3875-2b6f-4cbc-a935-ea29794a9124
+waiting for async operation opid-6c71cbcd-ab86-4676-ab0c-00246988dbd0
+waiting for async operation opid-ebcf2166-3455-47bd-82c4-070e9f1d83d7
+waiting for async operation opid-39b47ec5-aff8-4b45-9c55-8212e73cc095
+waiting for async operation opid-23fa3441-4afd-4b73-8ae2-ac013414bdfe
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-11fdde0b-42e5-4327-a098-a6a1c71ba64e
+waiting for async operation opid-4b3a9d28-daf3-4fe8-8dfc-4e7ab8770385
+Source address:     tmACNsBgcaprxKhxbaiJFPvbDdYRQg6dYR3
+TX1 change address: tmKG6VfNmYmTqWNqNnpzxyH2hVM5iPt2iQH
+TX2 change address: tmFrtz4KdjrwWnQ46fqopuhMLN6ok1p1GzV
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-5280c24e-ccb9-4710-8d99-51a66109f6b6
+waiting for async operation opid-506cebc7-04db-437b-8553-43658cf7bf91
+Source address:     tmACNsBgcaprxKhxbaiJFPvbDdYRQg6dYR3
+TX1 change address: tmCB2TkjszMhy3nVocz3vPXLpqoqMKPKBuJ
+TX2 change address: tmRUkPehP668iPfV7tkN9qzYfu2a6zuJczr
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-44392dc1-84cd-4979-80d6-9b308a48c7eb
+waiting for async operation opid-5cd2977b-19cd-4c2b-844a-2aa7c94af4b5
+Source address:     tmACNsBgcaprxKhxbaiJFPvbDdYRQg6dYR3
+TX1 change address: tmSLpWNQwctgG2sNa6L18WqgDE56fXVDXnt
+TX2 change address: tmYxJmTYtF5J89WYzqC6VT2HY8MiruS1Ybn
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (127s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testnfm09db3
+waiting for async operation opid-59c603a8-6dec-4e8c-9606-516f7553c458
+waiting for async operation opid-0f38c94d-ae8b-4ca9-8d90-5a3f65044d33
+waiting for async operation opid-40cca6f7-be5f-4304-87f0-4e7f8d6abef1
+waiting for async operation opid-e2a3cc39-688d-4ea6-ad65-902d6aecbddf
+waiting for async operation opid-e040d557-daea-446c-bd47-c8a16caaf7a6
+waiting for async operation opid-b6aafa90-e140-478d-9e6b-7c33b11ba397
+waiting for async operation opid-e5dec92a-b9dd-4b5e-b47c-7d52ab47e9e3
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-61eb1999-3046-4402-a207-d796f78262d5
+waiting for async operation opid-07244b0b-1183-4632-8a8c-bb35719f00e7
+Source address:     tmPAHEEpCMWLgFeowX6b4vcfBR2fpA8vMtk
+TX1 change address: tmY4UDCvnwWVfVj5T8C4XwNHhaUf4dU7VjP
+TX2 change address: tmCBzHXYawT8znj2mAwTTdzYhoxaBWh5QdA
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-0e44d4ce-36a8-4e45-9e19-d9131a7401cc
+waiting for async operation opid-c0deb8cd-3d9b-45d3-a4e6-aa1b06d3a6cc
+Source address:     tmPAHEEpCMWLgFeowX6b4vcfBR2fpA8vMtk
+TX1 change address: tmQJyLsEGhyUk2SWcFkAV4hoUK9SdXFyZ2G
+TX2 change address: tmW3Bw4eBx7fXZQKa31i1jM9zEyF1yCik38
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-8eb48680-6ddc-4ead-bffe-2ec23cb420da
+waiting for async operation opid-5eee1f5f-9e23-453b-aec3-12db12a7c299
+Source address:     tmPAHEEpCMWLgFeowX6b4vcfBR2fpA8vMtk
+TX1 change address: tmGNuBNTvgoNbcr7qrQprp1DfPettvWQSVP
+TX2 change address: tmYSiqMnsK6KwQ6vqaXLU31ib3KBcL3WMW8
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (128s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testwkbi2_eg
+waiting for async operation opid-d814b05c-8966-4ef3-bdbc-1cc2ac10e2a9
+waiting for async operation opid-19ddceda-d4b7-464b-a5ac-43b1b72eef02
+waiting for async operation opid-748ff16b-6ec7-4553-b3c3-2ed6b24dea05
+waiting for async operation opid-c247cf16-24e5-455a-be0e-db5061d77573
+waiting for async operation opid-580c39de-35ca-485c-bf1c-ab2c0cdeaa3d
+waiting for async operation opid-e7410f14-ab08-4c78-a619-883526f1534a
+waiting for async operation opid-2a6d328e-7f76-4c5b-996a-944118e1077b
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-d223440d-00f9-47ae-9103-eb411ea901cc
+waiting for async operation opid-da72fd1f-6b01-4082-8b95-9f2e521b1670
+Source address:     tmX56qekCFNCsvhrFebXxtse6EQm8vE9jzM
+TX1 change address: tmFH8NH2EHBRsu5tsz5fPXz4qCMixTGd7sM
+TX2 change address: tmDtnQFxWNP8H23gUtPnSi8QbcVXTgv14gV
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-e18ce32f-2f60-41cf-9f2e-9ca1821ac614
+waiting for async operation opid-1f88a706-1b02-422d-83d2-0cc2355af405
+Source address:     tmX56qekCFNCsvhrFebXxtse6EQm8vE9jzM
+TX1 change address: tmRi6uzzZoRHXF1VNiozGSJdcjJh5u7iPnL
+TX2 change address: tmHr5gPMd1JpCj8vkhz8KzckGJGRY6GSeey
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-8290b4cd-5c00-4faa-b36b-2088d0e2ace6
+waiting for async operation opid-64967a35-3245-4d99-acfa-71d84ade5e0b
+Source address:     tmX56qekCFNCsvhrFebXxtse6EQm8vE9jzM
+TX1 change address: tmHgtzacow6kAT8E3NwBxQi47ewzQdTdmAp
+TX2 change address: tmGTm8b5qcxxfxgeZi2mjE11eoRAMLy7RmF
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (129s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test8rst6t7j
+waiting for async operation opid-e13d620a-805f-4adb-ae15-f968e203c5b1
+waiting for async operation opid-bc6951c3-c40f-45ca-9c55-e04d3382d1c4
+waiting for async operation opid-b40aab6b-9c41-40aa-93b9-e364c03a3152
+waiting for async operation opid-bcaa33f9-c38f-4948-ada8-092f10be594d
+waiting for async operation opid-92e73b90-0341-49fb-9196-0e153e00e3d1
+waiting for async operation opid-534eee4b-bb4c-43d2-993c-496a31ed82df
+waiting for async operation opid-449bd453-10bd-4440-b280-808924a35965
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-f2201f99-8930-48a0-937b-dfcd7e0fcf3d
+waiting for async operation opid-a4d3f02b-0bbb-41b2-9e63-ec0d00c3a672
+Source address:     tmVad4T8ZxYeuR1XW6Xi8jWS8DTu6JSJND6
+TX1 change address: tmPzv3z7SDGwYtYdr4M7Lo76JFNPKnc3YMj
+TX2 change address: tmQGjSgNRTmJPGC9Nh1KdsjL7nC69VedfBk
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-f5644104-a787-4369-92d0-c746e864965e
+waiting for async operation opid-9813afea-adfb-4d15-8513-b4b129f5a95d
+Source address:     tmVad4T8ZxYeuR1XW6Xi8jWS8DTu6JSJND6
+TX1 change address: tmGcvCXN7LJnLzKsGDB9X8XC4kfGbFXt2ds
+TX2 change address: tmUXRiLgDFW6XBUkQzoAAKndY9ZUjsTJgqG
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-c3a66e46-6cc1-43de-bdc9-a00fdce6e048
+waiting for async operation opid-733ed08a-9abc-4428-bb9f-e9d39309265f
+Source address:     tmVad4T8ZxYeuR1XW6Xi8jWS8DTu6JSJND6
+TX1 change address: tmEKDTazMiF5fFdFNTevTCW2VaucGkFacdM
+TX2 change address: tmCFnSeFGz1dBT9zRe32ih5uQDvnYbzwnkq
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (128s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testaxylxo43
+waiting for async operation opid-48751fd7-9bab-40d2-9fb0-e9f90a755b85
+waiting for async operation opid-36333add-c6ac-4c7b-911c-32c9a348f6ca
+waiting for async operation opid-7d0563ed-2eff-49c8-ae4d-cb19ddc4e6dc
+waiting for async operation opid-0836ebc6-de3a-438b-9b54-89e316e5e28e
+waiting for async operation opid-5b7b0c7a-7922-4092-b1be-e377d0846d88
+waiting for async operation opid-56cc31d4-682a-492e-b525-d7dfe0c3de81
+waiting for async operation opid-b103c2e7-cc37-4949-9d2d-e550e83bf8eb
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-9cdbc4d8-fee7-4b69-97d3-28270299cbe9
+waiting for async operation opid-24dd43a7-8e4c-4fc0-aaff-690277c3d3f4
+Source address:     tmWkXRxvFnyJVF4bWxarULeTG9fbAnrHhhf
+TX1 change address: tmXEfhbJWPYgDWPZkuFzM98A1F8fLfASsxm
+TX2 change address: tmGowTj7eQKUvwfvhu5u2k4vgXt3wCLNQEw
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-3a818c4d-dd2a-4aeb-81ff-d4afcc7aa094
+waiting for async operation opid-5644f1db-dca9-4e13-8487-078b763a79bf
+Source address:     tmWkXRxvFnyJVF4bWxarULeTG9fbAnrHhhf
+TX1 change address: tmCywmRQXopbNfEnfgXTL8dF5zimwMRZp64
+TX2 change address: tmNfWiZzdGbMnsNGHBcfYd1Z7mZKW91MT9Y
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-9bd8dd6d-1874-4090-ba37-74278a1b3d65
+waiting for async operation opid-3b7923dd-4b7c-4f11-ab74-82aaef85da8b
+Source address:     tmWkXRxvFnyJVF4bWxarULeTG9fbAnrHhhf
+TX1 change address: tmWpaQxu5CKVHM2SwekmyiHmZzQ24KkHAhv
+TX2 change address: tmWQsw8mFNMv8k6HvjeeQ1oHictYzxui5pk
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (129s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testx7vp5ohc
+waiting for async operation opid-f2a4c60e-cad3-4403-8c1d-bae0f99f4597
+waiting for async operation opid-8789993f-53a4-4159-a8cb-045af3b6a126
+waiting for async operation opid-a5cc81ae-4f83-48ee-a340-d64a6e097950
+waiting for async operation opid-b2f73d81-5628-476d-9e52-b10d39c3e54c
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (28s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test9_mea5vc
+waiting for async operation opid-0dcfb336-f263-4830-bafe-fee1c5dfd1ee
+waiting for async operation opid-07a362a1-b4a7-434b-acea-679cccd524b6
+waiting for async operation opid-cdcb700c-6195-47b4-86dd-e3cb8606f1d4
+waiting for async operation opid-41f9e823-987a-4fef-b70f-23b94317e644
+waiting for async operation opid-fa4164ff-c5f5-4fc2-8cad-24fcdff102c9
+waiting for async operation opid-a3187467-889c-4c69-a481-88687f36f1d7
+waiting for async operation opid-97389210-1d55-47a3-9db1-7a2b2915783c
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-8e15b634-73f4-4642-af76-3b68f45a5d86
+waiting for async operation opid-b2e44e86-fe1d-4fb8-be7b-3a1341c4000b
+Source address:     tmBPBPzogn7QrbBbRSqRMDaqofEbgYDiRbM
+TX1 change address: tmLkfbX6yKBp5BELa3EuUGrYcL8XX3hbJYn
+TX2 change address: tmPTxpxnvjzKHK8o6PHPB14bxT7bkys7ExJ
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-42d783d8-fe4a-4eeb-9cc2-308dbe6c7739
+waiting for async operation opid-5b1ca0c0-25c5-420f-b176-8218bf3adec8
+Source address:     tmBPBPzogn7QrbBbRSqRMDaqofEbgYDiRbM
+TX1 change address: tmXefWx9ZUnwEKGCLpr7ZeVwvTcrrxvzY4C
+TX2 change address: tmSrPW6AFNMxmBmAfMKwnpbNLnW2UBgFAzW
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-a3358efc-d656-4ca7-a8e9-8a9c021c5edc
+waiting for async operation opid-a01a7565-2c29-427a-bbe3-b581219da5f5
+Source address:     tmBPBPzogn7QrbBbRSqRMDaqofEbgYDiRbM
+TX1 change address: tmCM7668EyzffuQzzzz9EJYgAn6eWq88Uhm
+TX2 change address: tmJisPGeh5H8YLzY6LkfXe7WAHu2RMKwjgY
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (134s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testbdzfv51q
+waiting for async operation opid-ec315d0f-2d0b-48d6-b6f9-5c3a5352b640
+waiting for async operation opid-a5bf1d54-6729-49e6-9f7c-367994f42605
+waiting for async operation opid-461bb533-3600-4cb4-9834-b37bbf04475d
+waiting for async operation opid-792cbfcd-1d0b-45db-aa3b-d20db452322d
+waiting for async operation opid-ba472378-f778-4532-b611-9248f1bf2ce8
+waiting for async operation opid-db543234-56b3-4b35-986c-d7409eeb365f
+waiting for async operation opid-99231bc3-28b9-4ae3-b001-eca0ed0e6393
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-0c0daa13-24b0-4437-977f-b936cfe0be5e
+waiting for async operation opid-0e461e1b-51a4-4a71-8a88-7f26ce8cff66
+Source address:     tmEtU3mMBBzNNZnsu7zqa7cAXJA1hcp6jQW
+TX1 change address: tmB6VmULHzUi9WHUGPFYesmiJjA7hX9u42J
+TX2 change address: tmR3F2oYxruXK2CRZ4LUjTTGnsfqGoLyPzC
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-34d37fa1-7aae-433d-8766-09b7045606e9
+waiting for async operation opid-86a85419-7429-4d3c-8f16-eebe8c9e38bd
+Source address:     tmEtU3mMBBzNNZnsu7zqa7cAXJA1hcp6jQW
+TX1 change address: tmMSozdpyNf44um7UjZyKSvHgz1iVYSrcjs
+TX2 change address: tmLHr1N3TBo3ACP7fvV8DaQGzY7JSejDhLn
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-7acfcada-8523-4efc-bcb6-8937cd444b82
+waiting for async operation opid-c0cf7351-eb24-4f3e-99d9-cb9a6ea5a6b8
+Source address:     tmEtU3mMBBzNNZnsu7zqa7cAXJA1hcp6jQW
+TX1 change address: tmADeAvs7uyihFdE5QM1krxR1mH3fMiAFcv
+TX2 change address: tmXWPQDvWBRd6Y1hiXHchT8L5pStH6vZbH8
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (136s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testzy081kl9
+waiting for async operation opid-68fa3656-3154-4a30-8b56-b3eee194cb63
+waiting for async operation opid-734eec16-9a75-4586-bce7-9bef9553e3a1
+waiting for async operation opid-ec17872a-5b16-4ccb-914d-76794cab1611
+waiting for async operation opid-b18574aa-9c3c-49fa-8087-4f29a24c074b
+waiting for async operation opid-746b0591-754e-4267-b615-6a9af9ae6b47
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (36s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test1017eihd
+waiting for async operation opid-3da0f574-267d-4822-8ded-def695270d83
+waiting for async operation opid-1c643594-6bd5-4c5c-a08d-cf0ed2d30e18
+waiting for async operation opid-4f290ae1-7a40-475c-ac36-5f15cfb05ae3
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (23s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test6_hhpo47
+waiting for async operation opid-569a8906-33fa-461b-af34-4a85f5d9cf90
+waiting for async operation opid-c0a4ef93-a144-4e49-9772-690763e0d573
+waiting for async operation opid-f3e43677-28cb-4b96-b750-17fe3c378b20
+waiting for async operation opid-fab5ff31-7e52-4047-85b7-3c3044ffbbd3
+waiting for async operation opid-e556f0d5-fe01-4e9c-9035-1cd04def4701
+waiting for async operation opid-550cfba5-64af-4cf2-b3a3-d9b6b1b9cba2
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (39s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 93, in run_test
+    check_change_taddr_reuse(taddr)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 65, in check_change_taddr_reuse
+    txid2 = wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test5acrkoqe
+waiting for async operation opid-cd0cb9a9-a45c-470d-acda-ac5fad8e8f2d
+waiting for async operation opid-348b81c9-56b2-42bc-b558-e50199f50845
+waiting for async operation opid-f671f4b9-039d-43ff-8114-d2a8d8161ef4
+waiting for async operation opid-16aa1c99-6e47-4175-a87a-cd0c3fa83289
+waiting for async operation opid-f713ad79-484a-4170-9a22-de2f3516efae
+waiting for async operation opid-93f9dde7-abc2-4a6d-947e-064690b74f65
+waiting for async operation opid-27c08141-e228-4cec-9099-a0eeb9e200f5
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-83364c77-4b7e-44e4-9f9f-88cf35c3ac8a
+waiting for async operation opid-7baea48e-ad65-432d-a127-e42eb6825bad
+Source address:     tm9ox96RTvk1YTJUbRsS3qmoWM8fabU3htv
+TX1 change address: tmQpET3t6pHZGuxv5MSV7YoM8YTRobY5dJM
+TX2 change address: tmSQ9qubGoAt3gekXVrGrTccrZ5Pn6yX4KL
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-f0ae24a7-094a-40e7-a020-eb0e290d72c0
+waiting for async operation opid-aee05f68-b291-4bce-af83-8cad695b24f5
+Source address:     tm9ox96RTvk1YTJUbRsS3qmoWM8fabU3htv
+TX1 change address: tmWZecJQhVjBUeWCYkjfkor2MwMBqJbYnnP
+TX2 change address: tm9se3XyNGAGNj1mkzKXqiANZ6xUBz3bhuG
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-34772f71-0dbd-4c73-a800-15b0e77cc54e
+waiting for async operation opid-3a9f5f5c-7ce8-4198-8315-3f950f25f152
+Assertion failed: (left == right)
+  left: <None>
+ right: <Could not find any non-coinbase UTXOs to spend.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (128s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testmbrlwzu0
+waiting for async operation opid-e265c031-0d9f-4ee3-ac34-357a4d3986ec
+waiting for async operation opid-74fe615c-5241-4d89-adf6-87670a56b0a7
+waiting for async operation opid-a5fdcb0a-e484-4770-8875-092f5582996e
+waiting for async operation opid-70f8d11a-fc30-40d7-9f2b-4b8ac6b0d61d
+waiting for async operation opid-8e8eadfe-ce39-47f5-ba29-0f8702a247d3
+waiting for async operation opid-a76f5081-dfcc-4372-9dce-6b712718e668
+waiting for async operation opid-9645f7bb-8a9d-4321-9674-2c74643c100d
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-93395863-e279-4bed-a022-872f65f6dc4e
+waiting for async operation opid-21d0ac16-7a88-414a-acc3-39a5a224729e
+Source address:     tmHES1NjGHWdS9HopuoXWVSXYyRUS4QTDyZ
+TX1 change address: tmEvrKwM67kgyvkKXATiv99e3zSMYrRAtK9
+TX2 change address: tmSqc5S3tUKpeaVDcrg8HDdDbvfYQoxgdrU
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-76c4260c-9cfb-48be-b9fa-a9fd4eecae6f
+waiting for async operation opid-b8c7b808-e34d-43ac-8d55-d72f7b5ffee7
+Source address:     tmHES1NjGHWdS9HopuoXWVSXYyRUS4QTDyZ
+TX1 change address: tmVBVfksTJMppp6mYqVGYZmKBPeqh2q7qUz
+TX2 change address: tmV7ZweWikfWeDExpgcd1c3wzVqYT1uedf9
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-f1c710d1-eecd-4aca-959f-3a872a2e29d2
+waiting for async operation opid-995541df-b418-4cd6-bdfd-f81cebefbb45
+Source address:     tmHES1NjGHWdS9HopuoXWVSXYyRUS4QTDyZ
+TX1 change address: tmJSYqhSXpBkapZ8ynNLGuGAh5csH4zfD9r
+TX2 change address: tmWrm7HXfXeRZHopwxws9gwhLe8XWRvYCva
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (129s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test614u1moa
+waiting for async operation opid-06a4d0a9-553b-4537-bbad-c3f718f23d98
+waiting for async operation opid-666cd737-f317-4d28-8212-a8e1500dac79
+waiting for async operation opid-abe046a3-63b2-4795-9250-84c6aabf8523
+waiting for async operation opid-a5c3f0fb-f5b3-44df-b296-907d20bc53b6
+waiting for async operation opid-dd586f3c-0156-46d8-9959-ee9339de0bd5
+waiting for async operation opid-ba591229-36ba-4409-8195-d4ca796cd8a2
+waiting for async operation opid-7a5648d9-1201-4a02-9718-8c2c1043b7c9
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-288b72ff-dfee-48ae-85da-621986dcfe6c
+waiting for async operation opid-3401b254-024f-4c37-94b8-a7ceeb0c3384
+Source address:     tmEjXPdV2QTHVaq1RyPUSfwdVJMiNjPJZhp
+TX1 change address: tmEvrAsW4q42WncggczqxXtKd4Fei2sDKco
+TX2 change address: tmF8BQeNtHXsXXMc41rZ1CADbYxFrMhKSUx
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-05cddbd9-d754-4be9-a1eb-8b2d36f45734
+waiting for async operation opid-92aa5de8-3958-4f70-8b9f-a222855722e9
+Source address:     tmEjXPdV2QTHVaq1RyPUSfwdVJMiNjPJZhp
+TX1 change address: tmB15TTL1rs8N3fQMdjxCCQDaPsSktMLcfR
+TX2 change address: tmWhbHHmvBNTigrDYAPXdQMyCp58snAbApe
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-61ef134d-c8fe-4179-9d64-a4a02ad25fe0
+waiting for async operation opid-d72fedc0-83b0-4907-8a63-4cbe1c86485a
+Source address:     tmEjXPdV2QTHVaq1RyPUSfwdVJMiNjPJZhp
+TX1 change address: tmEKRGkVqRMYS632AfWMoF2Hu5DSZaKGA9h
+TX2 change address: tmG6sDVNaADgk1Y3QKnmrb4N9kXxKvbvSCc
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (129s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test11po9o19
+waiting for async operation opid-df048e73-e681-4044-a6e6-5cd17c94c536
+waiting for async operation opid-114e7b05-6e9e-415d-8c37-3965edfe82bd
+waiting for async operation opid-9b3482eb-c81d-40c9-b103-6a23223e7c4a
+waiting for async operation opid-b2295f9a-6cb3-4390-a0c7-f3dfdb16337c
+waiting for async operation opid-e30297a8-d0db-4e34-b351-6a289048300e
+waiting for async operation opid-ec775915-3021-4433-b132-91a60f46d93c
+waiting for async operation opid-6a18d871-57de-4cde-990d-c38836d087fb
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-d5c6248d-cebb-413d-8593-e4a395254681
+waiting for async operation opid-13598093-d2db-46b7-b8c7-079985037f75
+Source address:     tmHVn7mVHNZe68BUsNyYMrhoYqog2nYroS5
+TX1 change address: tmVB2EMVi1iYGa8usHZ7f8CsiQRGgLZTTwM
+TX2 change address: tmJZdGSPZi6mHrc6qbYQckFfzqpR2qE9fDv
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-3c328a63-e604-4917-bf93-53fdcccedf5b
+waiting for async operation opid-6e0c0f35-33ed-4a19-9717-fa8158a741e8
+Source address:     tmHVn7mVHNZe68BUsNyYMrhoYqog2nYroS5
+TX1 change address: tmNLqmDPtdzgBjXARFUtRTWrNe378w4UGZc
+TX2 change address: tmB23XLQNVKaGAzQrqJti3dV8sfNA21fQMU
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-236b0857-4d0d-4243-9f59-269b7c30c9a3
+waiting for async operation opid-28892f37-5c2a-452d-ba41-4025ffaeac4d
+Source address:     tmHVn7mVHNZe68BUsNyYMrhoYqog2nYroS5
+TX1 change address: tmA4AYGJ5CVZfiUqyMCJd3LUAZvpf2k1rWR
+TX2 change address: tmYZhavGWYdYRMxHtre1bEsFi6fv5TFCbg6
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (127s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 93, in run_test
+    check_change_taddr_reuse(taddr)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 65, in check_change_taddr_reuse
+    txid2 = wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testvz18zjwx
+waiting for async operation opid-615af4fc-c937-47b6-b75d-8c7afb54742f
+waiting for async operation opid-7676f0aa-148b-472a-90f0-b58a1212e88f
+waiting for async operation opid-9e874b2a-a559-4d3d-990e-7f81571593de
+waiting for async operation opid-0ef47d9f-8180-4256-9700-b17eb2fdbf67
+waiting for async operation opid-93fcb8d5-01f6-4670-8bd8-1317b2758f8e
+waiting for async operation opid-a03bd2e5-841d-4e18-8708-d5154aaccf4b
+waiting for async operation opid-ac4a76d4-e17f-4f11-a4c0-9f7173fcfe15
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-cb173a17-301d-4512-b4e7-ad4d5cfaad31
+waiting for async operation opid-2de40ccd-f662-437d-90d9-fba83de58ce9
+Source address:     tmHw4as7FBtan5Nso2EZaePZo4GJokDtFm5
+TX1 change address: tmYEjhoYaAMf7AKeqGnMnVDbJXk8g2KjH5Y
+TX2 change address: tmHfQaJwQCGN7LyUKxawhciRBxtqjPTf3ib
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-1d482882-6763-4e60-8ea8-5eb1a281a25f
+waiting for async operation opid-5d9721c4-17a8-4b20-86de-07e4d483a5b2
+Source address:     tmHw4as7FBtan5Nso2EZaePZo4GJokDtFm5
+TX1 change address: tmXPvhLW8MxSzN2eDoDD3ZRi8rvBuaf1rY4
+TX2 change address: tmQNPBk2ShbFEAHdhP3u7pqK3nFVvHURTVF
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-8adea3c8-d35d-4972-9c39-d9065417863b
+waiting for async operation opid-6a6b610e-1f12-4ad7-9121-31242d1213da
+Assertion failed: (left == right)
+  left: <None>
+ right: <Could not find any non-coinbase UTXOs to spend.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (128s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test9jafp752
+waiting for async operation opid-4df2cc05-8a8b-4047-80d7-8e7100da6ee0
+waiting for async operation opid-8bae2f41-0655-452e-b497-b1c185ee780f
+waiting for async operation opid-50ce1851-a954-4f78-a84f-9624d688343f
+waiting for async operation opid-37f7ffb8-6dc0-4fce-a3f0-bd4319589bc1
+waiting for async operation opid-4b9fe015-2460-425a-8a8c-d6c0864dd3e3
+waiting for async operation opid-336dcbff-3782-4d33-93d8-a0b6b800b005
+waiting for async operation opid-6892a3d0-f2e6-44b5-9c6f-03038d1ee718
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-110aec56-5e9b-4616-a892-b0b89d2b9bac
+waiting for async operation opid-89abc230-7e0e-4c3c-8dc8-b399d9b4444a
+Source address:     tmKpCRRWT12gQ5sRW1uvneKKTxohmVuH2oz
+TX1 change address: tmDpkiVj2jzEbTCA7KF7Fi4AqmLJPHXiUY5
+TX2 change address: tmLJuaELCD7QVvo8jgzZZp85gxYgCzZ1RmQ
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-6233770f-0830-434e-8723-968d4ecc0dcd
+waiting for async operation opid-53d1973c-7b3e-45a5-b53d-26920665abc9
+Source address:     tmKpCRRWT12gQ5sRW1uvneKKTxohmVuH2oz
+TX1 change address: tmRdt3G6shcgSVcPHazDSwoXbAh5W5VcTQF
+TX2 change address: tmX8Nj3j4tFvodfE6jxzchh5d6x4aryNJ89
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-cb5b1367-07b4-4b6e-a190-d9fc69950865
+waiting for async operation opid-48612b35-94fb-43ba-8b38-4c16f787bf34
+Source address:     tmKpCRRWT12gQ5sRW1uvneKKTxohmVuH2oz
+TX1 change address: tmAK7nmtDsvJEYLSFHDEBzQbK8bUWLuQCrV
+TX2 change address: tmYzZR77bspbnsPyjsDvbjaJY5dtRXdxVa2
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (128s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testgnhxsuv0
+waiting for async operation opid-be1bd91a-f095-48eb-842f-327f9d3e9b6d
+waiting for async operation opid-38442dc8-1916-4783-b3a7-b1d0b9636b69
+waiting for async operation opid-93fc3890-7626-40b7-bdb1-cd2e75bb60b2
+waiting for async operation opid-10e4d18d-dd4d-4528-8e2d-2d81d528bdb4
+waiting for async operation opid-bd5cae7a-dd08-4f79-8528-d8678ae309d6
+waiting for async operation opid-ff7b27f5-139c-4913-8e7a-5a30bc926f6d
+waiting for async operation opid-91a4f3de-5c00-42e8-b6a0-3349f3255d8d
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-15638bd4-db6a-4cc6-a4f1-0ab95295b815
+waiting for async operation opid-aec73ae8-d4d7-4be9-828c-1077891a48d5
+Source address:     tmUeZDyot3CHGsnK7gH2QbA35J8FBSfaN9i
+TX1 change address: tmN5zrXL3Rye82p17Qw7ZXc6Nci5pkovMTz
+TX2 change address: tmL2n2FG1DYRq8Gna8WLoYV5nmdVdxtHWeS
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-202fc90d-5c61-42f8-858f-191105e36f7b
+waiting for async operation opid-d06be531-c611-47d7-bb89-0fd7f8f4ae6e
+Source address:     tmUeZDyot3CHGsnK7gH2QbA35J8FBSfaN9i
+TX1 change address: tmPXYR3Bc8LzUv28Lpg9EA2ehgZxBLSL6DU
+TX2 change address: tmUTL2FurVBgBL9WkFGuyk1ViB8XYh246ky
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-3c982211-7319-4ac7-b3f6-fb2bc33a0390
+waiting for async operation opid-81c09c54-03f3-413a-b96c-b4d576381a60
+Source address:     tmUeZDyot3CHGsnK7gH2QbA35J8FBSfaN9i
+TX1 change address: tmM4twHnQvP89dMgs9JjHa81XYcbJkUHisV
+TX2 change address: tmLNsdhSRwmvYHnBoq6asCm6Mya7eTVqhaR
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (128s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/test_framework.py", line 122, in main
+    self.run_test()
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/wallet_changeaddresses.py", line 52, in run_test
+    wait_and_assert_operationid_status(self.nodes[0], myopid)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 447, in wait_and_assert_operationid_status
+    result = wait_and_assert_operationid_status_result(node, myopid, in_status, in_errormsg, timeout)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 438, in wait_and_assert_operationid_status_result
+    assert_equal(in_errormsg, errormsg)
+  File "/home/pherder/zcashes/intermittenttestfailures/zgetoperationtest/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testbe39d1xy
+waiting for async operation opid-4dbe8475-a5ce-4fb7-936f-84020696ea91
+waiting for async operation opid-2117353d-d365-4c3c-8671-2ba7c7ff6e5b
+waiting for async operation opid-75da12f8-3572-490b-9a87-2dba556f26a7
+waiting for async operation opid-eb3aefa4-59f1-43c9-9bdd-2e2bc2bc59bb
+waiting for async operation opid-5e7e652c-fc05-42f8-9fb9-c478d98c3954
+Assertion failed: (left == right)
+  left: <None>
+ right: <Insufficient funds, no unspent notes found for zaddr from address.>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_changeaddresses.py (33s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_changeaddresses.py
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testjd557hq4
+waiting for async operation opid-e54c9495-8918-424c-9c58-52d04b0ed93c
+waiting for async operation opid-24f48b9d-32b0-41a2-a0f2-18a2b7a086d2
+waiting for async operation opid-f46e6f31-e56d-4727-a901-b3ab8e0f88db
+waiting for async operation opid-f7773252-f00b-4c39-9add-ed8f9073d132
+waiting for async operation opid-a611463e-b481-43e2-8063-9dfc1dcd1ad5
+waiting for async operation opid-ded66912-d222-4810-bac7-3b4bc6e1ca54
+waiting for async operation opid-9f0f34f0-ca89-472e-bb6d-8528f0b782f0
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-4984e539-6f2d-4b4b-a4b3-d969ac5b0540
+waiting for async operation opid-5c0a9847-f1c0-4c59-bb6e-cd29c0975b2d
+Source address:     tmSf9guvud1UdtMmDLVaiGjam1zrqQqcZaf
+TX1 change address: tmVBA2rz7hnsN2nYnDHtNnvPQ82EZzpCV49
+TX2 change address: tmEaEb3ppkhCBowSV3meV6S2RuWK73bAMcZ
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-aa029543-6d39-4db2-86b8-d6692cc839d5
+waiting for async operation opid-b0fe2aa7-1981-4f42-b566-96cab72c9894
+Source address:     tmSf9guvud1UdtMmDLVaiGjam1zrqQqcZaf
+TX1 change address: tmMr29SRRRgeLkWX2YgsHZSjJscrR4dwka7
+TX2 change address: tmMj1zJJwZM36uLAWxFtwsTQzwgbWJBFMi3
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-524fd5c4-a698-4d99-9474-5d8f5d589f32
+waiting for async operation opid-ff2e417b-88c6-4150-a8c6-5754624ea714
+Source address:     tmSf9guvud1UdtMmDLVaiGjam1zrqQqcZaf
+TX1 change address: tmPCTmAdWc3eGAfymhDhdoGALmBvmXfXSG4
+TX2 change address: tmHdwD8ZJ4vVXVMyDzh5Pr3Sk958LBU2UWn
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (129s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testtmtbf_cj
+waiting for async operation opid-387af161-f44f-46d2-b787-70c3b22bee8b
+waiting for async operation opid-d6c79de1-98ca-42f2-a6fe-03b053968312
+waiting for async operation opid-68691027-1c39-4570-b2e3-6a7e70988589
+waiting for async operation opid-98761937-494f-4e4e-870c-d50fc37f3bbf
+waiting for async operation opid-e557f822-545e-4a5b-affe-5d7f58798aa7
+waiting for async operation opid-0409cbde-e43d-4390-95a7-8088007a2794
+waiting for async operation opid-9fd40181-f126-4c6d-a67b-a13364c66719
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-609fd17d-e373-473e-bf3c-52846838721c
+waiting for async operation opid-d96bc8f6-d458-4f05-a52d-fcf8e21ac7e3
+Source address:     tmGrLKfhEPNw5WydL9UnXiPN64AJQfZ8tEf
+TX1 change address: tmYqADmG8ky9KPjyMWFdhGg4C8ddn8uGFim
+TX2 change address: tmSoDkmgJC85Nk185Tu6MtTpwfBNVXhFHeh
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-2f0e0d7f-6a23-4a0f-8ce5-8930add1ec42
+waiting for async operation opid-67244104-db96-4816-a7bc-54b6f487283d
+Source address:     tmGrLKfhEPNw5WydL9UnXiPN64AJQfZ8tEf
+TX1 change address: tmTvbKWhreeKaJcx2vbE5qi422xTUNkRdE2
+TX2 change address: tmMx3Uo1y5NCE78dxLwUeKgyKSsj585kv9B
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-ac2eb980-2589-44ef-92be-843277ecef16
+waiting for async operation opid-8ddb6548-04e4-474e-b13f-f44f44b7ddaa
+Source address:     tmGrLKfhEPNw5WydL9UnXiPN64AJQfZ8tEf
+TX1 change address: tmC63CKhenKkF9DLqC627hgVfp5Z1EJ1nyU
+TX2 change address: tmTaijdchQDnqQVoiDPeYbNMjNWfRXTV6ow
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (128s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test0gmb43n1
+waiting for async operation opid-5a748481-af0b-4df2-9373-48674d62251c
+waiting for async operation opid-8f7b5520-e0e2-4232-8d85-9d0d9858750e
+waiting for async operation opid-5f9cc385-2254-4fed-bb23-1c00fc9e8477
+waiting for async operation opid-254311b0-c214-42f4-8892-0378210d44c1
+waiting for async operation opid-ff3bb062-e1e4-41ff-9417-b4093ec2e36a
+waiting for async operation opid-739bbf08-f007-40a3-b0f0-9f6ae27a6d74
+waiting for async operation opid-048811c6-e6c8-4366-a43b-379431dc807c
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-14e182bf-0071-4dc3-bb5b-29e3c1194402
+waiting for async operation opid-f63b165d-111f-455a-8b3d-337e8f064f44
+Source address:     tmGWS38zrGostFEj1Tr9zeNkjRxUeFYo81e
+TX1 change address: tmWuFA2gNvmbhvAob6AjXpvWbs77AqZaEih
+TX2 change address: tmTkPwxnHKkjX9ipxHsEkfrbMATtXqrNG1H
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-3427cd75-3331-45ec-995a-1049d0b8af51
+waiting for async operation opid-6dc86c5f-c5a3-47db-8978-41718d3a3c24
+Source address:     tmGWS38zrGostFEj1Tr9zeNkjRxUeFYo81e
+TX1 change address: tmS4W9m63b5uWdqBZ2HPd52Uhgaa6PjwyWJ
+TX2 change address: tmB3NYbxiEYsKgxKwwbbuHf6ZKwwWBrT2hd
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-54432a3e-0c45-48ed-927e-f5589711feb6
+waiting for async operation opid-a4a051e8-6129-4cc3-89bb-42c5131ac01d
+Source address:     tmGWS38zrGostFEj1Tr9zeNkjRxUeFYo81e
+TX1 change address: tmAx2h1ETjbD8zx26zs5BSEywGdjkVcPGmZ
+TX2 change address: tmD1ZH7oniJeze5qcFjvq8ti98NuVKwjUhn
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (126s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test41pp_f57
+waiting for async operation opid-6e43a4ee-6846-40da-b31c-64f26c9393bf
+waiting for async operation opid-e895d098-ddc0-4077-9ab6-837f2e933b17
+waiting for async operation opid-819dda8b-8496-4088-8cc1-5ffcd28d3736
+waiting for async operation opid-1f5cdff9-31f3-43b3-8cf2-69ad782f628a
+waiting for async operation opid-7b6b4ac4-240c-4664-9571-9ed04cf5a2ec
+waiting for async operation opid-7ffacc1c-06c3-4c96-b7d1-c538ebd69a1d
+waiting for async operation opid-08b69294-c1f5-4ae2-8181-4b3b4b8852e3
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-2020d402-08f2-4d0d-b3c4-0482e8768988
+waiting for async operation opid-1afe53a5-0a83-452d-935b-cb86912186c5
+Source address:     tmPifYvaxfRkhmv5BytfDwdi6DbtruQc5cc
+TX1 change address: tmWQunK6UfYqECxaU4gwykV4strd4XWSqGN
+TX2 change address: tm9pABiifatxN36DDG5o3oHDRKBoR2SqNg4
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-94950884-c7e3-4b13-b42f-b2a4f6f43d52
+waiting for async operation opid-45c82ba5-df11-4773-a2c5-840e9d1ec0d2
+Source address:     tmPifYvaxfRkhmv5BytfDwdi6DbtruQc5cc
+TX1 change address: tmT6n1T1TCjZP3iMfcPULpv4kijgURR6wfV
+TX2 change address: tmSF9iXwddXcKG6G72vt4AyWVQHKoSwSHUL
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-fcb6ae2b-fd7b-4eaf-9fc3-0aad968cf26b
+waiting for async operation opid-fae1a43b-9475-46e5-b017-891c5566c588
+Source address:     tmPifYvaxfRkhmv5BytfDwdi6DbtruQc5cc
+TX1 change address: tmRBPpD8ikLko8k8LA22sg6juVVvwwFVCZu
+TX2 change address: tmE1UJXWASr22pfPnWSJgQ66dgftJrNCHir
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (126s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test93adl78u
+waiting for async operation opid-413c3830-b5c9-4b9e-a330-87c69cef2e9d
+waiting for async operation opid-281c1408-823d-486e-ac5c-e3e6e32f62d9
+waiting for async operation opid-c5dd35e4-89f2-49de-81e6-9ec5cc32a51d
+waiting for async operation opid-960042a7-9c11-41e0-93a6-d9088eae9972
+waiting for async operation opid-072e8060-ec03-4bdb-862a-4b7df8a0438b
+waiting for async operation opid-e76a3b00-a00b-4c80-9ea4-c8d80102edef
+waiting for async operation opid-d922f7d5-85f4-4e76-9aad-9785602a6ed2
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-44f76d37-3271-4d94-baf0-cbdd2853b133
+waiting for async operation opid-67704a6f-5650-4952-904e-d134567f7820
+Source address:     tmMammH2GBXA1yYquXKSwemTu3S3b11e1jq
+TX1 change address: tmKg3Hu76Q3AWwFCeQQAqz4tp1udkW1spAf
+TX2 change address: tmQSRniUsXf92FzB4Hwpn7o7xXTTz2VuURv
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-d508df3a-69ab-4ac8-886e-ef7f5dbd23a1
+waiting for async operation opid-b96f2570-0269-44cb-b932-81119717fdc2
+Source address:     tmMammH2GBXA1yYquXKSwemTu3S3b11e1jq
+TX1 change address: tmPBbKb1qnckQcikdu3dB28GcY7NCteoVt5
+TX2 change address: tmBE2ehdomL8kPjM613M7CwzhxrW76M3taq
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-fe341c32-2300-4daa-a996-5e2dd6a47363
+waiting for async operation opid-d284ee1c-95a0-4496-b7e5-26417b88bf42
+Source address:     tmMammH2GBXA1yYquXKSwemTu3S3b11e1jq
+TX1 change address: tmQBFhN4N9xBTUmj8GvQiQyNM29p82162bX
+TX2 change address: tmQVFmp3VcvU1pLh2fHkUAvpx9WS36mGeYm
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (127s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test_0rabvn5
+waiting for async operation opid-34e76fe2-a355-488d-8a58-052a88ed54bb
+waiting for async operation opid-e10bf86e-12b4-4cd2-afcf-a81dffe7200e
+waiting for async operation opid-7ac03e2e-62ad-4322-8a0c-a28ecc2bf2d0
+waiting for async operation opid-3ac4d98e-e229-4987-ac48-e3d8867c7a6b
+waiting for async operation opid-195abddd-2155-4c32-ae0c-e8078cff9e4f
+waiting for async operation opid-a28f36cb-51dc-4cd6-8c54-9c380568ff87
+waiting for async operation opid-f49d8e8a-0add-458d-b1bd-7b88296886ec
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-31c647a3-2d65-4133-afed-21c33edff239
+waiting for async operation opid-6760b334-e68d-4492-8622-89630bbead12
+Source address:     tmHoZPrUvbB1LwRNFw6NktRbpX5L1MNwBCQ
+TX1 change address: tmMgnMKb6wFW1nPyMQHLdkY6P7WtDBBfPBb
+TX2 change address: tmPBzpsj8EPC1YHXQgk3AnjS3CYN1RwfNQB
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-b399700f-4f71-4b27-8e80-b5aac8312408
+waiting for async operation opid-6bd69496-77b4-4d31-b8e1-a55a5c7f05fa
+Source address:     tmHoZPrUvbB1LwRNFw6NktRbpX5L1MNwBCQ
+TX1 change address: tmUVZXp71przA8qqx3sHHNVia3qbXMrNfZW
+TX2 change address: tmReKmEHS2QEEMwBXU29iuv5m34fa3VZS4U
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-6eb6ceb8-79d9-4d3b-ab9a-e0a486afb098
+waiting for async operation opid-ffd364fa-2d79-46e8-a8eb-79c2b0129cdd
+Source address:     tmHoZPrUvbB1LwRNFw6NktRbpX5L1MNwBCQ
+TX1 change address: tmQLFwyuz8iV7PuiakhTS377EJ66ax4r1A4
+TX2 change address: tmYw4V32DX9387vRmmEanHg7C8CtMUaXbE6
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (127s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testxhe4yyq1
+waiting for async operation opid-a928e6b8-0d6a-4b65-96e3-db0012a7f839
+waiting for async operation opid-fcff7a70-e231-4552-8514-43ad2fadc303
+waiting for async operation opid-eefb81bf-eabd-4d0f-8ea9-c3ee3484f94f
+waiting for async operation opid-ea79d17f-7ff1-46ab-ab39-d136ef975f03
+waiting for async operation opid-ed9b21df-75c1-4593-9776-5257f03b8486
+waiting for async operation opid-5dfa2fcf-19bf-47bf-8e04-222f55715f6b
+waiting for async operation opid-b944d66e-93f2-47c3-b723-fe736ce9919e
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-c01627cf-e8fc-40ea-bdf1-fb508a0fed56
+waiting for async operation opid-461a67d3-7f82-4361-bbcf-f3cbb0710028
+Source address:     tmQkNRmJMk2RwMpdXCo8PiXozkjM2G9Sr4t
+TX1 change address: tmAuBqfzKkacqbYzRz4dB7PCYmZ4sTxqnGU
+TX2 change address: tmQ6C7GdhqhAUr2puyHsxTUwyi5s1SeoYKF
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-fa7b4a0a-b7d1-46ea-8e1f-8a9150dfabdd
+waiting for async operation opid-0cd461d4-8dba-4cdd-aa4f-08f6b3c113e4
+Source address:     tmQkNRmJMk2RwMpdXCo8PiXozkjM2G9Sr4t
+TX1 change address: tmNMd6mZQ1ezFA2icueRim8PHEshbyPFWpV
+TX2 change address: tmUvsraHvFnybrA2KJde8KthZBHjLDCVR6s
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-7bc35e16-2da8-4237-9eab-af6462293284
+waiting for async operation opid-0cf2cd5a-d666-4935-a4b6-94609d274a04
+Source address:     tmQkNRmJMk2RwMpdXCo8PiXozkjM2G9Sr4t
+TX1 change address: tmYYrsWDFoYbAx77hHs2c2yHZmkqbdYLURX
+TX2 change address: tmVqbmBNLNns6dcVMcXhzDZKQS3SugTcCsK
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (126s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testq64pm2iw
+waiting for async operation opid-aeb4b194-38f2-46e4-a6e9-5477a99ffdfc
+waiting for async operation opid-4317b545-d6d7-419d-9906-9a8e186689ee
+waiting for async operation opid-24dc5242-4fad-408a-8ba0-b79ea8b3b79e
+waiting for async operation opid-b6b14158-76e4-4d3c-85f1-eea9f2c77990
+waiting for async operation opid-a190f078-0ebf-4d97-a630-5c68b15324ae
+waiting for async operation opid-dc1524ea-d963-4501-bd5c-99c53da1b2e6
+waiting for async operation opid-bd43981b-49f3-4362-90bf-6518c54e66a4
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-5a4c5095-6d83-4668-a9ea-d40e6496649e
+waiting for async operation opid-918a70d0-61d9-4613-ba35-4cf4449b0ac9
+Source address:     tmVfyVyAHY6urSqNEzwwR26TsL4NjZCBg2C
+TX1 change address: tmAnWnJseznFTLA4K2P7TbcvosDCGZ5PdvB
+TX2 change address: tmCYi78vp15rE8Un6qp78gJqMJ5Vg5HSPbR
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-282c04f1-5497-41af-90b9-5ba6e9181af0
+waiting for async operation opid-49a20c61-14f6-4cb7-b31b-40c4de917225
+Source address:     tmVfyVyAHY6urSqNEzwwR26TsL4NjZCBg2C
+TX1 change address: tmXbT5UsHdNVJHjspij2Qj4DiB1tFZnKM4s
+TX2 change address: tmGkdTgRDpkKVhtuhHFXo5P6cTjEzypAfo5
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-65844f13-bd8c-4088-afed-f91ccfc6fc8f
+waiting for async operation opid-9fb9c51c-2ed9-4c55-bfe1-d1d8dfb932c3
+Source address:     tmVfyVyAHY6urSqNEzwwR26TsL4NjZCBg2C
+TX1 change address: tmMcXASgZESH55DDxzsLNFd7geo82pui5Sb
+TX2 change address: tmNsXcdtqjoKRthNDf1cQ4ZFbTUngSNJPrK
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (129s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testaencvrxc
+waiting for async operation opid-1885536a-9c3d-43bf-8db0-cc635c092a16
+waiting for async operation opid-e4206149-4c33-4bb6-8289-d5071e070890
+waiting for async operation opid-8dc5636e-abd6-4a19-a021-f85082b0a039
+waiting for async operation opid-49cc8c48-8056-47b7-b68b-2bbcfe92dee6
+waiting for async operation opid-77ff754a-29b4-4a67-a9f3-52cc0efc3992
+waiting for async operation opid-cb68a488-7c94-4915-8f2f-a33fed6c5fc2
+waiting for async operation opid-74f41e98-d1b9-4ef1-b0d3-70bf80cda527
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-98283200-3629-4574-9d3c-a72993169846
+waiting for async operation opid-344ee3f1-22b9-4df5-881a-18a5eacf1fae
+Source address:     tmNYkQMUWJYnEEatAmMJDUWLfvtxEchwpaD
+TX1 change address: tmK1BaQXW2BtAezFYTFGkdJotTbt4DrQP3P
+TX2 change address: tmBF4unAru69SuCMNwj8WSaZ9DehPPC1u82
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-feb41f75-8207-4567-913e-6e4777f2360b
+waiting for async operation opid-1e26076b-cc3b-4ea2-afcc-93a77ea1d49a
+Source address:     tmNYkQMUWJYnEEatAmMJDUWLfvtxEchwpaD
+TX1 change address: tmTe9Si4kuqu8FarTRb98XuwJaaiVihZoju
+TX2 change address: tmTDDpCf9QeibuUcwzCAig2QDxPxSg2nm1L
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-1aa93d71-0fc7-4fe2-9b4d-17559ba618fe
+waiting for async operation opid-16d903ae-a35e-469e-83ed-88eae2544371
+Source address:     tmNYkQMUWJYnEEatAmMJDUWLfvtxEchwpaD
+TX1 change address: tmThjxsp8gCZuCu7zpMvBjKtWuoMAqFdDcY
+TX2 change address: tmQhBkcXfTGAnFJw2PHU4RHD8QgBTpPkmuo
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (125s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testfohfceeb
+waiting for async operation opid-b95a5d07-8eeb-4160-9853-91d67f9e3f53
+waiting for async operation opid-356e2c9e-7cc8-4305-9584-7642fa21c781
+waiting for async operation opid-827a7201-f367-428f-a0df-fd1f52465dcf
+waiting for async operation opid-e7bb6501-50a7-4d16-bce3-7a333edb41b2
+waiting for async operation opid-8c5dfec4-ac2d-41c1-ae2e-fdb64d85d7ad
+waiting for async operation opid-4c1420ec-e874-4137-a5fe-76206ae30289
+waiting for async operation opid-735a46f1-178d-454c-a421-09e170044d9d
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-ce535951-1972-4eed-b4e8-74e415620ba5
+waiting for async operation opid-f73652f3-ad1d-4a81-b550-543a42601634
+Source address:     tmJoQgnomfr5NF4FxtAppBvXj8hqfqB1wgF
+TX1 change address: tmQPCzhZioHonXg5D6wBeF2xt34oMjhMrcN
+TX2 change address: tmGmxHNxdxF9T3hrmJGKNtR85cB8kMvkHD7
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-01ced97c-a6f9-4623-9ab2-829c75c1337a
+waiting for async operation opid-10e75377-2113-43c4-bb61-03c9234ce92e
+Source address:     tmJoQgnomfr5NF4FxtAppBvXj8hqfqB1wgF
+TX1 change address: tmWzBFoAfhMJNtUQRQHX2T6STCx69hQvi3K
+TX2 change address: tmWU1S73PKRoAobkSZ4CqGG3yzveu8A8Mi1
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-bb4e401f-5feb-4021-9f7f-6e328a58f584
+waiting for async operation opid-51298051-677d-471e-8f54-359ea96289e4
+Source address:     tmJoQgnomfr5NF4FxtAppBvXj8hqfqB1wgF
+TX1 change address: tmL1t4MwNrtbPKErVSrCCui7pm3xQgYrBuB
+TX2 change address: tmJcadqKcm744fQxukmxe8NTpuBLspAZ5KM
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (123s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testt7b7eie2
+waiting for async operation opid-28d2fe59-4954-4641-b7cb-5ed7054eeb7a
+waiting for async operation opid-22fcb38a-e45a-46a5-a0d7-41ad1a45ab48
+waiting for async operation opid-cf7145c6-7094-4a6b-9d19-c0c11e31b0c1
+waiting for async operation opid-db92aeed-d196-41bc-a64b-2debeb74c286
+waiting for async operation opid-6d2a6afb-3730-478a-93bd-da3fba2755a6
+waiting for async operation opid-e3f4b1ba-bd93-4616-a1c9-08f226f975ab
+waiting for async operation opid-c236046f-ae7e-4191-a76c-643524219458
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-157752c8-313f-4935-b280-c86e7822cb1c
+waiting for async operation opid-0a7a8b77-b54d-4431-a3ab-e8981d19c16d
+Source address:     tmSKBMydfCUpsLf1hRASVDpZMtqD9MJepwh
+TX1 change address: tmX4ymRYsqQK1CooL6pVsRHzbwcTerbmum4
+TX2 change address: tmGpmHTF77j2xCvn8WZh8aTax6H8nocnccr
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-80017b89-a398-493a-a6d8-531d3b1748b0
+waiting for async operation opid-ddae49b3-ab14-4c87-98a4-26c24757809f
+Source address:     tmSKBMydfCUpsLf1hRASVDpZMtqD9MJepwh
+TX1 change address: tmEeDKebQEqWKrTRFoKDUByJ7JL3YnujCtG
+TX2 change address: tmAmasumRDQBDofqpizyH4hBpdnUJPq7r28
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-652855c8-1d74-49aa-a7f1-fce6cff68f8e
+waiting for async operation opid-9fa07668-a51a-4920-a24a-bcd6fcfd19b4
+Source address:     tmSKBMydfCUpsLf1hRASVDpZMtqD9MJepwh
+TX1 change address: tmCHTviEtcTRFhHcd6qpd4Ln6s4yYtC6YM9
+TX2 change address: tmXwZSuhJ5h1LCG1qwm9GqazjAyNgRF94Xs
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (126s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test6tejzii_
+waiting for async operation opid-44716992-e4a4-42c3-aba2-58752755a43c
+waiting for async operation opid-c1069aff-431c-4f11-9ee3-7c575fc8671d
+waiting for async operation opid-ac4590de-8a1f-4cee-91e5-a93d52b7a366
+waiting for async operation opid-3313ea89-b154-4eee-9a74-f465c9034782
+waiting for async operation opid-4cd9ed6f-bd28-4a79-b12c-dd2189818f6b
+waiting for async operation opid-e74066c4-47b7-46a5-b79b-fda27e195642
+waiting for async operation opid-56246cef-4daf-459d-afb7-1ddd6f9b5643
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-e3e9dc7e-f49f-4100-8c9c-88051bd499c5
+waiting for async operation opid-85a545dd-bfb0-4a53-b349-b0c8dfc3211c
+Source address:     tmPhjNQL5RjMQbeRmm2P57DBJQ6q3xrbA3P
+TX1 change address: tmT6ubp6De8ptNsvUVA9WqvFxu4yKXt28ip
+TX2 change address: tmMyFRAtm9tjuCnunc8sTWUNnn9YXEeCLzn
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-107d8913-0ffe-411d-836f-cc06c58c71f9
+waiting for async operation opid-f4323e56-afef-4111-a7c7-be9261347297
+Source address:     tmPhjNQL5RjMQbeRmm2P57DBJQ6q3xrbA3P
+TX1 change address: tmEsnGEH8rhAzcwd2vVAyTLMWgbStWJXk8x
+TX2 change address: tmNmw1sT7ueeA8FSCfKPr3bD7HXYTknpjb5
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-e131972a-6f1a-408f-8d8c-f8a638b40d0b
+waiting for async operation opid-e3df43a3-a127-4cd0-8b36-be45c2adc73f
+Source address:     tmPhjNQL5RjMQbeRmm2P57DBJQ6q3xrbA3P
+TX1 change address: tmHHWpo2UAVsE1hwSTDEmkfqRyR6a6rNYh3
+TX2 change address: tmQBr7MnJPosymG6FXm1NTJQPS29AEsxgDH
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (122s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test5oyb41w7
+waiting for async operation opid-ebcc70f8-48e6-4b02-8ae4-f432b553fb81
+waiting for async operation opid-3a194ce9-4675-48e6-9c61-888aea3bd8a6
+waiting for async operation opid-98ecedd5-6989-4146-94db-e033ad649926
+waiting for async operation opid-fe15cb17-26d2-4ac9-868b-375ab6d099fa
+waiting for async operation opid-228346f2-2022-44e5-828f-f29216d91c07
+waiting for async operation opid-fed551cb-cd65-49e8-ada3-ae2624e0c350
+waiting for async operation opid-e7efbac5-4479-4280-8101-6e4f299248bb
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-846c43e9-e2cc-4aa0-ad24-63b95ed644f2
+waiting for async operation opid-a88e53f8-d3fb-4e8a-a258-8af80b887aeb
+Source address:     tmM1NLAmpU28VtFNgsfzUzJw8D3DS4GuDHw
+TX1 change address: tmKvWAEBjfjW3JkfzxwyWqQ6LB3dYiHMHCN
+TX2 change address: tmPHMnUfoBU2xsqBnNYkkFRWGG7E2BhBCz3
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-f2ecb324-a9b9-40ad-ade5-a00e9a1cfb58
+waiting for async operation opid-8b9a5d2d-cab4-4b0d-ac6b-9caac9b34c44
+Source address:     tmM1NLAmpU28VtFNgsfzUzJw8D3DS4GuDHw
+TX1 change address: tmN6dut814cD6bh3MjKtWGCLfBZ5oLjVTQQ
+TX2 change address: tmQkUbdbtquH3LVdk1yL3MixNaty9ch4YME
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-cf261116-84d3-4e96-867d-18269f7b6316
+waiting for async operation opid-7498f3eb-457b-4365-a171-d8a1e13161e7
+Source address:     tmM1NLAmpU28VtFNgsfzUzJw8D3DS4GuDHw
+TX1 change address: tmBAFeYaS5sCzcjtrFCm5TVh983nBz8zU69
+TX2 change address: tmAmKaKmXaYKcq6UKBU2e86xZ5uhrtuutFK
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (127s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test4og5ao0b
+waiting for async operation opid-16ef5838-dbcf-4a74-bd26-2a757509a109
+waiting for async operation opid-57d99a47-4348-45ff-9354-0d308e2fb928
+waiting for async operation opid-7d1f28fd-a527-4440-b6a4-358fb0234367
+waiting for async operation opid-325a89d3-58fd-43fb-aa2b-205d747bb643
+waiting for async operation opid-dfc49c87-5491-4f6f-bfe2-041415d4f80d
+waiting for async operation opid-d1c9b425-f5f6-48a4-a0fc-bfa387764682
+waiting for async operation opid-52a894c9-805b-4730-beb5-6e78bcfd6d54
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-7936e45b-8453-4a44-a68e-f9bc867e9162
+waiting for async operation opid-a9ab44fb-4813-4b5f-8656-e87db4b4ef80
+Source address:     tmTiPVcVpKk5pwc5FG2f4Zfi7QsbWKiQhL3
+TX1 change address: tmSgTH7RokCasa8krQ5HUSv6WEdZyg6XrkY
+TX2 change address: tmEQrfmvJsWgzNpjkVRsf6bFptC49D2Er46
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-3b973b85-4e42-4d87-a71c-05e9b8e0884e
+waiting for async operation opid-44ceab43-8f47-48a5-b821-7c0e0534aa97
+Source address:     tmTiPVcVpKk5pwc5FG2f4Zfi7QsbWKiQhL3
+TX1 change address: tmPrCFwSodQfH2Kf4QuHShis9WneoyPsMTD
+TX2 change address: tmLQ33sCs9yKuxnetzXhMU7ZLtpREV4Hc6R
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-b486e516-26c2-433f-9962-3cfebe1d73a2
+waiting for async operation opid-dd2a15ba-c76d-4a92-8927-9be8a056d626
+Source address:     tmTiPVcVpKk5pwc5FG2f4Zfi7QsbWKiQhL3
+TX1 change address: tmLJLRgjRDXTBqhUxFMrc4hycN2X8rYC9ai
+TX2 change address: tmMGp1cqFzmVmxnuTL72YS2WzyCDat3T5gw
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (125s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testf3_5oyy7
+waiting for async operation opid-70d154b8-e2ea-40ab-b300-36d7d9420051
+waiting for async operation opid-17773ef9-d560-4ed7-9780-2056e0c87df0
+waiting for async operation opid-ad72bdb7-6973-48de-a910-87a4fddc2e83
+waiting for async operation opid-a97db580-e0a4-4a4b-be71-24d747b9c84d
+waiting for async operation opid-bcb20a02-2775-4bf3-9cb8-78dd2fdb70b6
+waiting for async operation opid-a05eda90-744b-47a1-817f-a39ce4126376
+waiting for async operation opid-112769ae-e2ac-4e63-87ba-bb3d55353683
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-4a8b9c4e-4398-48ed-8cb5-e618713b6f62
+waiting for async operation opid-4939a989-3338-474e-aa37-290769de3c7a
+Source address:     tmBP2sVb7p81Zrg3m6x1Nwmt7g8MWkdEC1A
+TX1 change address: tmG7rNHRafjqxCCYzwVCTVtqGuo3ftfoeis
+TX2 change address: tmCQkCpe7nmws5Hgq2BoHMrBp8tS3ttFcoL
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-d4670d44-9264-429f-bdf8-af2c42467c2f
+waiting for async operation opid-84ff847c-874f-4928-82dd-86b59242e38d
+Source address:     tmBP2sVb7p81Zrg3m6x1Nwmt7g8MWkdEC1A
+TX1 change address: tmWekxZwPh5W8a7cGw2GSyBs7gudf3vxis7
+TX2 change address: tmVV3HUHvsPiN1qXcSyk92RMjqDUt1ZKF6m
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-bf8abe53-560c-41ac-96d0-40f157cb7134
+waiting for async operation opid-2c695330-5a04-4061-9d0c-51aff7018f35
+Source address:     tmBP2sVb7p81Zrg3m6x1Nwmt7g8MWkdEC1A
+TX1 change address: tmK3zySivV138SH9ab2fcoiFVdhsz6LHWmG
+TX2 change address: tmD4LiW1xTsYizR1rYe8zRrmZp5P8EKUJqy
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (123s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/testf2npuujj
+waiting for async operation opid-73cc5e24-fa82-4d68-af49-ddd18bf3b4c1
+waiting for async operation opid-52a08add-6d2c-495e-9d95-8a28d30205b9
+waiting for async operation opid-f62b37ff-6829-42aa-a3f8-a6b9e2b25c77
+waiting for async operation opid-5a6591c0-20c6-4507-a7d9-024a95a7981a
+waiting for async operation opid-2077a574-670d-4525-aa2c-d35c6af82eb5
+waiting for async operation opid-a29a165a-f4fd-49b8-b254-7d9d0b143372
+waiting for async operation opid-a5abca27-968d-478c-96c8-3c511c575963
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-2560a5f6-7b22-4a20-a0b3-f48977737aa2
+waiting for async operation opid-640eb032-c1df-4ad8-b0cb-85fc16259521
+Source address:     tmPXwAJRkhCv45oQ8cCFSvzz2ii6bRj7QqF
+TX1 change address: tmYn2NXGU2BpdD1DQNAyDwCdqGz9WyyAgBY
+TX2 change address: tmJzUetrn5nwzt4QFFGuzGuUDY2Zv66rnrQ
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-6283d946-0484-4f20-b4a5-d514a512913e
+waiting for async operation opid-06ac0003-2dc3-4857-837a-e5efa6ee5f58
+Source address:     tmPXwAJRkhCv45oQ8cCFSvzz2ii6bRj7QqF
+TX1 change address: tmLsYSBHdVUCM34NXqsJ9xtzugGUWVLnfbp
+TX2 change address: tmVP8QQVf6XLhZsUuaSM8dm5vanoTNfXZ4z
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-afbf9281-a1dc-485b-a625-3014a6d08790
+waiting for async operation opid-8b33e954-2507-4d2a-ad43-4eb27a0e20a0
+Source address:     tmPXwAJRkhCv45oQ8cCFSvzz2ii6bRj7QqF
+TX1 change address: tmGo4CwkPfAmUCeruoMwFYxMvezULvEhxFh
+TX2 change address: tmYLTBJz2M4jHZugoCJKuFLHUL7XP7gToTU
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (125s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test15w0z0w7
+waiting for async operation opid-06dca9e6-ec25-4475-8c6c-ac4d37e7dc89
+waiting for async operation opid-b51cda54-6ad6-4efa-9dc6-2ae40551b039
+waiting for async operation opid-6136ee36-53f2-4dc7-8902-1a7a5f30da60
+waiting for async operation opid-c61a94f9-4b01-4932-8699-dc63fb72d292
+waiting for async operation opid-c3c52e67-934d-4b8e-a0f2-44cd726c852f
+waiting for async operation opid-1cad6877-b9f3-4cff-aa08-c6424a4f1b4e
+waiting for async operation opid-5e7b9e45-f490-4c43-8904-d8a0b56cf297
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-d1f537f2-5556-49d2-9731-4812b680d192
+waiting for async operation opid-0fdc6e49-871d-4f5f-880d-d19c1d06cd66
+Source address:     tmCbQUi7mHHRcxQPZkuHw8r497LxcEA57ZL
+TX1 change address: tmNmfNirKgeoCMWTPPF3jex1QdXBKycqhJw
+TX2 change address: tmW1PqC6pTnzhZhYY4gY2mZJJZqb5TRLKFr
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-97659274-fe19-4a27-b9d2-4b90df266cf2
+waiting for async operation opid-60981bc7-3242-41ef-a98b-d79b03ea3a5a
+Source address:     tmCbQUi7mHHRcxQPZkuHw8r497LxcEA57ZL
+TX1 change address: tmAcQJ8aozqZrofWH7dd5q6985KNgHHRKv7
+TX2 change address: tmAYCQQrcPtZWEZZmbvtzizs66NDtcugcDX
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-8a01442e-e327-49cf-813d-e57dee9b7cad
+waiting for async operation opid-fa84e239-0955-4d7d-ac5a-34faef6b19cb
+Source address:     tmCbQUi7mHHRcxQPZkuHw8r497LxcEA57ZL
+TX1 change address: tmYu6t1nS5NjSTZpq1SDjFnUgvHc7frgrn9
+TX2 change address: tmFhWq2vBu5At7q2EuSF1iPEu6SLjYdo8mV
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (125s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test5xhtk24a
+waiting for async operation opid-098461e1-fd15-45a3-a604-a8541a83b474
+waiting for async operation opid-ba7e60ca-aaa3-4725-b6d4-0fe97ca0594f
+waiting for async operation opid-86427a1a-53a9-4e3d-941c-5d87de5b8d82
+waiting for async operation opid-a920d18f-16be-43fd-9883-61fff278f398
+waiting for async operation opid-f9a85365-fdfe-42ad-9ed9-7850533b011b
+waiting for async operation opid-e628f1e4-d835-4870-b840-9875c53c810a
+waiting for async operation opid-7e2202c6-599d-4c28-afa9-2d4efb5fc668
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-064328ca-20d4-44eb-8b2b-d69816d53fa5
+waiting for async operation opid-f3f29c4b-cdb7-490c-837e-507cdd9463e0
+Source address:     tmFQmcrALDXKPHwNBJiF3MTxx33jQckR4PP
+TX1 change address: tmWAz8YJx5o6ySpHLmPANrQQpwcmVMsJHyi
+TX2 change address: tmVuHN75aLFe3RgbDmF75x49zNeXMNW6fbs
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-c8354a3d-b8c4-47e4-bdd1-efae01306d54
+waiting for async operation opid-20878415-9431-4b01-b789-c6fb4e9b9519
+Source address:     tmFQmcrALDXKPHwNBJiF3MTxx33jQckR4PP
+TX1 change address: tmWbpW5powdJRLkUFwq8D3afSVA28xocZEr
+TX2 change address: tmWs7FTreARBa1KxosTzx7WjAMC4YhFFYAm
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-87c7b2e1-e227-4e3d-a947-be2db5700a08
+waiting for async operation opid-73ac9d4c-3472-49d3-aa42-63501a91341a
+Source address:     tmFQmcrALDXKPHwNBJiF3MTxx33jQckR4PP
+TX1 change address: tmXRnH9Eu8JUyBvVxq5a5CyAznTsJhwoKwS
+TX2 change address: tmXPPUsypfRXViHA8SkFfG9JX2Br7DXbhEW
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (125s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_changeaddresses.py ===
+Initializing test directory /tmp/test9890pj39
+waiting for async operation opid-e1a0a0f3-77a6-48e9-bf98-d4468fe25d01
+waiting for async operation opid-999de1d8-43ac-469d-a94f-177c41c3ded8
+waiting for async operation opid-b0a27f95-6f9d-46d4-8ca6-1824df9d707f
+waiting for async operation opid-2ab874c4-8d84-412a-a496-a4616fa81c0a
+waiting for async operation opid-df68134f-7911-42f5-b83c-3253ccb71103
+waiting for async operation opid-cf9559e8-f916-41a6-a76e-b78991971093
+waiting for async operation opid-130b8055-10b2-4f9a-9be8-26e73aa5ff34
+
+Checking z_sendmany(taddr->Sapling)
+waiting for async operation opid-08f750f3-fea8-4b4b-9f0f-b30a221953fd
+waiting for async operation opid-18816041-3030-4b96-b6b0-4aefb0ecd11d
+Source address:     tmVrdbNEFttP5PNtkvV6UeoUswWB54X4ucb
+TX1 change address: tmVRpUcEzzwLfV7TK8HkCJeuxi6LAij7Hvr
+TX2 change address: tmVPMcACre6FZhTgeL87FqxH3ipg9rVmDAV
+
+Checking z_sendmany(taddr->Sprout)
+waiting for async operation opid-bc10c576-1092-4fae-90a0-73884519be47
+waiting for async operation opid-e2676b03-af8d-4d98-b285-a8a479c9fe11
+Source address:     tmVrdbNEFttP5PNtkvV6UeoUswWB54X4ucb
+TX1 change address: tmRE5en1uWg7t2Y25fD73MZhefjGGVUC3SU
+TX2 change address: tmDGRYRamXTZKZh47otU6sxxcELvdJ8CjJU
+
+Checking z_sendmany(taddr->taddr)
+waiting for async operation opid-27159ac3-f90e-43ef-bdf3-c159abe1684f
+waiting for async operation opid-44345736-6970-4ef1-be1d-0fcc727cd629
+Source address:     tmVrdbNEFttP5PNtkvV6UeoUswWB54X4ucb
+TX1 change address: tmCLpG4Ztoj8nCrMTnuWmmtAmXRKd6SBoiz
+TX2 change address: tmJBeEJQUQx33xe5MRgeoFdLWNvLazPQTiC
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_changeaddresses.py (128s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0

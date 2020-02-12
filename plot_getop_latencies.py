@@ -39,26 +39,32 @@ def plot_datavector(latencies, pathextractor, symbol):
     ys = latencies
     plt.plot(xs, ys, symbol)
 
-def extract_latencies(logpath):
+def extract_lagtimes_from_logfile(logpath):
     lines = open(logpath).readlines()
     tagindex = lines.index("lagtimes are:\n")
     latency_line = lines[tagindex+1]
     lagtimes = json.loads(latency_line.replace("'", '"'))
     return [D(x) for x in lagtimes]
 
+def extract_lagtimes_from_stdoutput(outfile):
+    with open(outfile) as fh:
+        lagtimes = [D(x.split()[3]) for x in fh.readlines() if x.startswith("Iteration:")]
+    return lagtimes
+
 def main():
     _set_plot_labels_title()
     path_extractor1 = PathExtracts(sys.argv[1])
-    latencies1 = extract_latencies(path_extractor1.logpath)
+    latencies1 = extract_lagtimes_from_stdoutput(path_extractor1.logpath)
     plot_datavector(latencies1, path_extractor1, '.')
+
     if len(sys.argv) == 3:
         path_extractor2 = PathExtracts(sys.argv[2])
-        latencies1 = extract_latencies(path_extractor2.logpath)
+        latencies1 = extract_lagtimes_from_logfile(path_extractor2.logpath)
         plot_datavector(latencies1, path_extractor2, 'rx')
         outputbasename = path_extractor1.core_name + '_v_' + path_extractor2.core_name + '.png'
         plt.savefig( Path("./pngs/" ) / Path( outputbasename ) )
     else:
-        plt.savefig( Path("./pngs/" ) / Path(pathextractor1.core_name + ".png") )
+        plt.savefig( Path("./pngs/" ) / Path(path_extractor1.core_name + ".png") )
 
 if __name__ == '__main__':
     main()
