@@ -1,0 +1,1049 @@
+This run started at: 
+The zcsahd version is: Zcash Daemon version v2.1.0-1-4deafdf34
+
+In order to ensure you are adequately protecting your privacy when using Zcash,
+please see <https://z.cash/support/security/>.
+
+Copyright (C) 2009-2020 The Bitcoin Core Developers
+Copyright (C) 2015-2020 The Zcash Developers
+
+This is experimental software.
+
+Distributed under the MIT software license, see the accompanying file COPYING
+or <https://www.opensource.org/licenses/mit-license.php>.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written
+by Eric Young.
+1579016151
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 114, in run_test
+    assert_equal(3, len(unspent_tx))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testd8xg9xve
+waiting for async operation opid-17a0eec7-c2c2-428b-8f01-45757b5fcc92
+waiting for async operation opid-3a4d5461-bf0c-4b20-85cc-5fc7d1132ad8
+waiting for async operation opid-2216e4b9-0e61-4d84-b5ff-6e5e34e6490f
+Assertion failed: (left == right)
+  left: <3>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (119s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testqyy4_0bt
+waiting for async operation opid-eec68cf9-dee5-4ddf-a3ed-bdf6e09df7f6
+waiting for async operation opid-d2ffa649-1a90-42a7-b7c8-cc884a470df0
+waiting for async operation opid-1faca618-7ab1-426e-a43b-cb08cf352d19
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (119s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testyd9aow01
+waiting for async operation opid-5e7658ce-2ec5-4bcc-afcd-dc5abed867f0
+waiting for async operation opid-71181482-ccc4-414e-821f-28538af2bf53
+waiting for async operation opid-0b723200-5028-4b98-8bef-5b5d91434408
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (126s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 114, in run_test
+    assert_equal(3, len(unspent_tx))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test8w05sve5
+waiting for async operation opid-a5afc609-d93c-4952-9751-214fb814f685
+waiting for async operation opid-578bc991-b85c-401a-a32b-a0e80b8065f9
+waiting for async operation opid-1d278430-1547-4772-bbfe-1a7f95f78073
+Assertion failed: (left == right)
+  left: <3>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (136s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 114, in run_test
+    assert_equal(3, len(unspent_tx))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testqxdsf3zs
+waiting for async operation opid-0a9b8908-d578-4106-99ed-f34db542bda7
+waiting for async operation opid-0188ed66-a484-4b6f-99db-0e4145549e82
+waiting for async operation opid-17913a62-35f1-4b85-9db9-2fef79b0fc56
+Assertion failed: (left == right)
+  left: <3>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (132s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testjn3jt9bi
+waiting for async operation opid-0a6f4709-d1bd-4bb9-b5a5-0d4357845084
+waiting for async operation opid-8e80d331-de33-449a-a849-f2777e93e29f
+waiting for async operation opid-0173a4bf-568f-4665-9ddc-3226dbbbf4c1
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (135s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 49, in run_test
+    assert_equal(1, len(unspent_cb))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testqfsufql_
+waiting for async operation opid-960e8259-7f0c-4a8f-b22d-76df641fd153
+Assertion failed: (left == right)
+  left: <1>
+ right: <0>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (96s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 114, in run_test
+    assert_equal(3, len(unspent_tx))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testew2t7btu
+waiting for async operation opid-41221480-bf42-45c7-bd77-dd06bfc4040c
+waiting for async operation opid-6dc462f8-de6c-4e27-a66d-2cf0f5cc270c
+waiting for async operation opid-59a07845-4e22-450a-841e-0fa2961d1bbf
+Assertion failed: (left == right)
+  left: <3>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (135s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testmi72ijjd
+waiting for async operation opid-25781e0b-f57d-499e-b19a-2fc593eb1a59
+waiting for async operation opid-8508305e-ffbd-4219-a6db-3639e222c887
+waiting for async operation opid-db60137c-cf9d-4a79-a0be-909d0dc51221
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (137s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testcbed9p9f
+waiting for async operation opid-00950889-784f-455d-8b33-71290e9ea205
+waiting for async operation opid-8a3dd1af-2c3f-4ec2-a985-a6eac56026d5
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (136s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 114, in run_test
+    assert_equal(3, len(unspent_tx))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/teste2cz87f5
+waiting for async operation opid-25f36af6-73ce-4fda-88e7-ea54b321dd63
+waiting for async operation opid-959d7d25-7e88-479a-bcac-e3204802c3eb
+waiting for async operation opid-18c203d4-0632-42ad-9965-906dd31375f1
+Assertion failed: (left == right)
+  left: <3>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (137s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 49, in run_test
+    assert_equal(1, len(unspent_cb))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test842ofapz
+waiting for async operation opid-18c342ae-ebcd-4c8a-aa66-af55ee9b62a2
+Assertion failed: (left == right)
+  left: <1>
+ right: <0>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (95s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/test7vd26sfj
+waiting for async operation opid-f52152fd-1ad5-4dda-bc88-151a96bd57d2
+waiting for async operation opid-4019ff03-9c17-4b5d-8fd5-93db69bbc41f
+waiting for async operation opid-df43b00d-a7bc-4c19-af04-ad55e8cf6e74
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (137s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testp2ak93jj
+waiting for async operation opid-3dd78468-b4a7-43b0-9a70-4690bcaf9333
+waiting for async operation opid-e3564862-a24d-494c-9ec7-8a3b6fdbeecc
+waiting for async operation opid-fcae0b89-4323-4c8d-99f4-263355935a92
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (137s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testn6d27s0y
+waiting for async operation opid-9d124597-4786-4953-bc7e-a7c122b17258
+waiting for async operation opid-2882ca83-d85b-43c0-bcbe-cc51f2446833
+waiting for async operation opid-f29173c8-4879-4611-bb8e-079263e1242f
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (137s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testcikhqs_m
+waiting for async operation opid-6b96dbbb-4ccb-4eaf-b553-78eb58bad507
+waiting for async operation opid-aeff668d-701b-44b5-845c-fb481ce0e171
+waiting for async operation opid-6d26b002-6e08-487d-aeb9-bbe297d28648
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (138s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/test_wd__zdv
+waiting for async operation opid-7bcd4897-f2de-4f43-a9cf-624d988616da
+waiting for async operation opid-ba2c2f6f-b328-4f26-8427-868666e6d5e5
+waiting for async operation opid-ebfba410-c00c-43e9-a6e1-d12458133246
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (140s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testxmvt91w6
+waiting for async operation opid-48154e1c-34a5-47c7-92cc-3b269d2ce380
+waiting for async operation opid-a2c2e442-5d84-4e9c-bbbc-2e20d5e50c6c
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (132s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test9p2a6x8m
+waiting for async operation opid-81bf6046-b8f5-4246-bbe3-e31efba9c051
+waiting for async operation opid-6a3456fe-95ff-4850-b9b4-7964210ebf5d
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (131s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testk2h1dq9e
+waiting for async operation opid-dcb1c3c9-1742-4b6f-90c8-06a8a10399a5
+waiting for async operation opid-52144e68-e092-4ab8-8025-97e48111e900
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (135s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 49, in run_test
+    assert_equal(1, len(unspent_cb))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test7u6yg44r
+waiting for async operation opid-1458fb90-646e-4cd8-a2c0-428e9f1ed89e
+Assertion failed: (left == right)
+  left: <1>
+ right: <0>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (99s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 49, in run_test
+    assert_equal(1, len(unspent_cb))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testigl2o5un
+waiting for async operation opid-4b63d340-6f73-4329-bfb4-d8f9d6153143
+Assertion failed: (left == right)
+  left: <1>
+ right: <0>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (98s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test_e1tnig9
+waiting for async operation opid-87298d0b-0f9c-476b-a7fb-0c4d51f8c7b0
+waiting for async operation opid-2d03dcae-0b00-4725-abe9-6eabf31f2808
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (133s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testsep2mfxn
+waiting for async operation opid-37348e17-b4fb-4b2b-b9b9-230cc6a14cc5
+waiting for async operation opid-47815d5a-da19-4fce-a2e7-d2c4853b0f4e
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (134s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testw82m7t24
+waiting for async operation opid-2ba4f521-b2a9-4931-9425-ce31ae8d3e39
+waiting for async operation opid-f158afd2-7887-4a0a-a7a7-cc6f528b932c
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (137s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testc75hus_p
+waiting for async operation opid-efe0bd81-8391-4926-b4cd-1d46ace85e6c
+waiting for async operation opid-ac5a1e00-1199-4b69-bfb5-c90662123137
+waiting for async operation opid-9b4bedd2-6435-4bb5-87a4-645a6e1984f6
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (135s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testewtnnt0g
+waiting for async operation opid-f1763449-c566-4ba9-aa7b-7d375f1180ac
+waiting for async operation opid-a39cc4f0-6acf-4d95-8a1d-89a89a23367d
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (138s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test9j7ijfvx
+waiting for async operation opid-dd22b9f2-b08d-400f-afec-fbd439091c9c
+waiting for async operation opid-1972c0a2-eeec-43b6-a40b-7d3448e4a3c2
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (132s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testtiv8urrn
+waiting for async operation opid-2dac4f86-699f-49e2-afe4-8b4a691a7d0b
+waiting for async operation opid-f07b4cbf-3a11-429b-b0ad-596988f5c989
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (142s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test4_sik9je
+waiting for async operation opid-88ff4240-81d7-470b-a5e7-d81cf22ae074
+waiting for async operation opid-1aa36862-19a1-405a-9c60-f257c4a477f8
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (140s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testfbzu10my
+waiting for async operation opid-fac831e0-c569-4b20-aa52-85dc0a5802e9
+waiting for async operation opid-4dcd9ed6-3f7a-4758-a572-986fd2e7ee60
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (143s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 49, in run_test
+    assert_equal(1, len(unspent_cb))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testmshc52pw
+waiting for async operation opid-94e4ea42-1567-4bfb-8cda-67bcd3e0eeed
+Assertion failed: (left == right)
+  left: <1>
+ right: <0>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (103s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testh42_r41l
+waiting for async operation opid-6e147630-b61b-47c4-91b1-fbb2c7fb4cce
+waiting for async operation opid-2d1dca48-b147-4332-9f7f-7f2f7a29d5a0
+waiting for async operation opid-0a89b08f-45c1-49be-9e6c-ec9dafcd42b0
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (140s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/test47u_44kk
+waiting for async operation opid-2b7a772f-5810-4657-981d-870f23e7ccd8
+waiting for async operation opid-34e94313-412a-4c97-a5b7-870e6bc2a8dc
+waiting for async operation opid-7555c38d-dcfc-4a05-91ad-026da61196d6
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (142s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testlwmg45k9
+waiting for async operation opid-c590f52b-001a-4141-8390-0ea4f58656e1
+waiting for async operation opid-d55d6ee9-1f66-4114-9fa7-b0ae36fb377c
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (140s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testbpbec88z
+waiting for async operation opid-c138a717-95ee-48b1-8bed-1e1e05952b16
+waiting for async operation opid-2d86b220-c35a-4654-a31a-d262285b6a4d
+waiting for async operation opid-1eb18cc0-c329-41b6-adad-e661de545499
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (139s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 49, in run_test
+    assert_equal(1, len(unspent_cb))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testxzht8mh9
+waiting for async operation opid-8f16e3e7-b6fe-40fa-85b6-a40832d8a6d5
+Assertion failed: (left == right)
+  left: <1>
+ right: <0>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (100s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/test6tf97jn6
+waiting for async operation opid-8f8e1554-bbc5-4b1f-a787-e755e3452af7
+waiting for async operation opid-1af65aba-1f8c-4335-b4a8-ee10b0362ce9
+waiting for async operation opid-21150373-d019-4d0a-a419-c4dcabda233c
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (142s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testo1rzhhv7
+waiting for async operation opid-116cc8d0-1c90-4f93-90e3-b2cd3d630206
+waiting for async operation opid-7c042cae-9845-4fc2-aa86-2fd4e621b7f8
+waiting for async operation opid-2185d028-385a-40aa-8f0e-55914909e69a
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (144s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 114, in run_test
+    assert_equal(3, len(unspent_tx))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testh2_i0qmc
+waiting for async operation opid-02aa3ef6-0eb6-4997-be59-8945a2d8a2f5
+waiting for async operation opid-b40b853c-4aef-4049-a514-4ef3bb988796
+waiting for async operation opid-4c051505-80f6-4d73-aa25-e03fea8bef3d
+Assertion failed: (left == right)
+  left: <3>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (143s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 114, in run_test
+    assert_equal(3, len(unspent_tx))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testjk9b_p15
+waiting for async operation opid-01941642-29f5-485d-af46-30138781a695
+waiting for async operation opid-1fb7aa9e-793f-4309-8634-c55a642ca44c
+waiting for async operation opid-3151aadc-380a-4042-be56-4ff8d7072661
+Assertion failed: (left == right)
+  left: <3>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (142s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testjfvso7lq
+waiting for async operation opid-8a9669d8-9a6e-44ae-b6af-ed4d3d112344
+waiting for async operation opid-32807759-fab1-4a6a-abfb-08c607aa916f
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (143s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test7lp26m_v
+waiting for async operation opid-1ef9ee31-d94c-42b5-b30a-c525be78331b
+waiting for async operation opid-3615c9bb-4926-4dec-ae1d-13c293214c9f
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (145s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test67wj9r4t
+waiting for async operation opid-9ee994b2-d56f-41ea-bf23-0ad967a2aabf
+waiting for async operation opid-39cc71d1-a4a3-4090-8da1-0de424e32c80
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (153s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testgnk6j2wy
+waiting for async operation opid-89f06a30-8920-4231-ae24-72f3a395c51c
+waiting for async operation opid-123d4ee1-79e0-4c81-961e-4612e13094e3
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (147s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 49, in run_test
+    assert_equal(1, len(unspent_cb))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testaremfppi
+waiting for async operation opid-3efb6e2b-80b7-4f35-8fec-666100005fde
+Assertion failed: (left == right)
+  left: <1>
+ right: <0>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (114s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 114, in run_test
+    assert_equal(3, len(unspent_tx))
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/testli1dzzra
+waiting for async operation opid-97ed201a-19ff-4f7b-9811-acdbf3160c6d
+waiting for async operation opid-f7802b14-ba85-49fa-b8d4-eab2c430f804
+waiting for async operation opid-f31ce4e4-96be-4512-a7ba-6214bcfd2074
+Assertion failed: (left == right)
+  left: <3>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (148s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testlvcd_2_l
+waiting for async operation opid-19b76b56-e324-41f6-b462-14c5688697b1
+waiting for async operation opid-5cb1e520-ff34-4b8e-a622-1b8923f1702d
+waiting for async operation opid-33ece0ce-0c9b-486e-b4c4-829e7bdda762
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (153s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+Initializing test directory /tmp/testmprpfv_k
+waiting for async operation opid-857c09de-f101-4966-9e6e-edc8764e0bec
+waiting for async operation opid-7575ce9a-4028-40c4-8f15-feb381fe3f75
+waiting for async operation opid-cead725a-4a24-4b2e-85cc-24683cd62940
+Stopping nodes
+Cleaning up
+Tests successful
+--- Success: wallet_listnotes.py (153s) ---
+
+
+
+Tests completed: 1
+successes 1; failures: 0
+=== Running testscript wallet_listnotes.py ===
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/test_framework.py", line 121, in main
+    self.run_test()
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/wallet_listnotes.py", line 79, in run_test
+    assert_equal(len(unspent_tx), 2)
+  File "/home/pherder/zcashes/python_upgrade/qa/rpc-tests/test_framework/util.py", line 388, in assert_equal
+    raise AssertionError("(left == right)%s\n  left: <%s>\n right: <%s>" % (message, str(expected), str(actual)))
+Initializing test directory /tmp/test703b63jy
+waiting for async operation opid-16d7181a-eda9-4223-ba40-283bb252b7c0
+waiting for async operation opid-2283e457-7080-45f7-8a83-e61de3d2a384
+Assertion failed: (left == right)
+  left: <0>
+ right: <2>
+Stopping nodes
+Cleaning up
+Failed
+!!! FAIL: wallet_listnotes.py (148s) !!!
+
+
+
+Tests completed: 1
+successes 0; failures: 1
+
+Failing tests: wallet_listnotes.py
